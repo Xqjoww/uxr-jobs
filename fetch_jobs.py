@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 """
 Build jobs.json for the UXR Jobs Board (US-only) from jobhive's hosted dataset.
@@ -22,6 +23,7 @@ import re
 import sys
 import unicodedata
 from collections import Counter
+from datetime import datetime, timezone
 
 import httpx
 import pandas as pd
@@ -32,8 +34,12 @@ from jobhive.models import ATSType
 
 OUTPUT_PATH = "jobs.json"
 
+# Drop anything older than this. Freshness is the whole pitch.
+MAX_AGE_DAYS = 60
+
 WANT_COLS = ["title", "company", "location", "lat", "lon", "is_remote",
-             "url", "posted_at", "ats_type", "ats_id"]
+             "url", "posted_at", "ats_type", "ats_id",
+             "salary_min", "salary_max", "salary_currency"]
 
 # Lossless cheap gate (vectorised) before any per-row work. Every title that
 # is_uxr() can accept contains one of these stems.
@@ -245,6 +251,135 @@ def is_us(location, lat=None, lon=None) -> bool:
 
 
 # =====================================================================
+#  State, company name, salary, freshness
+# =====================================================================
+NAME2CODE = {
+    "alabama": "AL", "alaska": "AK", "arizona": "AZ", "arkansas": "AR",
+    "california": "CA", "colorado": "CO", "connecticut": "CT", "delaware": "DE",
+    "florida": "FL", "georgia": "GA", "hawaii": "HI", "idaho": "ID",
+    "illinois": "IL", "indiana": "IN", "iowa": "IA", "kansas": "KS",
+    "kentucky": "KY", "louisiana": "LA", "maine": "ME", "maryland": "MD",
+    "massachusetts": "MA", "michigan": "MI", "minnesota": "MN", "mississippi": "MS",
+    "missouri": "MO", "montana": "MT", "nebraska": "NE", "nevada": "NV",
+    "new hampshire": "NH", "new jersey": "NJ", "new mexico": "NM", "new york": "NY",
+    "north carolina": "NC", "north dakota": "ND", "ohio": "OH", "oklahoma": "OK",
+    "oregon": "OR", "pennsylvania": "PA", "rhode island": "RI",
+    "south carolina": "SC", "south dakota": "SD", "tennessee": "TN", "texas": "TX",
+    "utah": "UT", "vermont": "VT", "virginia": "VA", "washington": "WA",
+    "west virginia": "WV", "wisconsin": "WI", "wyoming": "WY",
+    "district of columbia": "DC", "washington dc": "DC", "washington d.c.": "DC",
+}
+STATE_NAME_RE = re.compile(r"\b(" + "|".join(sorted(NAME2CODE, key=len, reverse=True)) + r")\b", re.I)
+
+
+def derive_state(location, is_remote=None) -> str:
+    """Return a 2-letter state code, 'Remote', or 'US' (nationwide/unknown)."""
+    s = _ascii_fold(location or "")
+    m = US_STATECODE.search(s)
+    if m:
+        return m.group(1)
+    m = STATE_NAME_RE.search(s)
+    if m:
+        return NAME2CODE[m.group(1).lower()]
+    if is_remote is True or re.search(r"\bremote\b", s, re.I):
+        return "Remote"
+    return "US"
+
+
+# Known ugly slugs / ATS hosts -> clean display names. Extend freely.
+COMPANY_MAP = {
+    "jpmc": "J.P. Morgan", "usbank": "U.S. Bank", "statestreet": "State Street",
+    "thermofisher": "Thermo Fisher", "morningstar": "Morningstar",
+    "wbd": "Warner Bros. Discovery", "gleanwork": "Glean", "glean": "Glean",
+    "springhealth": "Spring Health", "hinge-health": "Hinge Health",
+    "hinge health": "Hinge Health", "monzo": "Monzo", "monzoreferrals": "Monzo",
+    "financialtimes": "Financial Times", "financialtimes33": "Financial Times",
+    "bancopan": "Banco Pan", "a-place-for-mom": "A Place for Mom",
+    "buyersedgeplatformrecruiting": "Buyers Edge Platform", "whoop": "WHOOP",
+    "khanacademy": "Khan Academy", "honeybook": "HoneyBook",
+    "datadog": "Datadog", "smartsheet": "Smartsheet", "stackadapt": "StackAdapt",
+    "getyourguide": "GetYourGuide", "alphasense": "AlphaSense",
+    "woven-by-toyota": "Woven by Toyota", "thomson reuters": "Thomson Reuters",
+    "rocketcommunications": "Rocket Communications", "openai": "OpenAI",
+    "vesync": "VeSync", "imanagecom": "iManage", "onetrust": "OneTrust",
+    "beyondtrust": "BeyondTrust", "sentinellabs": "SentinelOne",
+    "day1academies": "Day One Academies", "creditgenie": "Credit Genie",
+    "slingshotaerospace": "Slingshot Aerospace", "evolutioniq": "EvolutionIQ",
+    "cityandcountyofsanfrancisco1": "City of San Francisco",
+    "allegisgroup": "Allegis Group", "interactivestrategies": "Interactive Strategies",
+    "navapbc": "Nava PBC", "skylighthq": "Skylight", "understood": "Understood",
+    "fetch": "Fetch", "abridge": "Abridge", "cursor": "Cursor", "figma": "Figma",
+}
+_ATS_INFRA = {"com", "net", "org", "io", "co", "edu", "gov", "ai", "us", "uk",
+              "fa", "www", "careers", "jobs", "apply", "job", "recruiting", "hire",
+              "talent", "work", "my", "external", "oraclecloud", "myworkdayjobs",
+              "workday", "icims", "us2", "us6", "em2", "em3", "ocs", "saasfaprod1"}
+
+
+def clean_company(raw) -> str:
+    if not raw:
+        return "Unknown"
+    key = str(raw).strip().lower()
+    if key in COMPANY_MAP:
+        return COMPANY_MAP[key]
+    # Opaque Oracle / Workday tenant hosts: only recoverable via the map.
+    if "oraclecloud" in key or "myworkdayjobs" in key:
+        return COMPANY_MAP.get(key.split(".")[0], "Unknown")
+    # Domain-style host (careers.adobe.com -> adobe).
+    if "." in key and " " not in key:
+        labels = [p for p in key.split(".") if p not in _ATS_INFRA and not p.isdigit()]
+        cand = labels[0] if labels else ""
+        if cand in COMPANY_MAP:
+            return COMPANY_MAP[cand]
+        key = cand or key
+    key = re.sub(r"\d+$", "", key)                       # springhealth66 -> springhealth
+    if key in COMPANY_MAP:
+        return COMPANY_MAP[key]
+    name = re.sub(r"[-_]+", " ", key).strip()
+    if not name:
+        return "Unknown"
+    # Title-case but keep short all-caps-ish tokens reasonable.
+    return " ".join(w.upper() if len(w) <= 2 else w.capitalize() for w in name.split())
+
+
+def format_salary(row) -> str:
+    lo, hi = cell(row.get("salary_min")), cell(row.get("salary_max"))
+    cur = cell(row.get("salary_currency"))
+    sym = {"USD": "$", "EUR": "\u20ac", "GBP": "\u00a3", "CAD": "$"}.get(
+        str(cur).upper() if cur else "", "$" if cur is None else "")
+
+    def k(v):
+        try:
+            v = float(v)
+        except (TypeError, ValueError):
+            return None
+        if v <= 0:
+            return None
+        return f"{sym}{round(v/1000)}k" if v >= 1000 else f"{sym}{round(v)}"
+
+    klo, khi = k(lo), k(hi)
+    if klo and khi and klo != khi:
+        return f"{klo} to {khi}"
+    if klo or khi:
+        return (klo or khi) + "+"
+    return ""
+
+
+def age_days(iso) -> float:
+    """Age of an ISO timestamp in days, or None if unparseable."""
+    if not iso:
+        return None
+    try:
+        s = str(iso).strip().replace("Z", "+00:00")
+        dt = datetime.fromisoformat(s)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return (datetime.now(timezone.utc) - dt).total_seconds() / 86400.0
+    except (ValueError, TypeError):
+        return None
+
+
+# =====================================================================
 #  Tagging + row mapping
 # =====================================================================
 def classify_seniority(title: str) -> str:
@@ -337,18 +472,25 @@ def map_row(row: dict):
     url = str(cell(row.get("url")) or "").strip()
     if not url:
         return None
+    posted = parse_posted(row.get("posted_at"))
+    age = age_days(posted)
+    if age is not None and age > MAX_AGE_DAYS:          # too old, drop
+        return None
+    is_remote = parse_bool(row.get("is_remote"))
     ats = cell(row.get("ats_type"))
     return {
         "id": f"{source_label(ats)}-{cell(row.get('ats_id')) or url}",
         "title": title,
-        "company": str(cell(row.get("company")) or "").strip() or "Unknown",
+        "company": clean_company(cell(row.get("company"))),
         "location": loc,
-        "locationType": classify_location(loc, is_remote=parse_bool(row.get("is_remote"))),
+        "state": derive_state(loc, is_remote=is_remote),
+        "locationType": classify_location(loc, is_remote=is_remote),
         "seniority": classify_seniority(title),
         "tags": derive_tags(title),
+        "salary": format_salary(row),
         "url": url,
         "source": source_label(ats),
-        "postedAt": parse_posted(row.get("posted_at")),
+        "postedAt": posted,
     }
 
 
@@ -367,17 +509,25 @@ def load_snapshot() -> pd.DataFrame:
     return df
 
 
+def _posted_key(r):
+    return r.get("postedAt") or ""
+
+
 def records_from_df(df: pd.DataFrame):
     mask = df["title"].fillna("").str.contains(PRE_STEMS, case=False, regex=True)
     sub = df[mask]
     records = [r for row in sub.to_dict("records") if (r := map_row(row))]
-    seen, deduped = set(), []
+
+    # Collapse the same role posted via multiple sources / cities. Key on
+    # company + punctuation-stripped title; keep the freshest.
+    best = {}
     for r in records:
-        if r["url"] in seen:
-            continue
-        seen.add(r["url"])
-        deduped.append(r)
-    deduped.sort(key=lambda r: r.get("postedAt") or "", reverse=True)
+        norm = re.sub(r"[^a-z0-9]+", " ", r["title"].lower()).strip()
+        key = (r["company"].lower(), norm)
+        if key not in best or _posted_key(r) > _posted_key(best[key]):
+            best[key] = r
+    deduped = list(best.values())
+    deduped.sort(key=_posted_key, reverse=True)
     return deduped
 
 
@@ -385,12 +535,19 @@ def main():
     df = load_snapshot()
     print(f"  snapshot rows: {len(df)}")
     records = records_from_df(df)
+    payload = {
+        "updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "count": len(records),
+        "roles": records,
+    }
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
-        json.dump(records, f, indent=2, ensure_ascii=False)
+        json.dump(payload, f, indent=2, ensure_ascii=False)
     by_src = Counter(r["source"] for r in records)
+    by_state = Counter(r["state"] for r in records)
     print(f"  US UXR roles kept: {len(records)}")
-    print("  by source: " + ", ".join(f"{k}={v}" for k, v in by_src.most_common()))
-    print(f"Wrote {len(records)} roles to {OUTPUT_PATH}")
+    print("  by source: " + ", ".join(f"{k}={v}" for k, v in by_src.most_common(8)))
+    print("  by state:  " + ", ".join(f"{k}={v}" for k, v in by_state.most_common(8)))
+    print(f"Wrote {len(records)} roles to {OUTPUT_PATH} (updated {payload['updated']})")
     return 0
 
 
