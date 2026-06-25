@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-Fetch UXR roles via jobhive and write jobs.json for the Ghost job board.
+Build jobs.json for the UXR Jobs Board from jobhive's hosted dataset.
 
-jobhive (PyPI: jobhive-py) owns the fragile part: hitting each company's public
-ATS endpoint and parsing it into a typed Job. This script keeps only the parts
-that are yours: the UXR title filter, seniority/location/tag tagging, and the
-exact JSON shape your board reads.
+Instead of watching a hand-picked list of companies, this loads jobhive's
+hosted snapshot, which already aggregates jobs across thousands of companies
+and every supported ATS, then keeps only the genuine UXR roles. No company
+list to maintain.
 
 Install (the GitHub Action does this for you):
     pip install "jobhive-py[scrapers]"
@@ -14,55 +14,41 @@ Install (the GitHub Action does this for you):
 import json
 import re
 import sys
-from jobhive.scrapers import GreenhouseScraper, LeverScraper, AshbyScraper
+from collections import Counter
 
-# Map a platform name to its jobhive scraper. jobhive ships ~50 of these
-# (Workday, SmartRecruiters, Recruitee, Personio, Workable...), so adding a
-# platform later is one import + one line here.
-SCRAPERS = {
-    "greenhouse": GreenhouseScraper,
-    "lever": LeverScraper,
-    "ashby": AshbyScraper,
-}
-
-# =====================================================================
-#  EDIT THIS: companies on the board. token = the slug in the careers URL
-#  (boards.greenhouse.io/<token>, jobs.lever.co/<token>, jobs.ashbyhq.com/<token>).
-#  The summary printed after each run shows which resolved and how many
-#  UXR roles each returned, so prune from there.
-# =====================================================================
-COMPANIES = [
-    {"platform": "greenhouse", "token": "anthropic",  "name": "Anthropic"},
-    {"platform": "greenhouse", "token": "stripe",     "name": "Stripe"},
-    {"platform": "greenhouse", "token": "figma",      "name": "Figma"},
-    {"platform": "greenhouse", "token": "databricks", "name": "Databricks"},
-    {"platform": "greenhouse", "token": "discord",    "name": "Discord"},
-    {"platform": "ashby",      "token": "ramp",       "name": "Ramp"},
-    {"platform": "ashby",      "token": "notion",     "name": "Notion"},
-    {"platform": "ashby",      "token": "linear",     "name": "Linear"},
-    {"platform": "ashby",      "token": "vanta",      "name": "Vanta"},
-    {"platform": "lever",      "token": "spotify",    "name": "Spotify"},
-    {"platform": "lever",      "token": "netflix",    "name": "Netflix"},
-]
+import pandas as pd
+import jobhive as jh
 
 OUTPUT_PATH = "jobs.json"
 
-# --- UXR title matching (yours) --------------------------------------
-TITLE_STRONG  = re.compile(r"(ux|user|design)\s*-?\s*research", re.I)
-TITLE_ROLE    = re.compile(r"\bresearch(er|ers)?\b", re.I)
-TITLE_CONTEXT = re.compile(
+# Optional: restrict by location text (e.g. "United States", "Remote").
+# Leave as None for the full global dataset (maximum roles).
+LOCATION_FILTER = None
+
+# --- UXR title matching ----------------------------------------------
+# UXR if the title names user/design research outright or is a research(er)
+# role with a UX-ish qualifier (or research ops). Then knock out the common
+# look-alikes: product/program managers, data science, and AI-lab ML research.
+TITLE_STRONG    = re.compile(r"(ux|user|design)\s*-?\s*research", re.I)
+TITLE_RESEARCHOPS = re.compile(r"research\s?ops|research operations", re.I)
+TITLE_ROLE      = re.compile(r"\bresearch(er|ers)?\b", re.I)
+TITLE_CONTEXT   = re.compile(
     r"\b(ux|user experience|user|design|product|qualitative|quantitative|"
-    r"mixed[\s-]?methods?|insights|human factors|hci)\b", re.I)
-TITLE_EXCLUDE = re.compile(
+    r"mixed[\s-]?methods?|usability|ethnograph|human factors|hci)\b", re.I)
+TITLE_EXCLUDE   = re.compile(
     r"\b(market research|research scientist|clinical|research engineer|"
-    r"equity research|investment|chemistry|biology|in vivo)\b", re.I)
+    r"equity research|investment|chemistry|biology|in vivo|"
+    r"product manager|program manager|project manager|engineering manager|product management|"
+    r"data scientist|data science|data analyst|data engineer|"
+    r"model behavio|interpretability|pretraining|frontier model|"
+    r"machine learning|reinforcement learning)\b", re.I)
 
 
 def is_uxr(title: str) -> bool:
     t = title or ""
     if TITLE_EXCLUDE.search(t):
         return False
-    if TITLE_STRONG.search(t):
+    if TITLE_STRONG.search(t) or TITLE_RESEARCHOPS.search(t):
         return True
     return bool(TITLE_ROLE.search(t) and TITLE_CONTEXT.search(t))
 
@@ -113,48 +99,83 @@ def derive_tags(title: str):
     return [label for label, pat in TAG_RULES if re.search(pat, t)][:3]
 
 
+# --- DataFrame cell helpers (snapshot has NaNs for missing values) ----
+def cell(v):
+    try:
+        if v is None or pd.isna(v):
+            return None
+    except (TypeError, ValueError):
+        pass
+    return v
+
+
+def parse_bool(v):
+    v = cell(v)
+    if isinstance(v, bool):
+        return v
+    if isinstance(v, str):
+        return v.strip().lower() in ("true", "1", "yes")
+    return None
+
+
+def parse_posted(v):
+    v = cell(v)
+    if v is None:
+        return ""
+    if hasattr(v, "isoformat"):
+        try:
+            return v.isoformat()
+        except Exception:
+            return str(v)
+    return str(v)
+
+
 def source_label(ats_type) -> str:
+    ats_type = cell(ats_type)
+    if not ats_type:
+        return ""
     val = getattr(ats_type, "value", None) or str(ats_type)
     return str(val).replace("_", " ").title()
 
 
-# --- the thin mapper: jobhive Job -> your board's JSON shape ----------
-def map_job(job, display_name: str):
-    """Return a board record, or None if it is not a UXR role."""
-    if not is_uxr(job.title):
+def map_row(row: dict):
+    """Map one snapshot row to the board's JSON shape, or None if not UXR."""
+    title = str(cell(row.get("title")) or "").strip()
+    if not title or not is_uxr(title):
         return None
+    url = str(cell(row.get("url")) or "").strip()
+    if not url:
+        return None  # no apply link is useless on a board
+    loc = str(cell(row.get("location")) or "").strip()
+    ats = row.get("ats_type")
     return {
-        "id": f"{source_label(job.ats_type)}-{job.ats_id}",
-        "title": job.title.strip(),
-        "company": job.company or display_name,
-        "location": job.location or "",
-        "locationType": classify_location(job.location, is_remote=job.is_remote),
-        "seniority": classify_seniority(job.title),
-        "tags": derive_tags(job.title),
-        "url": str(job.url),
-        "source": source_label(job.ats_type),
-        "postedAt": job.posted_at.isoformat() if job.posted_at else "",
+        "id": f"{source_label(ats)}-{cell(row.get('ats_id')) or url}",
+        "title": title,
+        "company": str(cell(row.get("company")) or "").strip() or "Unknown",
+        "location": loc,
+        "locationType": classify_location(loc, is_remote=parse_bool(row.get("is_remote"))),
+        "seniority": classify_seniority(title),
+        "tags": derive_tags(title),
+        "url": url,
+        "source": source_label(ats),
+        "postedAt": parse_posted(row.get("posted_at")),
     }
 
 
 def main():
-    records = []
-    print("Fetching UXR roles via jobhive\n" + "-" * 52)
-    for c in COMPANIES:
-        platform, token, name = c["platform"], c["token"], c["name"]
-        scraper_cls = SCRAPERS.get(platform)
-        if scraper_cls is None:
-            print(f"  SKIP {name:<14} unknown platform '{platform}'")
-            continue
-        try:
-            jobs = scraper_cls(token).fetch()              # hits the public ATS API
-            uxr = [r for j in jobs if (r := map_job(j, name))]
-            records.extend(uxr)
-            print(f"  ok   {name:<14} {platform:<11} {len(jobs):>4} open, {len(uxr):>3} UXR")
-        except Exception as e:  # one bad slug shouldn't kill the run
-            print(f"  FAIL {name:<14} {platform:<11} {type(e).__name__}: {e}")
+    # prefer_parquet=False loads the CSV snapshot, so no pyarrow dependency.
+    client = jh.Client(prefer_parquet=False)
+    print("Loading jobhive hosted dataset (all companies, all ATS)...")
+    df = client.search(location=LOCATION_FILTER) if LOCATION_FILTER else client.search()
+    print(f"  dataset rows: {len(df)}")
 
-    # de-duplicate across companies by URL
+    records = []
+    for row in df.to_dict("records"):
+        rec = map_row(row)
+        if rec:
+            records.append(rec)
+
+    # de-duplicate by URL
     seen, deduped = set(), []
     for r in records:
         if r["url"] in seen:
@@ -167,7 +188,9 @@ def main():
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         json.dump(deduped, f, indent=2, ensure_ascii=False)
 
-    print("-" * 52)
+    by_src = Counter(r["source"] for r in deduped)
+    print(f"  UXR roles kept: {len(deduped)}")
+    print("  by source: " + ", ".join(f"{k}={v}" for k, v in by_src.most_common()))
     print(f"Wrote {len(deduped)} roles to {OUTPUT_PATH}")
     return 0
 
