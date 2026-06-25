@@ -18,8 +18,8 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install jobhive
-        run: pip install "jobhive-py[scrapers]"
+      - name: Install dependencies
+        run: pip install "jobhive-py[scrapers]" pyarrow
 
       - name: Fetch jobs
         run: python fetch_jobs.py
