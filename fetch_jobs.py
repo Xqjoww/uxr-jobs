@@ -3,18 +3,24 @@
 Build jobs.json for the UXR Jobs Board from jobhive's hosted dataset.
 
 Loads jobhive's hosted snapshot (which aggregates jobs across thousands of
-companies and every supported ATS), then keeps only genuine UXR roles.
-No company list to maintain.
+companies and every supported ATS), keeps only genuine UXR roles, and writes
+them out. No company list to maintain.
+
+Memory notes (important on small CI runners):
+  * Reads only the few columns we need from the parquet snapshot, never the
+    full-text description column, so the load stays small.
+  * Filters to research-titled rows inside pandas BEFORE expanding rows into
+    Python objects, since every UXR title contains the word "research".
 
 Resilience: jobhive's hosted manifest occasionally lists a new ATS platform
 before the installed package knows about it, which otherwise crashes the load.
-We strip unknown platforms from the manifest before validating, so a new
-upstream platform can never break this script.
+We strip unknown platforms from the manifest before validating.
 
 Install (the GitHub Action does this for you):
     pip install "jobhive-py[scrapers]" pyarrow
 """
 
+import io
 import json
 import re
 import sys
@@ -22,6 +28,7 @@ from collections import Counter
 
 import httpx
 import pandas as pd
+import pyarrow.parquet as pq
 import jobhive as jh
 from jobhive.manifest import Manifest, DEFAULT_MANIFEST_URL
 from jobhive.models import ATSType
@@ -29,8 +36,14 @@ from jobhive.models import ATSType
 OUTPUT_PATH = "jobs.json"
 
 # Optional: restrict by location text (e.g. "United States", "Remote").
-# Leave as None for the full global dataset (maximum roles).
+# Leave as None for the full global dataset (the front-end has its own
+# region filter, so you can keep everything here).
 LOCATION_FILTER = None
+
+# Only the columns the board needs. Skipping description/salary keeps the
+# in-memory DataFrame small enough for a free CI runner.
+WANT_COLS = ["title", "company", "location", "is_remote", "url",
+             "posted_at", "ats_type", "ats_id"]
 
 # =====================================================================
 #  Make manifest parsing tolerant of platforms the installed package
@@ -64,9 +77,6 @@ def _tolerant_manifest_fetch(cls, url=DEFAULT_MANIFEST_URL, *, client=None, time
 Manifest.fetch = classmethod(_tolerant_manifest_fetch)
 
 # --- UXR title matching ----------------------------------------------
-# UXR if the title names user/design research outright or is a research(er)
-# role with a UX-ish qualifier (or research ops). Then knock out the common
-# look-alikes: product/program managers, data science, and AI-lab ML research.
 TITLE_STRONG      = re.compile(r"(ux|user|design)\s*-?\s*research", re.I)
 TITLE_RESEARCHOPS = re.compile(r"research\s?ops|research operations", re.I)
 TITLE_ROLE        = re.compile(r"\bresearch(er|ers)?\b", re.I)
@@ -183,7 +193,7 @@ def map_row(row: dict):
         return None
     url = str(cell(row.get("url")) or "").strip()
     if not url:
-        return None  # no apply link is useless on a board
+        return None
     loc = str(cell(row.get("location")) or "").strip()
     ats = row.get("ats_type")
     return {
@@ -200,14 +210,32 @@ def map_row(row: dict):
     }
 
 
-def main():
-    client = jh.Client()  # parquet snapshot (compressed); needs pyarrow
-    print("Loading jobhive hosted dataset (all companies, all ATS)...")
-    df = client.search(location=LOCATION_FILTER) if LOCATION_FILTER else client.search()
-    print(f"  dataset rows: {len(df)}")
+def load_snapshot() -> pd.DataFrame:
+    """Download the snapshot parquet and read only the columns we need."""
+    client = jh.Client()  # .manifest uses the tolerant fetch above
+    url = client.manifest.url_for_all(prefer_parquet=True)
+    print(f"Downloading snapshot: {url}")
+    resp = httpx.get(url, timeout=300.0, follow_redirects=True)
+    resp.raise_for_status()
+    content = resp.content
+    del resp
+    avail = set(pq.read_schema(io.BytesIO(content)).names)  # footer only, cheap
+    use = [c for c in WANT_COLS if c in avail] or None
+    df = pd.read_parquet(io.BytesIO(content), columns=use)
+    del content
+    return df
+
+
+def records_from_df(df: pd.DataFrame):
+    # Lossless pre-filter: every UXR title contains "research", so this drops
+    # the ~99% of unrelated rows before we expand anything into Python objects.
+    mask = df["title"].fillna("").str.contains("research", case=False, regex=False)
+    if LOCATION_FILTER:
+        mask = mask & df["location"].fillna("").str.contains(LOCATION_FILTER, case=False, regex=False)
+    sub = df[mask]
 
     records = []
-    for row in df.to_dict("records"):
+    for row in sub.to_dict("records"):
         rec = map_row(row)
         if rec:
             records.append(rec)
@@ -220,14 +248,21 @@ def main():
         deduped.append(r)
 
     deduped.sort(key=lambda r: r.get("postedAt") or "", reverse=True)
+    return deduped
+
+
+def main():
+    df = load_snapshot()
+    print(f"  snapshot rows: {len(df)}")
+    records = records_from_df(df)
 
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
-        json.dump(deduped, f, indent=2, ensure_ascii=False)
+        json.dump(records, f, indent=2, ensure_ascii=False)
 
-    by_src = Counter(r["source"] for r in deduped)
-    print(f"  UXR roles kept: {len(deduped)}")
+    by_src = Counter(r["source"] for r in records)
+    print(f"  UXR roles kept: {len(records)}")
     print("  by source: " + ", ".join(f"{k}={v}" for k, v in by_src.most_common()))
-    print(f"Wrote {len(deduped)} roles to {OUTPUT_PATH}")
+    print(f"Wrote {len(records)} roles to {OUTPUT_PATH}")
     return 0
 
 
