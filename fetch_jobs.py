@@ -2,13 +2,17 @@
 """
 Build jobs.json for the UXR Jobs Board from jobhive's hosted dataset.
 
-Instead of watching a hand-picked list of companies, this loads jobhive's
-hosted snapshot, which already aggregates jobs across thousands of companies
-and every supported ATS, then keeps only the genuine UXR roles. No company
-list to maintain.
+Loads jobhive's hosted snapshot (which aggregates jobs across thousands of
+companies and every supported ATS), then keeps only genuine UXR roles.
+No company list to maintain.
+
+Resilience: jobhive's hosted manifest occasionally lists a new ATS platform
+before the installed package knows about it, which otherwise crashes the load.
+We strip unknown platforms from the manifest before validating, so a new
+upstream platform can never break this script.
 
 Install (the GitHub Action does this for you):
-    pip install "jobhive-py[scrapers]"
+    pip install "jobhive-py[scrapers]" pyarrow
 """
 
 import json
@@ -16,8 +20,11 @@ import re
 import sys
 from collections import Counter
 
+import httpx
 import pandas as pd
 import jobhive as jh
+from jobhive.manifest import Manifest, DEFAULT_MANIFEST_URL
+from jobhive.models import ATSType
 
 OUTPUT_PATH = "jobs.json"
 
@@ -25,17 +32,48 @@ OUTPUT_PATH = "jobs.json"
 # Leave as None for the full global dataset (maximum roles).
 LOCATION_FILTER = None
 
+# =====================================================================
+#  Make manifest parsing tolerant of platforms the installed package
+#  doesn't recognize yet (e.g. a newly added ATS upstream).
+# =====================================================================
+_VALID_ATS = {a.value for a in ATSType}
+
+
+def _strip_unknown_ats(data: dict) -> dict:
+    ba = data.get("by_ats")
+    if isinstance(ba, dict):
+        unknown = sorted(k for k in ba if k not in _VALID_ATS)
+        if unknown:
+            print(f"  note: ignoring unknown ATS platform(s) in manifest: {', '.join(unknown)}")
+            data = {**data, "by_ats": {k: v for k, v in ba.items() if k in _VALID_ATS}}
+    return data
+
+
+def _tolerant_manifest_fetch(cls, url=DEFAULT_MANIFEST_URL, *, client=None, timeout=30.0):
+    owns = client is None
+    client = client or httpx.Client(timeout=timeout, follow_redirects=True)
+    try:
+        resp = client.get(url)
+        resp.raise_for_status()
+        return cls.model_validate(_strip_unknown_ats(resp.json()))
+    finally:
+        if owns:
+            client.close()
+
+
+Manifest.fetch = classmethod(_tolerant_manifest_fetch)
+
 # --- UXR title matching ----------------------------------------------
 # UXR if the title names user/design research outright or is a research(er)
 # role with a UX-ish qualifier (or research ops). Then knock out the common
 # look-alikes: product/program managers, data science, and AI-lab ML research.
-TITLE_STRONG    = re.compile(r"(ux|user|design)\s*-?\s*research", re.I)
+TITLE_STRONG      = re.compile(r"(ux|user|design)\s*-?\s*research", re.I)
 TITLE_RESEARCHOPS = re.compile(r"research\s?ops|research operations", re.I)
-TITLE_ROLE      = re.compile(r"\bresearch(er|ers)?\b", re.I)
-TITLE_CONTEXT   = re.compile(
+TITLE_ROLE        = re.compile(r"\bresearch(er|ers)?\b", re.I)
+TITLE_CONTEXT     = re.compile(
     r"\b(ux|user experience|user|design|product|qualitative|quantitative|"
     r"mixed[\s-]?methods?|usability|ethnograph|human factors|hci)\b", re.I)
-TITLE_EXCLUDE   = re.compile(
+TITLE_EXCLUDE     = re.compile(
     r"\b(market research|research scientist|clinical|research engineer|"
     r"equity research|investment|chemistry|biology|in vivo|"
     r"product manager|program manager|project manager|engineering manager|product management|"
@@ -163,8 +201,7 @@ def map_row(row: dict):
 
 
 def main():
-    # prefer_parquet=False loads the CSV snapshot, so no pyarrow dependency.
-    client = jh.Client(prefer_parquet=False)
+    client = jh.Client()  # parquet snapshot (compressed); needs pyarrow
     print("Loading jobhive hosted dataset (all companies, all ATS)...")
     df = client.search(location=LOCATION_FILTER) if LOCATION_FILTER else client.search()
     print(f"  dataset rows: {len(df)}")
@@ -175,7 +212,6 @@ def main():
         if rec:
             records.append(rec)
 
-    # de-duplicate by URL
     seen, deduped = set(), []
     for r in records:
         if r["url"] in seen:
