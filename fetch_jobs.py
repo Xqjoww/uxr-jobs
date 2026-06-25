@@ -20,6 +20,7 @@ import json
 import math
 import re
 import sys
+import unicodedata
 from collections import Counter
 
 import httpx
@@ -189,6 +190,19 @@ CA_PROVINCE = re.compile(r"(?:^|[,\s])(ON|QC|BC|AB|MB|SK|NS|NB)(?:$|[,\s])")
 EURES = re.compile(r"\b[A-Z]{2}\s+\([A-Z]{2}")                    # "DE (DE212)" NUTS format
 
 
+# Any of these scripts means the location is not a US one (CJK, Japanese kana,
+# Hangul, Cyrillic, Hebrew/Arabic, Thai, Devanagari).
+NON_LATIN = re.compile(
+    r"[\u3000-\u9fff\uac00-\ud7af\u0400-\u04ff\u0590-\u06ff\u0e00-\u0e7f\u0900-\u097f]")
+
+
+def _ascii_fold(s: str) -> str:
+    """Strip European diacritics so 'São'/'Québec'/'Göppingen' match the
+    plain-text foreign list. Case is preserved (NFKD only touches accents)."""
+    folded = unicodedata.normalize("NFKD", s.replace("\u00df", "ss"))
+    return "".join(c for c in folded if not unicodedata.combining(c))
+
+
 def _in_us_bbox(lat, lon):
     try:
         lat = float(lat); lon = float(lon)
@@ -218,11 +232,14 @@ def is_us(location, lat=None, lon=None) -> bool:
     loc = (location or "").strip()
     if not loc:
         return True                                    # unspecified -> treat as US
-    if US_BARE.search(loc) or US_WORDS.search(loc):
+    if NON_LATIN.search(loc):
+        return False                                   # CJK / Hangul / Cyrillic etc.
+    s = _ascii_fold(loc)                               # "São Paulo" -> "Sao Paulo"
+    if US_BARE.search(s) or US_WORDS.search(s):
         return True                                    # explicit US wins
-    if FOREIGN.search(loc) or FOREIGN_CODE.search(loc) or CA_PROVINCE.search(loc) or EURES.search(loc):
+    if FOREIGN.search(s) or FOREIGN_CODE.search(s) or CA_PROVINCE.search(s) or EURES.search(s):
         return False                                   # clearly abroad
-    if US_STATECODE.search(loc) or US_STATENAME.search(loc) or US_MISC.search(loc):
+    if US_STATECODE.search(s) or US_STATENAME.search(s) or US_MISC.search(s):
         return True
     return True                                        # bare city / remote / unknown
 
