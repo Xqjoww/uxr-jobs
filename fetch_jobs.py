@@ -1,20 +1,15 @@
 #!/usr/bin/env python3
 """
-Build jobs.json for the UXR Jobs Board from jobhive's hosted dataset.
+Build jobs.json for the UXR Jobs Board (US-only) from jobhive's hosted dataset.
 
-Loads jobhive's hosted snapshot (which aggregates jobs across thousands of
-companies and every supported ATS), keeps only genuine UXR roles, and writes
-them out. No company list to maintain.
-
-Memory notes (important on small CI runners):
-  * Reads only the few columns we need from the parquet snapshot, never the
-    full-text description column, so the load stays small.
-  * Filters to research-titled rows inside pandas BEFORE expanding rows into
-    Python objects, since every UXR title contains the word "research".
-
-Resilience: jobhive's hosted manifest occasionally lists a new ATS platform
-before the installed package knows about it, which otherwise crashes the load.
-We strip unknown platforms from the manifest before validating.
+Two filters run over the hosted snapshot:
+  1. is_uxr  -> keep only genuine UX/user/design research roles (and close
+                adjacents: research ops, human factors, usability, ethnography,
+                mixed methods). Explicitly rejects the look-alikes that flooded
+                the board: quantitative finance "research", academic postdocs,
+                R&D / lab / clinical research, and market research.
+  2. is_us   -> keep only US positions (by geocoordinates when present, else by
+                parsing the location text; anything clearly abroad is dropped).
 
 Install (the GitHub Action does this for you):
     pip install "jobhive-py[scrapers]" pyarrow
@@ -22,6 +17,7 @@ Install (the GitHub Action does this for you):
 
 import io
 import json
+import math
 import re
 import sys
 from collections import Counter
@@ -35,19 +31,15 @@ from jobhive.models import ATSType
 
 OUTPUT_PATH = "jobs.json"
 
-# Optional: restrict by location text (e.g. "United States", "Remote").
-# Leave as None for the full global dataset (the front-end has its own
-# region filter, so you can keep everything here).
-LOCATION_FILTER = None
+WANT_COLS = ["title", "company", "location", "lat", "lon", "is_remote",
+             "url", "posted_at", "ats_type", "ats_id"]
 
-# Only the columns the board needs. Skipping description/salary keeps the
-# in-memory DataFrame small enough for a free CI runner.
-WANT_COLS = ["title", "company", "location", "is_remote", "url",
-             "posted_at", "ats_type", "ats_id"]
+# Lossless cheap gate (vectorised) before any per-row work. Every title that
+# is_uxr() can accept contains one of these stems.
+PRE_STEMS = r"research|\buxr\b|human factor|usability|ethnograph"
 
 # =====================================================================
-#  Make manifest parsing tolerant of platforms the installed package
-#  doesn't recognize yet (e.g. a newly added ATS upstream).
+#  Tolerant manifest fetch (ignore ATS platforms the package doesn't know).
 # =====================================================================
 _VALID_ATS = {a.value for a in ATSType}
 
@@ -57,7 +49,7 @@ def _strip_unknown_ats(data: dict) -> dict:
     if isinstance(ba, dict):
         unknown = sorted(k for k in ba if k not in _VALID_ATS)
         if unknown:
-            print(f"  note: ignoring unknown ATS platform(s) in manifest: {', '.join(unknown)}")
+            print(f"  note: ignoring unknown ATS platform(s): {', '.join(unknown)}")
             data = {**data, "by_ats": {k: v for k, v in ba.items() if k in _VALID_ATS}}
     return data
 
@@ -76,41 +68,176 @@ def _tolerant_manifest_fetch(cls, url=DEFAULT_MANIFEST_URL, *, client=None, time
 
 Manifest.fetch = classmethod(_tolerant_manifest_fetch)
 
-# --- UXR title matching ----------------------------------------------
-TITLE_STRONG      = re.compile(r"(ux|user|design)\s*-?\s*research", re.I)
-TITLE_RESEARCHOPS = re.compile(r"research\s?ops|research operations", re.I)
-TITLE_ROLE        = re.compile(r"\bresearch(er|ers)?\b", re.I)
-TITLE_CONTEXT     = re.compile(
-    r"\b(ux|user experience|user|design|product|qualitative|quantitative|"
-    r"mixed[\s-]?methods?|usability|ethnograph|human factors|hci)\b", re.I)
-TITLE_EXCLUDE     = re.compile(
-    r"\b(market research|research scientist|clinical|research engineer|"
-    r"equity research|investment|chemistry|biology|in vivo|"
-    r"product manager|program manager|project manager|engineering manager|product management|"
-    r"data scientist|data science|data analyst|data engineer|"
-    r"model behavio|interpretability|pretraining|frontier model|"
-    r"machine learning|reinforcement learning)\b", re.I)
+# =====================================================================
+#  UXR filter
+# =====================================================================
+# Academic / lab / pharma / pure-science roles. These ALWAYS lose, even if a
+# "research" word is present. Finance/quant terms are deliberately NOT here:
+# a bare "Quantitative Researcher" already fails is_uxr for lacking a UX signal,
+# while a legit "Quantitative UX Researcher" (Google has a whole family) should
+# pass. Excluding "quantitative" outright was killing the good ones.
+HARD_EXCLUDE = re.compile(
+    r"\b(postdoc|postdoctoral|research fellow|research assistant|research associate|"
+    r"phd (student|intern|candidate|researcher|graduate)|professor|faculty|"
+    r"dissertation|tenure|research scientist|research chemist|clinical research|"
+    r"laborator|drug product|chemist|chemistry|metallurg|genetic|vaccine|biomedic|"
+    r"immunogen|epigenomic|turbomachinery|hydraulic|propulsion)\b", re.I)
+
+# (ux | user experience | user | design) immediately before "research"
+UX_RESEARCH = re.compile(r"\b(ux|user experience|user|design)[\s/-]*(ui[\s/-]*)?research", re.I)
 
 
 def is_uxr(title: str) -> bool:
     t = title or ""
-    if TITLE_EXCLUDE.search(t):
+    if HARD_EXCLUDE.search(t):
         return False
-    if TITLE_STRONG.search(t) or TITLE_RESEARCHOPS.search(t):
+    if UX_RESEARCH.search(t):
         return True
-    return bool(TITLE_ROLE.search(t) and TITLE_CONTEXT.search(t))
+    if re.search(r"\bux\b", t, re.I) and re.search(r"research", t, re.I):
+        return True          # "UX & Research", "UX/Product Researcher", etc.
+    if re.search(r"\buxr\b", t, re.I):
+        return True
+    if re.search(r"\bhuman factors\b", t, re.I):
+        return True
+    if re.search(r"\busability\b", t, re.I):
+        return True
+    if re.search(r"\bethnograph", t, re.I):
+        return True
+    if re.search(r"\bmixed[\s-]?methods?\b", t, re.I) and re.search(r"research", t, re.I):
+        return True
+    if re.search(r"research\s?op(s|erations)\b", t, re.I) and \
+       re.search(r"\b(ux|user|customer|cx|design|product|insight)", t, re.I):
+        return True
+    return False
 
 
+# =====================================================================
+#  US filter
+# =====================================================================
+_STATE_CODES = ("AL AK AZ AR CA CO CT FL GA HI ID IL IN IA KS KY LA ME MD MA MI "
+                "MN MS MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT "
+                "VT VA WA WV WI WY DC").split()
+_STATE_NAMES = ["alabama", "alaska", "arizona", "arkansas", "california", "colorado",
+    "connecticut", "delaware", "florida", "hawaii", "idaho", "illinois", "indiana",
+    "iowa", "kansas", "kentucky", "louisiana", "maine", "maryland", "massachusetts",
+    "michigan", "minnesota", "mississippi", "missouri", "montana", "nebraska", "nevada",
+    "new hampshire", "new jersey", "new mexico", "new york", "north carolina",
+    "north dakota", "ohio", "oklahoma", "oregon", "pennsylvania", "rhode island",
+    "south carolina", "south dakota", "tennessee", "texas", "utah", "vermont",
+    "virginia", "washington", "west virginia", "wisconsin", "wyoming"]
+
+US_BARE = re.compile(r"\bUS\b")                              # case-sensitive
+US_WORDS = re.compile(r"\b(u\.?s\.?a\.?|usa|united states)\b", re.I)
+US_STATECODE = re.compile(r"(?:^|[,\s(/])(" + "|".join(_STATE_CODES) + r")(?:$|[,\s)/])")
+US_STATENAME = re.compile(r"\b(" + "|".join(_STATE_NAMES) + r")\b", re.I)
+US_MISC = re.compile(r"\ball\s+states\b|anywhere in the u\.?s|north america", re.I)
+
+_FOREIGN = [
+    "united kingdom", "england", "scotland", "wales", "northern ireland", "ireland",
+    "germany", "deutschland", "france", "spain", "espana", "italy", "italia",
+    "netherlands", "nederland", "belgium", "belgie", "luxembourg", "switzerland",
+    "schweiz", "suisse", "austria", "osterreich", "sweden", "sverige", "norway",
+    "denmark", "danmark", "finland", "iceland", "poland", "polska", "portugal",
+    "greece", "romania", "hungary", "czech", "czechia", "slovakia", "ukraine",
+    "bulgaria", "serbia", "croatia", "slovenia", "cyprus", "armenia", "turkey", "russia",
+    "canada", "mexico", "brazil", "brasil", "argentina", "chile", "colombia", "peru",
+    "uruguay", "panama", "dominican republic", "india", "china", "taiwan", "hong kong",
+    "japan", "singapore", "malaysia", "indonesia", "philippines", "vietnam", "thailand",
+    "south korea", "korea", "pakistan", "bangladesh", "australia", "new zealand",
+    "israel", "united arab emirates", "saudi", "qatar", "kuwait", "bahrain", "oman",
+    "egypt", "jordan", "lebanon", "nigeria", "kenya", "south africa", "ghana", "morocco",
+    # cities
+    "london", "manchester", "birmingham", "edinburgh", "glasgow", "belfast", "newcastle",
+    "bristol", "leicester", "sheffield", "cardiff", "swansea", "cheltenham", "dublin",
+    "berlin", "munich", "munchen", "hamburg", "frankfurt", "cologne", "koln", "stuttgart",
+    "dusseldorf", "dortmund", "hannover", "regensburg", "goppingen", "neuss", "wolfsburg",
+    "erlangen", "nuremberg", "wuppertal", "homburg", "huerth", "weissbach", "castellvi",
+    "paris", "lyon", "bordeaux", "toulouse", "clichy", "issy", "marseille", "lille",
+    "madrid", "barcelona", "valencia", "bilbao", "bellville", "sant cugat", "lisbon",
+    "lisboa", "porto", "amsterdam", "rotterdam", "utrecht", "zwolle", "eindhoven",
+    "wageningen", "majadahonda", "brussels", "antwerp", "zurich", "zuerich", "geneva",
+    "geneve", "basel", "baar", "zug", "lausanne", "vienna", "wien", "graz", "stockholm",
+    "gothenburg", "goteborg", "malmo", "copenhagen", "kobenhavn", "aarhus", "lyngby",
+    "oslo", "bergen", "grimstad", "helsinki", "espoo", "otaniemi", "warsaw", "warszawa",
+    "krakow", "wroclaw", "prague", "praha", "brno", "budapest", "bucharest", "sofia",
+    "athens", "milan", "milano", "rome", "roma", "turin", "naples", "marbella",
+    "toronto", "vancouver", "montreal", "ottawa", "calgary", "edmonton", "winnipeg",
+    "waterloo", "markham", "mississauga", "kitchener", "etobicoke",
+    "bangalore", "bengaluru", "mumbai", "delhi", "gurgaon", "gurugram", "noida",
+    "hyderabad", "pune", "chennai", "kolkata", "ahmedabad", "karnataka", "maharashtra",
+    "haryana", "telangana", "gujarat", "shanghai", "beijing", "shenzhen", "guangzhou",
+    "hangzhou", "chengdu", "taipei", "tokyo", "osaka", "minato", "yokohama", "seoul",
+    "gangnam", "busan", "kuala lumpur", "jakarta", "manila", "mandaluyong", "makati",
+    "hanoi", "ho chi minh", "bangkok", "sydney", "melbourne", "brisbane", "perth",
+    "adelaide", "canberra", "auckland", "wellington", "parnell", "tel aviv", "jerusalem",
+    "haifa", "dubai", "abu dhabi", "riyadh", "jeddah", "doha", "cairo", "amman", "beirut",
+    "lagos", "abuja", "nairobi", "johannesburg", "cape town", "casablanca", "kyiv", "kiev",
+    "yerevan", "tbilisi", "limassol", "bratislava", "ljubljana", "zagreb", "belgrade",
+    "istanbul", "ankara", "sao paulo", "rio de janeiro", "mexico city", "cdmx",
+    "buenos aires", "santiago", "bogota", "lima", "montevideo",
+    # provinces / regions / scopes
+    "ontario", "quebec", "british columbia", "alberta", "manitoba", "saskatchewan",
+    "ile-de-france", "bavaria", "hessen", "nordrhein", "catalonia", "lombardy", "attica",
+    "midlothian", "emea", "apac", "latam", "worldwide", "europe", "mena",
+]
+FOREIGN = re.compile(r"\b(" + "|".join(_FOREIGN) + r")\b", re.I)
+FOREIGN_CODE = re.compile(
+    r"(?:^|[,·\s])(gb|uk|de|fr|nl|es|it|se|no|dk|fi|pl|cz|hu|ro|gr|pt|ie|be|at|ch|lu|"
+    r"hr|si|rs|tr|ru|br|ar|cl|pe|cn|hk|tw|jp|kr|sg|my|id|ph|vn|th|pk|bd|au|nz|il|ae|sa|"
+    r"qa|eg|ng|ke|za|ma|ua|am|ge|cy|bg|ca)(?:$|[,\s])")          # lowercase only
+CA_PROVINCE = re.compile(r"(?:^|[,\s])(ON|QC|BC|AB|MB|SK|NS|NB)(?:$|[,\s])")
+EURES = re.compile(r"\b[A-Z]{2}\s+\([A-Z]{2}")                    # "DE (DE212)" NUTS format
+
+
+def _in_us_bbox(lat, lon):
+    try:
+        lat = float(lat); lon = float(lon)
+    except (TypeError, ValueError):
+        return None
+    if math.isnan(lat) or math.isnan(lon):
+        return None
+    if not (-90 <= lat <= 90 and -180 <= lon <= 180):
+        return None
+    if abs(lat) < 0.5 and abs(lon) < 0.5:               # null island
+        return None
+    if 24.0 <= lat <= 49.5 and -125.0 <= lon <= -66.5:  # continental US
+        return True
+    if 51.0 <= lat <= 72.0 and -170.0 <= lon <= -129.0:  # Alaska
+        return True
+    if 18.0 <= lat <= 23.0 and -161.0 <= lon <= -154.0:  # Hawaii
+        return True
+    return False
+
+
+def is_us(location, lat=None, lon=None) -> bool:
+    geo = _in_us_bbox(lat, lon)
+    if geo is True:
+        return True
+    if geo is False:
+        return False
+    loc = (location or "").strip()
+    if not loc:
+        return True                                    # unspecified -> treat as US
+    if US_BARE.search(loc) or US_WORDS.search(loc):
+        return True                                    # explicit US wins
+    if FOREIGN.search(loc) or FOREIGN_CODE.search(loc) or CA_PROVINCE.search(loc) or EURES.search(loc):
+        return False                                   # clearly abroad
+    if US_STATECODE.search(loc) or US_STATENAME.search(loc) or US_MISC.search(loc):
+        return True
+    return True                                        # bare city / remote / unknown
+
+
+# =====================================================================
+#  Tagging + row mapping
+# =====================================================================
 def classify_seniority(title: str) -> str:
     t = (title or "").lower()
-    if re.search(r"\b(intern|internship|co-?op)\b", t):
+    if re.search(r"\b(intern|internship|co-?op|apprentice)\b", t):
         return "junior"
-    if re.search(r"\b(manager|mgr|head of|head,|director|vp)\b", t):
+    if re.search(r"\b(manager|mgr|head of|head,|director|vp|lead)\b", t):
         return "lead"
     if re.search(r"\b(principal|distinguished|staff)\b", t):
         return "staff"
-    if re.search(r"\blead\b", t):
-        return "lead"
     if re.search(r"\b(senior|sr\.?|snr)\b", t):
         return "senior"
     if re.search(r"\b(junior|jr\.?|associate|entry|graduate|\bi\b)\b", t):
@@ -130,15 +257,14 @@ def classify_location(location: str, is_remote=None) -> str:
 
 
 TAG_RULES = [
-    ("ai",             r"\b(ai|ml|machine learning|genai|llm)\b"),
-    ("quant",          r"\b(quant|quantitative)\b"),
-    ("qual",           r"\b(qual|qualitative)\b"),
-    ("mixed methods",  r"\bmixed[\s-]?methods?\b"),
-    ("growth",         r"\bgrowth\b"),
+    ("ai", r"\b(ai|ml|machine learning|genai|llm)\b"),
+    ("quant", r"\bquantitative\b"),
+    ("qual", r"\bqualitative\b"),
+    ("mixed methods", r"\bmixed[\s-]?methods?\b"),
+    ("research ops", r"research\s?op"),
     ("design systems", r"\bdesign systems?\b"),
-    ("platform",       r"\bplatform\b"),
-    ("accessibility",  r"\b(accessibility|a11y)\b"),
-    ("research ops",   r"\bresearch\s?ops|research operations\b"),
+    ("human factors", r"\bhuman factors\b"),
+    ("accessibility", r"\b(accessibility|a11y)\b"),
 ]
 
 
@@ -147,7 +273,13 @@ def derive_tags(title: str):
     return [label for label, pat in TAG_RULES if re.search(pat, t)][:3]
 
 
-# --- DataFrame cell helpers (snapshot has NaNs for missing values) ----
+def source_label(ats_type) -> str:
+    if ats_type is None or (isinstance(ats_type, float) and math.isnan(ats_type)):
+        return ""
+    val = getattr(ats_type, "value", None) or str(ats_type)
+    return str(val).replace("_", " ").title()
+
+
 def cell(v):
     try:
         if v is None or pd.isna(v):
@@ -178,24 +310,17 @@ def parse_posted(v):
     return str(v)
 
 
-def source_label(ats_type) -> str:
-    ats_type = cell(ats_type)
-    if not ats_type:
-        return ""
-    val = getattr(ats_type, "value", None) or str(ats_type)
-    return str(val).replace("_", " ").title()
-
-
 def map_row(row: dict):
-    """Map one snapshot row to the board's JSON shape, or None if not UXR."""
     title = str(cell(row.get("title")) or "").strip()
     if not title or not is_uxr(title):
+        return None
+    loc = str(cell(row.get("location")) or "").strip()
+    if not is_us(loc, cell(row.get("lat")), cell(row.get("lon"))):
         return None
     url = str(cell(row.get("url")) or "").strip()
     if not url:
         return None
-    loc = str(cell(row.get("location")) or "").strip()
-    ats = row.get("ats_type")
+    ats = cell(row.get("ats_type"))
     return {
         "id": f"{source_label(ats)}-{cell(row.get('ats_id')) or url}",
         "title": title,
@@ -211,15 +336,14 @@ def map_row(row: dict):
 
 
 def load_snapshot() -> pd.DataFrame:
-    """Download the snapshot parquet and read only the columns we need."""
-    client = jh.Client()  # .manifest uses the tolerant fetch above
+    client = jh.Client()
     url = client.manifest.url_for_all(prefer_parquet=True)
     print(f"Downloading snapshot: {url}")
     resp = httpx.get(url, timeout=300.0, follow_redirects=True)
     resp.raise_for_status()
     content = resp.content
     del resp
-    avail = set(pq.read_schema(io.BytesIO(content)).names)  # footer only, cheap
+    avail = set(pq.read_schema(io.BytesIO(content)).names)
     use = [c for c in WANT_COLS if c in avail] or None
     df = pd.read_parquet(io.BytesIO(content), columns=use)
     del content
@@ -227,26 +351,15 @@ def load_snapshot() -> pd.DataFrame:
 
 
 def records_from_df(df: pd.DataFrame):
-    # Lossless pre-filter: every UXR title contains "research", so this drops
-    # the ~99% of unrelated rows before we expand anything into Python objects.
-    mask = df["title"].fillna("").str.contains("research", case=False, regex=False)
-    if LOCATION_FILTER:
-        mask = mask & df["location"].fillna("").str.contains(LOCATION_FILTER, case=False, regex=False)
+    mask = df["title"].fillna("").str.contains(PRE_STEMS, case=False, regex=True)
     sub = df[mask]
-
-    records = []
-    for row in sub.to_dict("records"):
-        rec = map_row(row)
-        if rec:
-            records.append(rec)
-
+    records = [r for row in sub.to_dict("records") if (r := map_row(row))]
     seen, deduped = set(), []
     for r in records:
         if r["url"] in seen:
             continue
         seen.add(r["url"])
         deduped.append(r)
-
     deduped.sort(key=lambda r: r.get("postedAt") or "", reverse=True)
     return deduped
 
@@ -255,12 +368,10 @@ def main():
     df = load_snapshot()
     print(f"  snapshot rows: {len(df)}")
     records = records_from_df(df)
-
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         json.dump(records, f, indent=2, ensure_ascii=False)
-
     by_src = Counter(r["source"] for r in records)
-    print(f"  UXR roles kept: {len(records)}")
+    print(f"  US UXR roles kept: {len(records)}")
     print("  by source: " + ", ".join(f"{k}={v}" for k, v in by_src.most_common()))
     print(f"Wrote {len(records)} roles to {OUTPUT_PATH}")
     return 0
