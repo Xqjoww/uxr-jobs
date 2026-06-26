@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-26T08:54:41Z",
-  "count": 375,
+  "updated": "2026-06-26T14:10:18Z",
+  "count": 373,
   "roles": [
     {
       "id": "Bundesagentur-15861-44268587-624-S",
@@ -3036,36 +3036,6 @@
       "url": "https://jobs.ashbyhq.com/goodmaven/a97620b2-66bc-4112-ae6a-b05e8d3c6f55",
       "source": "Ashby",
       "postedAt": "2026-04-27T16:36:44.453000+00:00"
-    },
-    {
-      "id": "Welcometothejungle-627411c1-cfe3-4392-b363-393d456f1b96",
-      "title": "Lead UX Researcher – Mission internationale",
-      "company": "Skapa",
-      "location": "Paris, Ile-de-France, France",
-      "region": "Europe",
-      "state": "",
-      "locationType": "remote",
-      "seniority": "lead",
-      "tags": [],
-      "salary": "",
-      "url": "https://www.welcometothejungle.com/en/companies/5M001ZR/jobs/lead-ux-researcher-mission-internationale_paris",
-      "source": "Welcometothejungle",
-      "postedAt": "2026-04-27T13:34:02+00:00"
-    },
-    {
-      "id": "Ashby-693dbc0a-a4dd-4827-a068-29965c9935dd",
-      "title": "Senior Staff UX Researcher",
-      "company": "Jane",
-      "location": "Canada",
-      "region": "Canada",
-      "state": "",
-      "locationType": "remote",
-      "seniority": "staff",
-      "tags": [],
-      "salary": "",
-      "url": "https://jobs.ashbyhq.com/jane/693dbc0a-a4dd-4827-a068-29965c9935dd",
-      "source": "Ashby",
-      "postedAt": "2026-04-27T10:20:21+00:00"
     },
     {
       "id": "Personio-2669468",
