@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 """
 Build jobs.json for the UXR Jobs Board (US-only) from jobhive's hosted dataset.
@@ -189,9 +188,9 @@ _FOREIGN = [
 ]
 FOREIGN = re.compile(r"\b(" + "|".join(_FOREIGN) + r")\b", re.I)
 FOREIGN_CODE = re.compile(
-    r"(?:^|[,·\s])(gb|uk|de|fr|nl|es|it|se|no|dk|fi|pl|cz|hu|ro|gr|pt|ie|be|at|ch|lu|"
+    r"(?:^|[,·\s(])(gb|uk|de|fr|nl|es|it|se|no|dk|fi|pl|cz|hu|ro|gr|pt|ie|be|at|ch|lu|"
     r"hr|si|rs|tr|ru|br|ar|cl|pe|cn|hk|tw|jp|kr|sg|my|id|ph|vn|th|pk|bd|au|nz|il|ae|sa|"
-    r"qa|eg|ng|ke|za|ma|ua|am|ge|cy|bg|ca)(?:$|[,\s])")          # lowercase only
+    r"qa|eg|ng|ke|za|ma|ua|am|ge|cy|bg|ca)(?:$|[,\s)])")          # lowercase only
 CA_PROVINCE = re.compile(r"(?:^|[,\s])(ON|QC|BC|AB|MB|SK|NS|NB)(?:$|[,\s])")
 EURES = re.compile(r"\b[A-Z]{2}\s+\([A-Z]{2}")                    # "DE (DE212)" NUTS format
 
@@ -248,6 +247,109 @@ def is_us(location, lat=None, lon=None) -> bool:
     if US_STATECODE.search(s) or US_STATENAME.search(s) or US_MISC.search(s):
         return True
     return True                                        # bare city / remote / unknown
+
+
+# =====================================================================
+#  Region classification (replaces the old US-only drop)
+# =====================================================================
+# Coarse buckets for the board's region buttons. Anything is_us() calls US
+# (including unknown / bare city / global-remote) stays "US"; everything else
+# is sorted into one of the six foreign buckets. Tune the token lists freely.
+_R_INDIA = [
+    "india", "bangalore", "bengaluru", "mumbai", "delhi", "new delhi", "gurgaon",
+    "gurugram", "noida", "hyderabad", "pune", "chennai", "kolkata", "ahmedabad",
+    "karnataka", "maharashtra", "haryana", "telangana", "gujarat",
+]
+_R_CANADA = [
+    "canada", "canadian", "toronto", "vancouver", "montreal", "ottawa", "calgary",
+    "edmonton", "winnipeg", "waterloo", "markham", "mississauga", "kitchener",
+    "etobicoke", "ontario", "quebec", "british columbia", "alberta", "manitoba",
+    "saskatchewan", "nova scotia",
+]
+_R_UKIE = [
+    "united kingdom", "england", "scotland", "wales", "northern ireland", "ireland",
+    "london", "manchester", "birmingham", "edinburgh", "glasgow", "belfast",
+    "newcastle", "bristol", "leicester", "sheffield", "cardiff", "swansea",
+    "cheltenham", "dublin", "midlothian", "leeds", "liverpool", "cambridge", "oxford",
+]
+_R_APAC = [
+    "apac", "china", "taiwan", "hong kong", "japan", "singapore", "malaysia",
+    "indonesia", "philippines", "vietnam", "thailand", "south korea", "korea",
+    "pakistan", "bangladesh", "australia", "new zealand", "shanghai", "beijing",
+    "shenzhen", "guangzhou", "hangzhou", "chengdu", "taipei", "tokyo", "osaka",
+    "minato", "yokohama", "seoul", "gangnam", "busan", "kuala lumpur", "jakarta",
+    "manila", "mandaluyong", "makati", "hanoi", "ho chi minh", "bangkok", "sydney",
+    "melbourne", "brisbane", "perth", "adelaide", "canberra", "auckland",
+    "wellington", "parnell",
+]
+_R_EUROPE = [
+    "germany", "deutschland", "france", "spain", "espana", "italy", "italia",
+    "netherlands", "nederland", "belgium", "belgie", "luxembourg", "switzerland",
+    "schweiz", "suisse", "austria", "osterreich", "sweden", "sverige", "norway",
+    "denmark", "danmark", "finland", "iceland", "poland", "polska", "portugal",
+    "greece", "romania", "hungary", "czech", "czechia", "slovakia", "ukraine",
+    "bulgaria", "serbia", "croatia", "slovenia", "cyprus", "armenia", "turkey",
+    "russia", "berlin", "munich", "munchen", "hamburg", "frankfurt", "cologne",
+    "koln", "stuttgart", "dusseldorf", "dortmund", "hannover", "regensburg",
+    "goppingen", "neuss", "wolfsburg", "erlangen", "nuremberg", "wuppertal",
+    "homburg", "huerth", "weissbach", "castellvi", "paris", "lyon", "bordeaux",
+    "toulouse", "clichy", "issy", "marseille", "lille", "madrid", "barcelona",
+    "valencia", "bilbao", "bellville", "sant cugat", "lisbon", "lisboa", "porto",
+    "amsterdam", "rotterdam", "utrecht", "zwolle", "eindhoven", "wageningen",
+    "majadahonda", "brussels", "antwerp", "zurich", "zuerich", "geneva", "geneve",
+    "basel", "baar", "zug", "lausanne", "vienna", "wien", "graz", "stockholm",
+    "gothenburg", "goteborg", "malmo", "copenhagen", "kobenhavn", "aarhus", "lyngby",
+    "oslo", "bergen", "grimstad", "helsinki", "espoo", "otaniemi", "warsaw",
+    "warszawa", "krakow", "wroclaw", "prague", "praha", "brno", "budapest",
+    "bucharest", "sofia", "athens", "milan", "milano", "rome", "roma", "turin",
+    "naples", "marbella", "istanbul", "ankara", "kyiv", "kiev", "yerevan", "tbilisi",
+    "limassol", "bratislava", "ljubljana", "zagreb", "belgrade", "ile-de-france",
+    "bavaria", "hessen", "nordrhein", "catalonia", "lombardy", "attica", "emea",
+    "europe",
+]
+
+
+def _region_re(tokens):
+    return re.compile(r"\b(" + "|".join(sorted(set(tokens), key=len, reverse=True)) + r")\b", re.I)
+
+
+RE_INDIA = _region_re(_R_INDIA)
+RE_CANADA = _region_re(_R_CANADA)
+RE_UKIE = _region_re(_R_UKIE)
+RE_APAC = _region_re(_R_APAC)
+RE_EUROPE = _region_re(_R_EUROPE)
+
+# Bare 2-letter country codes -> region (lowercase, matched on folded text).
+_CODE_REGION = [
+    (re.compile(r"(?:^|[,·\s(])(gb|uk|ie)(?:$|[,\s)])"), "UK & Ireland"),
+    (re.compile(r"(?:^|[,·\s(])(ca)(?:$|[,\s)])"), "Canada"),
+    (re.compile(r"(?:^|[,·\s(])(cn|hk|tw|jp|kr|sg|my|id|ph|vn|th|pk|bd|au|nz)(?:$|[,\s)])"), "APAC"),
+    (re.compile(r"(?:^|[,·\s(])(de|fr|nl|es|it|se|no|dk|fi|pl|cz|hu|ro|gr|pt|be|at|ch|"
+                r"lu|hr|si|rs|tr|ru|ua|am|ge|cy|bg)(?:$|[,\s)])"), "Europe"),
+]
+
+
+def region_of(location, lat=None, lon=None) -> str:
+    """US (incl. unknown / bare city / remote) -> 'US'; otherwise one of
+    'UK & Ireland', 'Europe', 'India', 'Canada', 'APAC', 'Rest of World'.
+    Order matters: a Canadian 'London, ON' must beat the UK city 'London'."""
+    if is_us(location, lat, lon):
+        return "US"
+    s = _ascii_fold((location or "").strip())
+    if RE_INDIA.search(s):
+        return "India"
+    if RE_CANADA.search(s) or CA_PROVINCE.search(s):
+        return "Canada"
+    if RE_UKIE.search(s):
+        return "UK & Ireland"
+    if RE_APAC.search(s):
+        return "APAC"
+    if RE_EUROPE.search(s) or EURES.search(s):
+        return "Europe"
+    for rx, reg in _CODE_REGION:
+        if rx.search(s):
+            return reg
+    return "Rest of World"
 
 
 # =====================================================================
@@ -467,8 +569,7 @@ def map_row(row: dict):
     if not title or not is_uxr(title):
         return None
     loc = str(cell(row.get("location")) or "").strip()
-    if not is_us(loc, cell(row.get("lat")), cell(row.get("lon"))):
-        return None
+    region = region_of(loc, cell(row.get("lat")), cell(row.get("lon")))
     url = str(cell(row.get("url")) or "").strip()
     if not url:
         return None
@@ -483,7 +584,8 @@ def map_row(row: dict):
         "title": title,
         "company": clean_company(cell(row.get("company"))),
         "location": loc,
-        "state": derive_state(loc, is_remote=is_remote),
+        "region": region,
+        "state": derive_state(loc, is_remote=is_remote) if region == "US" else "",
         "locationType": classify_location(loc, is_remote=is_remote),
         "seniority": classify_seniority(title),
         "tags": derive_tags(title),
@@ -523,7 +625,7 @@ def records_from_df(df: pd.DataFrame):
     best = {}
     for r in records:
         norm = re.sub(r"[^a-z0-9]+", " ", r["title"].lower()).strip()
-        key = (r["company"].lower(), norm)
+        key = (r["company"].lower(), norm, r["region"])
         if key not in best or _posted_key(r) > _posted_key(best[key]):
             best[key] = r
     deduped = list(best.values())
@@ -543,10 +645,12 @@ def main():
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         json.dump(payload, f, indent=2, ensure_ascii=False)
     by_src = Counter(r["source"] for r in records)
-    by_state = Counter(r["state"] for r in records)
-    print(f"  US UXR roles kept: {len(records)}")
+    by_region = Counter(r["region"] for r in records)
+    by_state = Counter(r["state"] for r in records if r["region"] == "US")
+    print(f"  UXR roles kept: {len(records)}")
+    print("  by region: " + ", ".join(f"{k}={v}" for k, v in by_region.most_common()))
     print("  by source: " + ", ".join(f"{k}={v}" for k, v in by_src.most_common(8)))
-    print("  by state:  " + ", ".join(f"{k}={v}" for k, v in by_state.most_common(8)))
+    print("  by US state: " + ", ".join(f"{k}={v}" for k, v in by_state.most_common(8)))
     print(f"Wrote {len(records)} roles to {OUTPUT_PATH} (updated {payload['updated']})")
     return 0
 
