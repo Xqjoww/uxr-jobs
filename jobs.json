@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-28T08:44:22Z",
-  "count": 378,
+  "updated": "2026-06-28T13:23:14Z",
+  "count": 377,
   "roles": [
     {
       "id": "Ashby-9c61d64a-efe3-4033-aa2d-ceb3dd28da45",
@@ -3139,23 +3139,6 @@
       "url": "https://jobs.ashbyhq.com/maintainx/9b8f93b6-59aa-4b32-a0df-b8ee4fe2474f",
       "source": "Ashby",
       "postedAt": "2026-04-29T13:47:26.900000+00:00"
-    },
-    {
-      "id": "Smartrecruiters-744000123640695",
-      "title": "Senior Safety & Risk Consultant - Human Factors",
-      "company": "Assystem",
-      "location": "Warrington, England, gb",
-      "region": "UK & Ireland",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [
-        "human factors"
-      ],
-      "salary": "",
-      "url": "https://jobs.smartrecruiters.com/assystem/744000123640695",
-      "source": "Smartrecruiters",
-      "postedAt": "2026-04-29T09:04:44.607000+00:00"
     },
     {
       "id": "Personio-2669468",
