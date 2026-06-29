@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-29T10:29:23Z",
-  "count": 370,
+  "updated": "2026-06-29T15:40:29Z",
+  "count": 364,
   "roles": [
     {
       "id": "Welcometothejungle-8619e630-7613-4a74-8451-dd4f706b9483",
@@ -1799,21 +1799,6 @@
       "postedAt": "2026-06-01T16:50:26-04:00"
     },
     {
-      "id": "Bundesagentur-13869-13754611-S",
-      "title": "UX-Researcher (m/w/d)",
-      "company": "Tintschl Technik Gmbh",
-      "location": "Regensburg, Bayern, Deutschland",
-      "region": "Europe",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [],
-      "salary": "",
-      "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13869-13754611-S",
-      "source": "Bundesagentur",
-      "postedAt": "2026-06-01T00:00:00"
-    },
-    {
       "id": "Welcometothejungle-022b2201-b19e-44a5-8d20-575dbfacc291",
       "title": "User Researcher Assistant – Stage (Septembre 2026 / 6 mois)",
       "company": "Gameloft",
@@ -2551,21 +2536,6 @@
       "postedAt": "2026-05-13T08:34:31-04:00"
     },
     {
-      "id": "Welcometothejungle-50195db2-07f7-43ac-a338-61cb70b3a430",
-      "title": "Senior UX Researcher",
-      "company": "Spring Health",
-      "location": "San Francisco, United States",
-      "region": "US",
-      "state": "Remote",
-      "locationType": "remote",
-      "seniority": "senior",
-      "tags": [],
-      "salary": "$165k to $202k",
-      "url": "https://www.welcometothejungle.com/en/companies/CNi41o/jobs/senior-ux-researcher_new-york_hjliufqx",
-      "source": "Welcometothejungle",
-      "postedAt": "2026-05-13T00:09:55+00:00"
-    },
-    {
       "id": "Welcometothejungle-6d5e089c-a9b2-47f2-ad47-56cf091c60fd",
       "title": "Staff UX Product Researcher (Route Discovery & Navigation)",
       "company": "Strava",
@@ -2983,66 +2953,6 @@
       "url": "https://apply.workable.com/j/4A8B19D20B",
       "source": "Workable",
       "postedAt": "2026-05-01T00:00:00"
-    },
-    {
-      "id": "Ashby-2da5bc26-f18e-4269-b4d3-04081feec532",
-      "title": "Senior User Researcher",
-      "company": "Artsy",
-      "location": "New York",
-      "region": "US",
-      "state": "NY",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [],
-      "salary": "",
-      "url": "https://jobs.ashbyhq.com/artsy/2da5bc26-f18e-4269-b4d3-04081feec532",
-      "source": "Ashby",
-      "postedAt": "2026-04-30T12:20:17.838000+00:00"
-    },
-    {
-      "id": "Eures-NjA4MTY0MSAxMjE",
-      "title": "Business Consultant M3 - Usability/Extensibility - Malmö",
-      "company": "Columbus Sweden AB",
-      "location": "SE (SE224)",
-      "region": "Europe",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [],
-      "salary": "",
-      "url": "https://europa.eu/eures/portal/jv-se/jv-details/NjA4MTY0MSAxMjE?lang=en",
-      "source": "Eures",
-      "postedAt": "2026-04-30T11:08:00.770000"
-    },
-    {
-      "id": "Eures-NjA4MTYzOCAxMjE",
-      "title": "Business Consultant M3 - Usability/Extensibility - Göteborg",
-      "company": "Columbus Sweden AB",
-      "location": "SE (SE232)",
-      "region": "Europe",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [],
-      "salary": "",
-      "url": "https://europa.eu/eures/portal/jv-se/jv-details/NjA4MTYzOCAxMjE?lang=en",
-      "source": "Eures",
-      "postedAt": "2026-04-30T11:07:01.018000"
-    },
-    {
-      "id": "Eures-NjA4MTYzMiAxMjE",
-      "title": "Business Consultant M3 - Usability/Extensibility - Stockholm",
-      "company": "Columbus Sweden AB",
-      "location": "SE (SE110)",
-      "region": "Europe",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [],
-      "salary": "",
-      "url": "https://europa.eu/eures/portal/jv-se/jv-details/NjA4MTYzMiAxMjE?lang=en",
-      "source": "Eures",
-      "postedAt": "2026-04-30T11:06:00.619000"
     },
     {
       "id": "Personio-2669468",
@@ -3551,21 +3461,6 @@
       "tags": [],
       "salary": "",
       "url": "https://careers.shl-medical.com/job/Stockholm-Senior-Usability-Engineer-AB/1398028833/",
-      "source": "Successfactors",
-      "postedAt": ""
-    },
-    {
-      "id": "Successfactors-1358197457",
-      "title": "User Researcher (Mid Level)",
-      "company": "British Telecommunications Plc",
-      "location": "London, GB, E1 8EP",
-      "region": "UK & Ireland",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [],
-      "salary": "",
-      "url": "https://jobs.bt.com/BT/job/London-User-Researcher-%28Mid-Level%29-E1-8EP/1358197457/",
       "source": "Successfactors",
       "postedAt": ""
     },
@@ -4557,6 +4452,21 @@
       "postedAt": ""
     },
     {
+      "id": "Workday-R-115614",
+      "title": "Senior Principal, UX Researcher",
+      "company": "Ingrammicro",
+      "location": "Sofia, Bulgaria",
+      "region": "Europe",
+      "state": "",
+      "locationType": "onsite",
+      "seniority": "staff",
+      "tags": [],
+      "salary": "",
+      "url": "https://ingrammicro.wd5.myworkdayjobs.com/ingrammicro/job/Sofia-Bulgaria/Senior-Principal--UX-Researcher_R-115614",
+      "source": "Workday",
+      "postedAt": ""
+    },
+    {
       "id": "Workday-REQ-2026-15989",
       "title": "Staff User Experience (UX) Researcher (Hybrid-Acton, MA or San Diego, CA)",
       "company": "Insulet Corporation",
@@ -4585,21 +4495,6 @@
       ],
       "salary": "",
       "url": "https://insulet.wd5.myworkdayjobs.com/insuletcareers/job/Acton-Massachusetts/Manager--Human-Factors-Engineering--Hybrid-Acton--MA-_REQ-2026-16404",
-      "source": "Workday",
-      "postedAt": ""
-    },
-    {
-      "id": "Workday-R-115614",
-      "title": "Senior Principal, UX Researcher",
-      "company": "Ingrammicro",
-      "location": "Sofia, Bulgaria",
-      "region": "Europe",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "staff",
-      "tags": [],
-      "salary": "",
-      "url": "https://ingrammicro.wd5.myworkdayjobs.com/ingrammicro/job/Sofia-Bulgaria/Senior-Principal--UX-Researcher_R-115614",
       "source": "Workday",
       "postedAt": ""
     },
@@ -4992,6 +4887,21 @@
       "postedAt": ""
     },
     {
+      "id": "Workday-JR-2209",
+      "title": "UX Researcher",
+      "company": "Sanoma",
+      "location": "Den Bosch",
+      "region": "US",
+      "state": "US",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [],
+      "salary": "",
+      "url": "https://sanoma.wd3.myworkdayjobs.com/sanoma_learning/job/Den-Bosch/UX-Researcher_JR-2209",
+      "source": "Workday",
+      "postedAt": ""
+    },
+    {
       "id": "Workday-JR341827",
       "title": "Research Operations Lead, Customer Insights",
       "company": "Salesforce",
@@ -5005,21 +4915,6 @@
       ],
       "salary": "",
       "url": "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Georgia---Atlanta/Research-Operations-Lead--Customer-Insights_JR341827",
-      "source": "Workday",
-      "postedAt": ""
-    },
-    {
-      "id": "Workday-JR-2209",
-      "title": "UX Researcher",
-      "company": "Sanoma",
-      "location": "Den Bosch",
-      "region": "US",
-      "state": "US",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [],
-      "salary": "",
-      "url": "https://sanoma.wd3.myworkdayjobs.com/sanoma_learning/job/Den-Bosch/UX-Researcher_JR-2209",
       "source": "Workday",
       "postedAt": ""
     },
@@ -5770,6 +5665,21 @@
       "salary": "",
       "url": "https://lifeattiktok.com/search/7602132104936130869",
       "source": "Tiktok",
+      "postedAt": ""
+    },
+    {
+      "id": "Builtin-7903619",
+      "title": "Senior UX Researcher",
+      "company": "Unknown",
+      "location": "",
+      "region": "US",
+      "state": "US",
+      "locationType": "onsite",
+      "seniority": "senior",
+      "tags": [],
+      "salary": "",
+      "url": "https://builtin.com/job/senior-ux-researcher/7903619",
+      "source": "Builtin",
       "postedAt": ""
     },
     {
