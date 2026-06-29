@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-28T19:08:20Z",
-  "count": 374,
+  "updated": "2026-06-29T02:48:22Z",
+  "count": 371,
   "roles": [
     {
       "id": "Welcometothejungle-8619e630-7613-4a74-8451-dd4f706b9483",
@@ -3043,53 +3043,6 @@
       "url": "https://europa.eu/eures/portal/jv-se/jv-details/NjA4MTYzMiAxMjE?lang=en",
       "source": "Eures",
       "postedAt": "2026-04-30T11:06:00.619000"
-    },
-    {
-      "id": "Phenom-10679",
-      "title": "Senior ASIC Design Research Engineer",
-      "company": "Honda",
-      "location": "Raymond, Ohio, United States",
-      "region": "US",
-      "state": "OH",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [],
-      "salary": "",
-      "url": "https://careers.honda.com/job/10679",
-      "source": "Phenom",
-      "postedAt": "2026-04-30T00:00:00+00:00"
-    },
-    {
-      "id": "Oracle-35083",
-      "title": "User Experience Researcher Co-op/Intern",
-      "company": "Unknown",
-      "location": "Canada",
-      "region": "Canada",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "junior",
-      "tags": [],
-      "salary": "",
-      "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX_1#35083",
-      "source": "Oracle",
-      "postedAt": "2026-04-30T00:00:00"
-    },
-    {
-      "id": "Jazzhr-MF3OjytojY",
-      "title": "Human Factors Engineer",
-      "company": "Engeniousdesign",
-      "location": "PRAIRIE VILLAGE, KS",
-      "region": "US",
-      "state": "KS",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "human factors"
-      ],
-      "salary": "",
-      "url": "https://engeniousdesign.applytojob.com/apply/jobs/details/MF3OjytojY",
-      "source": "Jazzhr",
-      "postedAt": "2026-04-30T00:00:00"
     },
     {
       "id": "Greenhouse-7859954",
