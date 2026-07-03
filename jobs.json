@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-02T19:14:59Z",
-  "count": 365,
+  "updated": "2026-07-03T02:13:36Z",
+  "count": 363,
   "roles": [
     {
       "id": "Bundesagentur-12462-1594336-1-S",
@@ -3023,53 +3023,6 @@
       "postedAt": "2026-05-04T16:02:00"
     },
     {
-      "id": "Phenom-581075",
-      "title": "Human Factors Engineer",
-      "company": "Philips",
-      "location": "San Diego, California, United States, California, United States of America",
-      "region": "US",
-      "state": "CA",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "human factors"
-      ],
-      "salary": "",
-      "url": "https://www.careers.philips.com/job/581075",
-      "source": "Phenom",
-      "postedAt": "2026-05-04T00:00:00+00:00"
-    },
-    {
-      "id": "Oracle-95466",
-      "title": "UX User Experience Research Manager",
-      "company": "Unknown",
-      "location": "Memphis, TN, United States",
-      "region": "US",
-      "state": "TN",
-      "locationType": "onsite",
-      "seniority": "lead",
-      "tags": [],
-      "salary": "",
-      "url": "https://egud.fa.us2.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX_1#95466",
-      "source": "Oracle",
-      "postedAt": "2026-05-04T00:00:00"
-    },
-    {
-      "id": "Amazon-10410329",
-      "title": "UX Researcher, GREF, Customer Insights",
-      "company": "Amazon",
-      "location": "Seattle, Washington, USA",
-      "region": "US",
-      "state": "WA",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [],
-      "salary": "",
-      "url": "https://account.amazon.jobs/jobs/10410329/apply",
-      "source": "Amazon",
-      "postedAt": "2026-05-04T00:00:00"
-    },
-    {
       "id": "Personio-2669468",
       "title": "Senior Human Factors and Usability Engineer (with Medical device or Pharma experience)",
       "company": "Inbrain Neuroelectronics",
@@ -4852,6 +4805,23 @@
       ],
       "salary": "",
       "url": "https://paypal.wd1.myworkdayjobs.com/jobs/job/Berlin-Berlin-Germany/Staff-Researcher---Mixed-Methods_R0136242",
+      "source": "Workday",
+      "postedAt": ""
+    },
+    {
+      "id": "Workday-581075",
+      "title": "Human Factors Engineer",
+      "company": "Philips",
+      "location": "San Diego, California, United States",
+      "region": "US",
+      "state": "CA",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [
+        "human factors"
+      ],
+      "salary": "",
+      "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/San-Diego-California-United-States/Human-Factors-Engineer_581075",
       "source": "Workday",
       "postedAt": ""
     },
