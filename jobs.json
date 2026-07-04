@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-03T19:08:22Z",
-  "count": 364,
+  "updated": "2026-07-04T02:12:10Z",
+  "count": 362,
   "roles": [
     {
       "id": "Bundesagentur-12462-1594336-1-S",
@@ -2989,38 +2989,6 @@
       "url": "https://jobs.smartrecruiters.com/assystem/744000124892119",
       "source": "Smartrecruiters",
       "postedAt": "2026-05-06T12:46:04.239000+00:00"
-    },
-    {
-      "id": "Oracle-86150",
-      "title": "Senior Consultant - Human Factors",
-      "company": "Unknown",
-      "location": "London, United Kingdom",
-      "region": "UK & Ireland",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [
-        "human factors"
-      ],
-      "salary": "",
-      "url": "https://emit.fa.ca3.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX_1#86150",
-      "source": "Oracle",
-      "postedAt": "2026-05-05T00:00:00"
-    },
-    {
-      "id": "Workable-50D69130E7",
-      "title": "Lead UX Researcher (UXR-3-052026)",
-      "company": "Koru",
-      "location": "India",
-      "region": "India",
-      "state": "",
-      "locationType": "remote",
-      "seniority": "lead",
-      "tags": [],
-      "salary": "",
-      "url": "https://apply.workable.com/j/50D69130E7",
-      "source": "Workable",
-      "postedAt": "2026-05-05T00:00:00"
     },
     {
       "id": "Personio-2669468",
