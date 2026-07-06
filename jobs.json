@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06T10:02:40Z",
+  "updated": "2026-07-06T15:18:13Z",
   "count": 353,
   "roles": [
     {
@@ -341,6 +341,21 @@
       "url": "https://europa.eu/eures/portal/jv-se/jv-details/ZjgyYzM0ZjktYmY4OC00ZTZlLWExOTgtMTFhZWU2NmFmZDliIDM?lang=en",
       "source": "Eures",
       "postedAt": "2026-07-01T08:04:33.645000"
+    },
+    {
+      "id": "Bundesagentur-12811-2256584-S",
+      "title": "Venture Architect (m/w/d) Fokus User Research & Business Idea Testing,Erlangen,Mobiles Arbe...",
+      "company": "Thieme Group / Thieme Compliance Gmbh",
+      "location": "Erlangen, Bayern, Deutschland",
+      "region": "Europe",
+      "state": "",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [],
+      "salary": "",
+      "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2256584-S",
+      "source": "Bundesagentur",
+      "postedAt": "2026-07-01T00:00:00"
     },
     {
       "id": "Eures-MTIyODgtNDg2ODc4NzQwMS1TIDE",
@@ -1482,21 +1497,6 @@
       "postedAt": "2026-06-15T23:16:24.975000"
     },
     {
-      "id": "Ashby-470a2f53-482a-4995-8353-f0a4f2990210",
-      "title": "Senior UX Researcher",
-      "company": "Hinge Health",
-      "location": "San Francisco-HQ",
-      "region": "US",
-      "state": "Remote",
-      "locationType": "remote",
-      "seniority": "senior",
-      "tags": [],
-      "salary": "$148k to $204k",
-      "url": "https://jobs.ashbyhq.com/hinge-health/470a2f53-482a-4995-8353-f0a4f2990210",
-      "source": "Ashby",
-      "postedAt": "2026-06-15T16:01:58.861000+00:00"
-    },
-    {
       "id": "Welcometothejungle-f7c482aa-2e72-4666-b6aa-eb7f546bf714",
       "title": "Senior User Researcher (Enterprise & Platform)",
       "company": "Glean",
@@ -1619,6 +1619,21 @@
       "url": "https://paradox-interactive.teamtailor.com/jobs/7884736-midlevel-user-researcher",
       "source": "Teamtailor",
       "postedAt": "2026-06-10T10:22:21+02:00"
+    },
+    {
+      "id": "Eures-NDU1MTUzIDEyMQ",
+      "title": "Senior User Researcher ( 271788 )",
+      "company": "Ericsson AB",
+      "location": "SE (SE110)",
+      "region": "Europe",
+      "state": "",
+      "locationType": "onsite",
+      "seniority": "senior",
+      "tags": [],
+      "salary": "",
+      "url": "https://europa.eu/eures/portal/jv-se/jv-details/NDU1MTUzIDEyMQ?lang=en",
+      "source": "Eures",
+      "postedAt": "2026-06-10T05:35:23.123000"
     },
     {
       "id": "Eures-NDQ1MjkxIDEyMQ",
@@ -1867,21 +1882,6 @@
       "url": "https://careers.tether.io/o/senior-ux-researcher-100-remote-worldwide",
       "source": "Recruitee",
       "postedAt": "2026-06-04T15:06:03"
-    },
-    {
-      "id": "Amazon-10440434",
-      "title": "Sr. UX Researcher, Amazon Device Sales & Customer Experience",
-      "company": "Amazon",
-      "location": "Seattle, Washington, USA",
-      "region": "US",
-      "state": "WA",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [],
-      "salary": "",
-      "url": "https://account.amazon.jobs/jobs/10440434/apply",
-      "source": "Amazon",
-      "postedAt": "2026-06-04T00:00:00"
     },
     {
       "id": "Lever-c2aad74c-01cc-42ec-8428-0ae9bbb1e476",
@@ -2869,21 +2869,6 @@
       "url": "https://join.com/companies/corolair/jobs/16380453-founding-ux-product-designer-and-user-researcher-lead",
       "source": "Join Com",
       "postedAt": "2026-05-07T16:56:09.235000+00:00"
-    },
-    {
-      "id": "Recruitee-2596245",
-      "title": "Freelance UX Researcher",
-      "company": "Flying Bisons",
-      "location": "Riyadh, Riyadh Province, Saudi Arabia",
-      "region": "Rest of World",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [],
-      "salary": "",
-      "url": "https://flyingbisons.recruitee.com/o/freelance-ux-researcher",
-      "source": "Recruitee",
-      "postedAt": "2026-05-07T14:13:30"
     },
     {
       "id": "Personio-2669468",
@@ -4325,6 +4310,21 @@
       "postedAt": ""
     },
     {
+      "id": "Workday-R00221039",
+      "title": "Senior UX Researcher",
+      "company": "Magna",
+      "location": "Lowell, Massachusetts, US",
+      "region": "US",
+      "state": "MA",
+      "locationType": "onsite",
+      "seniority": "senior",
+      "tags": [],
+      "salary": "",
+      "url": "https://magna.wd3.myworkdayjobs.com/magna/job/Lowell-Massachusetts-US/Senior-UX-Researcher_R00221039-1",
+      "source": "Workday",
+      "postedAt": ""
+    },
+    {
       "id": "Workday-R70379",
       "title": "Human Factors Design Engineer II",
       "company": "Medtronic",
@@ -4404,23 +4404,6 @@
       "tags": [],
       "salary": "",
       "url": "https://mtb.wd5.myworkdayjobs.com/mtb/job/Wilmington-DE/Senior-User-Experience-Researcher--Hybrid-_R86695",
-      "source": "Workday",
-      "postedAt": ""
-    },
-    {
-      "id": "Workday-JR-45465",
-      "title": "Enterprise Insights Specialist (Research Operations & Knowledge Management Strategy)",
-      "company": "Northwestern Mutual",
-      "location": "Milwaukee, WI Corporate",
-      "region": "US",
-      "state": "WI",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "research ops"
-      ],
-      "salary": "",
-      "url": "https://northwesternmutual.wd5.myworkdayjobs.com/corporate-careers/job/Milwaukee-WI-Corporate/Enterprise-Insights-Specialist--Research-Operations---Knowledge-Management-Strategy-_JR-45465",
       "source": "Workday",
       "postedAt": ""
     },
@@ -4544,6 +4527,23 @@
       "postedAt": ""
     },
     {
+      "id": "Workday-JR-45465",
+      "title": "Enterprise Insights Specialist (Research Operations & Knowledge Management Strategy)",
+      "company": "Northwestern Mutual",
+      "location": "Milwaukee, WI Corporate",
+      "region": "US",
+      "state": "WI",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [
+        "research ops"
+      ],
+      "salary": "",
+      "url": "https://northwesternmutual.wd5.myworkdayjobs.com/corporate-careers/job/Milwaukee-WI-Corporate/Enterprise-Insights-Specialist--Research-Operations---Knowledge-Management-Strategy-_JR-45465",
+      "source": "Workday",
+      "postedAt": ""
+    },
+    {
       "id": "Workday-R0016807",
       "title": "Senior Human Factors Engineer",
       "company": "Orthoclinical",
@@ -4642,6 +4642,21 @@
       "postedAt": ""
     },
     {
+      "id": "Workday-JR-2209",
+      "title": "UX Researcher",
+      "company": "Sanoma",
+      "location": "Den Bosch",
+      "region": "US",
+      "state": "US",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [],
+      "salary": "",
+      "url": "https://sanoma.wd3.myworkdayjobs.com/sanoma_learning/job/Den-Bosch/UX-Researcher_JR-2209",
+      "source": "Workday",
+      "postedAt": ""
+    },
+    {
       "id": "Workday-JR341827",
       "title": "Research Operations Lead, Customer Insights",
       "company": "Salesforce",
@@ -4659,17 +4674,17 @@
       "postedAt": ""
     },
     {
-      "id": "Workday-JR-2209",
-      "title": "UX Researcher",
-      "company": "Sanoma",
-      "location": "Den Bosch",
+      "id": "Workday-JR-119096",
+      "title": "Intern - UI/UX Researcher - Human Factor Engineer",
+      "company": "Sonyglobal",
+      "location": "San Diego",
       "region": "US",
       "state": "US",
       "locationType": "onsite",
-      "seniority": "mid",
+      "seniority": "junior",
       "tags": [],
       "salary": "",
-      "url": "https://sanoma.wd3.myworkdayjobs.com/sanoma_learning/job/Den-Bosch/UX-Researcher_JR-2209",
+      "url": "https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/San-Diego/Intern---UI-UX-Researcher---Human-Factor-Engineer_JR-119096",
       "source": "Workday",
       "postedAt": ""
     },
@@ -4687,21 +4702,6 @@
       ],
       "salary": "",
       "url": "https://slihrms.wd3.myworkdayjobs.com/careers/job/CAABCalgary2200---144-4th-avenue-SW/Senior-Human-Factors-Specialist_R-151297",
-      "source": "Workday",
-      "postedAt": ""
-    },
-    {
-      "id": "Workday-JR-119096",
-      "title": "Intern - UI/UX Researcher - Human Factor Engineer",
-      "company": "Sonyglobal",
-      "location": "San Diego",
-      "region": "US",
-      "state": "US",
-      "locationType": "onsite",
-      "seniority": "junior",
-      "tags": [],
-      "salary": "",
-      "url": "https://sonyglobal.wd1.myworkdayjobs.com/sonyglobalcareers/job/San-Diego/Intern---UI-UX-Researcher---Human-Factor-Engineer_JR-119096",
       "source": "Workday",
       "postedAt": ""
     },
