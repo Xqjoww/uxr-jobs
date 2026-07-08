@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-07T19:46:37Z",
-  "count": 355,
+  "updated": "2026-07-08T02:02:05Z",
+  "count": 354,
   "roles": [
     {
       "id": "Bundesagentur-12462-1594336-1-S",
@@ -2884,23 +2884,6 @@
       "url": "https://account.amazon.jobs/jobs/10416519/apply",
       "source": "Amazon",
       "postedAt": "2026-05-11T00:00:00"
-    },
-    {
-      "id": "Greenhouse-5992141004",
-      "title": "Workers Comp, Lost Time Claims Subject Matter Expert (User Research) - AI SaaS",
-      "company": "EvolutionIQ",
-      "location": "New York, NY or Remote",
-      "region": "US",
-      "state": "NY",
-      "locationType": "remote",
-      "seniority": "mid",
-      "tags": [
-        "ai"
-      ],
-      "salary": "",
-      "url": "https://job-boards.greenhouse.io/evolutioniq/jobs/5992141004",
-      "source": "Greenhouse",
-      "postedAt": "2026-05-08T17:10:54-04:00"
     },
     {
       "id": "Personio-2669468",
