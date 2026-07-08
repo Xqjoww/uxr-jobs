@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-08T13:48:10Z",
-  "count": 354,
+  "updated": "2026-07-08T19:14:07Z",
+  "count": 359,
   "roles": [
     {
       "id": "Bundesagentur-12462-1594336-1-S",
@@ -20,6 +20,81 @@
       "postedAt": "2026-08-01T00:00:00"
     },
     {
+      "id": "Ashby-f2a96af0-5032-4fd9-b551-5439ae1d8609",
+      "title": "UX Researcher",
+      "company": "Ibotta",
+      "location": "Hybrid - Denver",
+      "region": "US",
+      "state": "US",
+      "locationType": "hybrid",
+      "seniority": "mid",
+      "tags": [],
+      "salary": "",
+      "url": "https://jobs.ashbyhq.com/ibotta/f2a96af0-5032-4fd9-b551-5439ae1d8609",
+      "source": "Ashby",
+      "postedAt": "2026-07-07T22:44:54.508000+00:00"
+    },
+    {
+      "id": "Ashby-b16b26a9-a282-46b2-8b8b-c92717a9d097",
+      "title": "Principal UX Researcher",
+      "company": "Betterup",
+      "location": "Arlington, VA",
+      "region": "US",
+      "state": "VA",
+      "locationType": "remote",
+      "seniority": "staff",
+      "tags": [],
+      "salary": "$256k to $320k",
+      "url": "https://jobs.ashbyhq.com/betterup/b16b26a9-a282-46b2-8b8b-c92717a9d097",
+      "source": "Ashby",
+      "postedAt": "2026-07-07T19:24:15.577000+00:00"
+    },
+    {
+      "id": "Ashby-96511ddc-d298-433f-af62-53db25ac0a5c",
+      "title": "Senior Design Researcher, WHOOP Labs Doha",
+      "company": "WHOOP",
+      "location": "Doha",
+      "region": "Rest of World",
+      "state": "",
+      "locationType": "onsite",
+      "seniority": "senior",
+      "tags": [],
+      "salary": "",
+      "url": "https://jobs.ashbyhq.com/whoop/96511ddc-d298-433f-af62-53db25ac0a5c",
+      "source": "Ashby",
+      "postedAt": "2026-07-07T17:50:30.550000+00:00"
+    },
+    {
+      "id": "Greenhouse-4307283009",
+      "title": "User Experience Researcher",
+      "company": "Emergentlabsinc",
+      "location": "Bangalore",
+      "region": "India",
+      "state": "",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [],
+      "salary": "",
+      "url": "https://job-boards.greenhouse.io/emergentlabsinc/jobs/4307283009",
+      "source": "Greenhouse",
+      "postedAt": "2026-07-07T07:32:25-04:00"
+    },
+    {
+      "id": "Eures-OTcxYjY3NWYtNzdiYi00MTE3LWJhMDktN2RkMDE2ZWQzZmFjIDM",
+      "title": "UX Designer - Researcher",
+      "company": "The Stepstone Group Belgium NV",
+      "location": "BE (BE100)",
+      "region": "Europe",
+      "state": "",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [],
+      "salary": "",
+      "url": "https://europa.eu/eures/portal/jv-se/jv-details/OTcxYjY3NWYtNzdiYi00MTE3LWJhMDktN2RkMDE2ZWQzZmFjIDM?lang=en",
+      "source": "Eures",
+      "postedAt": "2026-07-07T04:45:03.382000"
+    },
+    {
       "id": "Lever-a546b2ca-fd7a-458a-97be-b89cd89fa42b",
       "title": "Computational Design Research Engineer",
       "company": "Foundation Llm Technologies",
@@ -35,19 +110,51 @@
       "postedAt": "2026-07-07T00:20:47.474000"
     },
     {
-      "id": "Bundesagentur-12288-4876742111-S",
-      "title": "UX-Research (m/w/d)",
+      "id": "Phenom-JR0307745",
+      "title": "Designer Senior, User Research Technology",
+      "company": "Fisglobal",
+      "location": "San Francisco, California, United States of America",
+      "region": "US",
+      "state": "CA",
+      "locationType": "onsite",
+      "seniority": "senior",
+      "tags": [],
+      "salary": "",
+      "url": "https://careers.fisglobal.com/job/JR0307745",
+      "source": "Phenom",
+      "postedAt": "2026-07-07T00:00:00+00:00"
+    },
+    {
+      "id": "Oracle-210760155",
+      "title": "Research Production Specialist - Research Operations",
+      "company": "J.P. Morgan",
+      "location": "Mumbai, Maharashtra, India",
+      "region": "India",
+      "state": "",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [
+        "research ops"
+      ],
+      "salary": "",
+      "url": "https://jpmc.fa.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX_1001#210760155",
+      "source": "Oracle",
+      "postedAt": "2026-07-07T00:00:00"
+    },
+    {
+      "id": "Eures-MTIyODgtNDg3Njc0MjExMS1TIDE",
+      "title": "UX-Research (m/w/d) (UX-Researcher/in)",
       "company": "Permacon Gmbh München",
-      "location": "Regensburg, Bayern, Deutschland",
+      "location": "DE (DE232)",
       "region": "Europe",
       "state": "",
       "locationType": "onsite",
       "seniority": "mid",
       "tags": [],
       "salary": "",
-      "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4876742111-S",
-      "source": "Bundesagentur",
-      "postedAt": "2026-07-07T00:00:00"
+      "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTIyODgtNDg3Njc0MjExMS1TIDE?lang=en",
+      "source": "Eures",
+      "postedAt": "2026-07-06T22:25:26.590000"
     },
     {
       "id": "Smartrecruiters-744000136107169",
@@ -332,36 +439,6 @@
       "postedAt": "2026-07-02T00:00:00+00:00"
     },
     {
-      "id": "Phenom-2026-0018351",
-      "title": "UX Researcher - Digital Experience (Business Banking)",
-      "company": "U.S. Bank",
-      "location": "Minneapolis, MN, United States",
-      "region": "US",
-      "state": "MN",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [],
-      "salary": "",
-      "url": "https://careers.usbank.com/job/2026-0018351",
-      "source": "Phenom",
-      "postedAt": "2026-07-02T00:00:00+00:00"
-    },
-    {
-      "id": "Ashby-96511ddc-d298-433f-af62-53db25ac0a5c",
-      "title": "Senior Design Researcher, WHOOP Labs Doha",
-      "company": "WHOOP",
-      "location": "Doha",
-      "region": "Rest of World",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [],
-      "salary": "",
-      "url": "https://jobs.ashbyhq.com/whoop/96511ddc-d298-433f-af62-53db25ac0a5c",
-      "source": "Ashby",
-      "postedAt": "2026-07-01T21:15:57.280000+00:00"
-    },
-    {
       "id": "Smartrecruiters-744000135340079",
       "title": "Sr. UX Researcher",
       "company": "Nbcuniversal",
@@ -407,21 +484,6 @@
       "postedAt": "2026-07-01T08:51:49.241000"
     },
     {
-      "id": "Eures-OTVkNWYyOGMtNWI0My00OGUxLTg5MjAtMmU0NjkxNWU1YjQ2IDM",
-      "title": "UX Designer - Researcher",
-      "company": "The Stepstone Group Belgium NV",
-      "location": "BE (BE100)",
-      "region": "Europe",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [],
-      "salary": "",
-      "url": "https://europa.eu/eures/portal/jv-se/jv-details/OTVkNWYyOGMtNWI0My00OGUxLTg5MjAtMmU0NjkxNWU1YjQ2IDM?lang=en",
-      "source": "Eures",
-      "postedAt": "2026-07-01T08:12:17.762000"
-    },
-    {
       "id": "Eures-ZjgyYzM0ZjktYmY4OC00ZTZlLWExOTgtMTFhZWU2NmFmZDliIDM",
       "title": "Smals - UX Designer - Researcher",
       "company": "Ictjob BV",
@@ -437,19 +499,19 @@
       "postedAt": "2026-07-01T08:04:33.645000"
     },
     {
-      "id": "Bundesagentur-12811-2256584-S",
-      "title": "Venture Architect (m/w/d) Fokus User Research & Business Idea Testing,Erlangen,Mobiles Arbe...",
-      "company": "Thieme Group / Thieme Compliance Gmbh",
-      "location": "Erlangen, Bayern, Deutschland",
+      "id": "Eures-MjEwTkdTRiA5",
+      "title": "Business Analyst - User Research (H/F)",
+      "company": "Octime",
+      "location": "FR (FR101)",
       "region": "Europe",
       "state": "",
       "locationType": "onsite",
       "seniority": "mid",
       "tags": [],
       "salary": "",
-      "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2256584-S",
-      "source": "Bundesagentur",
-      "postedAt": "2026-07-01T00:00:00"
+      "url": "https://europa.eu/eures/portal/jv-se/jv-details/MjEwTkdTRiA5?lang=en",
+      "source": "Eures",
+      "postedAt": "2026-07-01T07:21:17"
     },
     {
       "id": "Eures-MTIyODgtNDg2ODc4NzQwMS1TIDE",
@@ -514,21 +576,6 @@
       "url": "https://job-boards.eu.greenhouse.io/iai/jobs/4912060101",
       "source": "Greenhouse",
       "postedAt": "2026-06-30T09:44:53-04:00"
-    },
-    {
-      "id": "Lever-ba4b8440-2532-42e7-a13c-28ea6891956a",
-      "title": "Sr. UX Researcher",
-      "company": "Jobgether",
-      "location": "India",
-      "region": "India",
-      "state": "",
-      "locationType": "remote",
-      "seniority": "senior",
-      "tags": [],
-      "salary": "",
-      "url": "https://jobs.lever.co/jobgether/ba4b8440-2532-42e7-a13c-28ea6891956a",
-      "source": "Lever",
-      "postedAt": "2026-06-30T05:30:24.251000"
     },
     {
       "id": "Ashby-e1cc1336-f396-45fd-aa1b-894771b0ccfe",
@@ -611,14 +658,16 @@
     },
     {
       "id": "Greenhouse-8036177",
-      "title": "Senior UX Researcher",
+      "title": "Senior UX Strategist & Researcher, Research Operations",
       "company": "Hellofresh",
       "location": "Boulder, Colorado, United States",
       "region": "US",
       "state": "CO",
       "locationType": "onsite",
       "seniority": "senior",
-      "tags": [],
+      "tags": [
+        "research ops"
+      ],
       "salary": "",
       "url": "https://careers.hellofresh.com/global/en/job/8036177?gh_jid=8036177",
       "source": "Greenhouse",
@@ -1067,21 +1116,6 @@
       "postedAt": "2026-06-23T21:03:18.904000"
     },
     {
-      "id": "Smartrecruiters-3743990013748197",
-      "title": "Senior User Research Analyst - Port of San Francisco (9976)",
-      "company": "City of San Francisco",
-      "location": "San Francisco, CA, us",
-      "region": "US",
-      "state": "CA",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [],
-      "salary": "",
-      "url": "https://jobs.smartrecruiters.com/cityandcountyofsanfrancisco1/3743990013748197",
-      "source": "Smartrecruiters",
-      "postedAt": "2026-06-23T17:09:19.028000+00:00"
-    },
-    {
       "id": "Ashby-6684931f-a85f-4849-9240-e2329b21305f",
       "title": "UXR Operations Lead, AI",
       "company": "Harvey",
@@ -1157,21 +1191,6 @@
       "url": "https://jobs.smartrecruiters.com/version1/744000133323889",
       "source": "Smartrecruiters",
       "postedAt": "2026-06-22T10:10:39.695000+00:00"
-    },
-    {
-      "id": "Greenhouse-5247994008",
-      "title": "UX Researcher",
-      "company": "Renaissancelearning Emea",
-      "location": "London",
-      "region": "UK & Ireland",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [],
-      "salary": "",
-      "url": "https://job-boards.greenhouse.io/renaissancelearning-emea/jobs/5247994008",
-      "source": "Greenhouse",
-      "postedAt": "2026-06-22T09:27:47-04:00"
     },
     {
       "id": "Greenhouse-7988144",
@@ -1294,21 +1313,6 @@
       "postedAt": "2026-06-19T20:24:47.911000+00:00"
     },
     {
-      "id": "Greenhouse-6016098004",
-      "title": "UX Research Analyst",
-      "company": "Banco Pan",
-      "location": "São Paulo",
-      "region": "Rest of World",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [],
-      "salary": "",
-      "url": "https://job-boards.greenhouse.io/bancopan/jobs/6016098004",
-      "source": "Greenhouse",
-      "postedAt": "2026-06-19T16:09:03-04:00"
-    },
-    {
       "id": "Greenhouse-7927970",
       "title": "UX Research Operator (계약직)",
       "company": "Coupang",
@@ -1373,23 +1377,6 @@
       "url": "https://www.welcometothejungle.com/en/companies/UkUoSa/jobs/senior-ai-product-manager-ai-strategy-ba-ux-research-co-design_carouge",
       "source": "Welcometothejungle",
       "postedAt": "2026-06-18T13:37:35+00:00"
-    },
-    {
-      "id": "Eures-NTQ3ZjY2NWQtMGEwZi0wZjQ2LWUwNjMtNjg5M2IyMGEzNTA2IDQy",
-      "title": "Human Factors Engineer (Ergonomics)",
-      "company": "Unknown",
-      "location": "NL (NL414)",
-      "region": "Europe",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "human factors"
-      ],
-      "salary": "",
-      "url": "https://europa.eu/eures/portal/jv-se/jv-details/NTQ3ZjY2NWQtMGEwZi0wZjQ2LWUwNjMtNjg5M2IyMGEzNTA2IDQy?lang=en",
-      "source": "Eures",
-      "postedAt": "2026-06-18T01:12:04.987000"
     },
     {
       "id": "Welcometothejungle-248932b5-de78-4178-9905-5627bb021511",
@@ -2166,21 +2153,6 @@
       "postedAt": "2026-05-29T07:56:23.390000+00:00"
     },
     {
-      "id": "Greenhouse-7965807",
-      "title": "Senior UX Researcher, Supply (B2B)",
-      "company": "GetYourGuide",
-      "location": "Berlin",
-      "region": "Europe",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [],
-      "salary": "",
-      "url": "https://getyourguide.careers/jobs/7965807?gh_jid=7965807",
-      "source": "Greenhouse",
-      "postedAt": "2026-05-29T07:09:11-04:00"
-    },
-    {
       "id": "Oracle-112757",
       "title": "Human Factors/Scientist II",
       "company": "Unknown",
@@ -2211,21 +2183,6 @@
       "url": "https://account.amazon.jobs/jobs/10433902/apply",
       "source": "Amazon",
       "postedAt": "2026-05-29T00:00:00"
-    },
-    {
-      "id": "Eures-MTE4NTgtU0RFLTk3MDI2LVNUQS1TIDE",
-      "title": "UX Researcher - Employee Experience (w/m/d) (UX-Researcher/in)",
-      "company": "Ing Deutschland",
-      "location": "DE (DE712)",
-      "region": "Europe",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [],
-      "salary": "",
-      "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTE4NTgtU0RFLTk3MDI2LVNUQS1TIDE?lang=en",
-      "source": "Eures",
-      "postedAt": "2026-05-28T22:41:39.114000"
     },
     {
       "id": "Ashby-a4acda16-94b4-4ecd-9901-c329706604c9",
@@ -3630,6 +3587,23 @@
       "postedAt": ""
     },
     {
+      "id": "Workday-31154480",
+      "title": "Associate Human Factors Engineer",
+      "company": "Abbott",
+      "location": "Ireland - Galway",
+      "region": "UK & Ireland",
+      "state": "",
+      "locationType": "onsite",
+      "seniority": "junior",
+      "tags": [
+        "human factors"
+      ],
+      "salary": "",
+      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Ireland---Galway/Associate-Human-Factors-Engineer_31154480",
+      "source": "Workday",
+      "postedAt": ""
+    },
+    {
       "id": "Workday-31155049",
       "title": "Sr. Human Factors Engineer",
       "company": "Abbott",
@@ -3642,7 +3616,7 @@
         "human factors"
       ],
       "salary": "",
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States---Minnesota---St-Paul/Sr-Human-Factors-Engineer_31155049-2",
+      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers2/job/United-States---Minnesota---St-Paul/Sr-Human-Factors-Engineer_31155049-1",
       "source": "Workday",
       "postedAt": ""
     },
@@ -3694,6 +3668,21 @@
       "postedAt": ""
     },
     {
+      "id": "Workday-R-57288",
+      "title": "UX Research Lead***Chargé de recherche UX",
+      "company": "Ipex",
+      "location": "CA - Oakville 3 - Office",
+      "region": "US",
+      "state": "CA",
+      "locationType": "onsite",
+      "seniority": "lead",
+      "tags": [],
+      "salary": "",
+      "url": "https://aliaxis.wd3.myworkdayjobs.com/ipex/job/CA---Oakville-3---Office/UX-Research-Lead---Charg-de-recherche-UX_R-57288",
+      "source": "Workday",
+      "postedAt": ""
+    },
+    {
       "id": "Workday-R-010809",
       "title": "UX Researcher",
       "company": "Alliedsolutions",
@@ -3709,17 +3698,17 @@
       "postedAt": ""
     },
     {
-      "id": "Workday-R26_2518",
-      "title": "Senior Manager - UX Research",
-      "company": "Ameriprise",
-      "location": "Minneapolis, Minnesota",
+      "id": "Workday-R-57288",
+      "title": "UX Research Lead***Chargé de recherche UX",
+      "company": "Aliaxis",
+      "location": "CA - Oakville 3 - Office",
       "region": "US",
-      "state": "MN",
+      "state": "CA",
       "locationType": "onsite",
       "seniority": "lead",
       "tags": [],
       "salary": "",
-      "url": "https://ameriprise.wd5.myworkdayjobs.com/ameriprise/job/Minneapolis-Minnesota/Senior-Manager---UX-Research_R26_2518-1",
+      "url": "https://aliaxis.wd3.myworkdayjobs.com/aliaxis/job/CA---Oakville-3---Office/UX-Research-Lead---Charg-de-recherche-UX_R-57288-1",
       "source": "Workday",
       "postedAt": ""
     },
@@ -3739,6 +3728,21 @@
       "postedAt": ""
     },
     {
+      "id": "Workday-R26_2518",
+      "title": "Senior Manager - UX Research",
+      "company": "Ameriprise",
+      "location": "Minneapolis, Minnesota",
+      "region": "US",
+      "state": "MN",
+      "locationType": "onsite",
+      "seniority": "lead",
+      "tags": [],
+      "salary": "",
+      "url": "https://ameriprise.wd5.myworkdayjobs.com/ameriprise/job/Minneapolis-Minnesota/Senior-Manager---UX-Research_R26_2518-1",
+      "source": "Workday",
+      "postedAt": ""
+    },
+    {
       "id": "Workday-R-2026-47073",
       "title": "UX Researcher",
       "company": "Alcon",
@@ -3750,23 +3754,6 @@
       "tags": [],
       "salary": "",
       "url": "https://alcon.wd5.myworkdayjobs.com/careers_alcon/job/Fort-Worth-Texas/UX-Researcher_R-2026-47073-2",
-      "source": "Workday",
-      "postedAt": ""
-    },
-    {
-      "id": "Workday-R-246714",
-      "title": "Engineer- Human Factors Engineer / Usability Engineer (HF/ UE)",
-      "company": "Amgen",
-      "location": "2 Locations",
-      "region": "US",
-      "state": "US",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "human factors"
-      ],
-      "salary": "",
-      "url": "https://amgen.wd1.myworkdayjobs.com/careers/job/US---California---Thousand-Oaks/Engineer--Human-Factors-Engineer---Usability-Engineer--HF--UE-_R-246714",
       "source": "Workday",
       "postedAt": ""
     },
@@ -3912,6 +3899,23 @@
       "postedAt": ""
     },
     {
+      "id": "Workday-R67712",
+      "title": "Principal Human Factors Engineer - Lunar",
+      "company": "Blueorigin",
+      "location": "4 Locations",
+      "region": "US",
+      "state": "US",
+      "locationType": "onsite",
+      "seniority": "staff",
+      "tags": [
+        "human factors"
+      ],
+      "salary": "",
+      "url": "https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Greater-Seattle-Area/Principal-Human-Factors-Engineer---Lunar_R67712",
+      "source": "Workday",
+      "postedAt": ""
+    },
+    {
       "id": "Workday-JR2026515546",
       "title": "Flight Deck and Human Factors Manager",
       "company": "Boeing",
@@ -3975,7 +3979,7 @@
     },
     {
       "id": "Workday-R1111589",
-      "title": "Lead - Mixed Methods Research",
+      "title": "Senior Research Manager – Mixed Methods",
       "company": "Dentsuaegis",
       "location": "DGS India - Mumbai - Thane Ashar IT Park",
       "region": "India",
@@ -4036,21 +4040,6 @@
       "postedAt": ""
     },
     {
-      "id": "Workday-JR5521",
-      "title": "Staff UX Researcher",
-      "company": "Etsy",
-      "location": "Brooklyn, New York",
-      "region": "US",
-      "state": "NY",
-      "locationType": "remote",
-      "seniority": "staff",
-      "tags": [],
-      "salary": "",
-      "url": "https://etsy.wd5.myworkdayjobs.com/etsy_careers/job/Brooklyn-New-York/Staff-UX-Researcher_JR5521",
-      "source": "Workday",
-      "postedAt": ""
-    },
-    {
       "id": "Workday-R00030260",
       "title": "Human Factors Specialist",
       "company": "Erm",
@@ -4085,6 +4074,21 @@
       "postedAt": ""
     },
     {
+      "id": "Workday-JR5521",
+      "title": "Staff UX Researcher",
+      "company": "Etsy",
+      "location": "Brooklyn, New York",
+      "region": "US",
+      "state": "NY",
+      "locationType": "remote",
+      "seniority": "staff",
+      "tags": [],
+      "salary": "",
+      "url": "https://etsy.wd5.myworkdayjobs.com/etsy_careers/job/Brooklyn-New-York/Staff-UX-Researcher_JR5521",
+      "source": "Workday",
+      "postedAt": ""
+    },
+    {
       "id": "Workday-JR0021773",
       "title": "Lead User Researcher (12 month FTC)",
       "company": "Fca",
@@ -4114,6 +4118,21 @@
       ],
       "salary": "",
       "url": "https://expedia.wd108.myworkdayjobs.com/search/job/Washington---Seattle-Campus/Principal-Quantitative-User-Experience-Researcher--AI_R-106384-1",
+      "source": "Workday",
+      "postedAt": ""
+    },
+    {
+      "id": "Workday-JR0307745",
+      "title": "Designer Senior, User Research Technology",
+      "company": "Fis",
+      "location": "US CA SFO Virtual",
+      "region": "US",
+      "state": "CA",
+      "locationType": "onsite",
+      "seniority": "senior",
+      "tags": [],
+      "salary": "",
+      "url": "https://fis.wd5.myworkdayjobs.com/searchjobs/job/US-CA-SFO-Virtual/Designer-Senior--User-Research-Technology_JR0307745",
       "source": "Workday",
       "postedAt": ""
     },
@@ -4248,6 +4267,36 @@
       "postedAt": ""
     },
     {
+      "id": "Workday-3165568",
+      "title": "College Intern – UX Research",
+      "company": "HP",
+      "location": "Singapore, South West, Singapore",
+      "region": "APAC",
+      "state": "",
+      "locationType": "onsite",
+      "seniority": "junior",
+      "tags": [],
+      "salary": "",
+      "url": "https://hp.wd5.myworkdayjobs.com/externalcareersite/job/Singapore-South-West-Singapore/College-Intern---UX-Research_3165568",
+      "source": "Workday",
+      "postedAt": ""
+    },
+    {
+      "id": "Workday-REQ-2251",
+      "title": "CX/UX Researcher (Fixed-Term 12 months)",
+      "company": "Interac Corp",
+      "location": "Toronto",
+      "region": "Canada",
+      "state": "",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [],
+      "salary": "",
+      "url": "https://interac.wd3.myworkdayjobs.com/interac/job/Toronto/CX-UX-Researcher--Fixed-Term-12-months-_REQ-2251",
+      "source": "Workday",
+      "postedAt": ""
+    },
+    {
       "id": "Workday-REQ-2026-15989",
       "title": "Staff User Experience (UX) Researcher (Hybrid-Acton, MA or San Diego, CA)",
       "company": "Insulet Corporation",
@@ -4276,21 +4325,6 @@
       ],
       "salary": "",
       "url": "https://insulet.wd5.myworkdayjobs.com/insuletcareers/job/Acton-Massachusetts/Manager--Human-Factors-Engineering--Hybrid-Acton--MA-_REQ-2026-16404",
-      "source": "Workday",
-      "postedAt": ""
-    },
-    {
-      "id": "Workday-REQ-2251",
-      "title": "CX/UX Researcher (Fixed-Term 12 months)",
-      "company": "Interac Corp",
-      "location": "Toronto",
-      "region": "Canada",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [],
-      "salary": "",
-      "url": "https://interac.wd3.myworkdayjobs.com/interac/job/Toronto/CX-UX-Researcher--Fixed-Term-12-months-_REQ-2251",
       "source": "Workday",
       "postedAt": ""
     },
@@ -4670,23 +4704,6 @@
       "postedAt": ""
     },
     {
-      "id": "Workday-202605-112571",
-      "title": "Senior Human Factors Engineer",
-      "company": "Roche",
-      "location": "South San Francisco",
-      "region": "US",
-      "state": "US",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [
-        "human factors"
-      ],
-      "salary": "",
-      "url": "https://roche.wd3.myworkdayjobs.com/rog-a2o-gene/job/South-San-Francisco/Senior-Human-Factors-Engineer_202605-112571-1",
-      "source": "Workday",
-      "postedAt": ""
-    },
-    {
       "id": "Workday-JR_050593",
       "title": "UX Researcher",
       "company": "Resmed",
@@ -4713,6 +4730,23 @@
       "tags": [],
       "salary": "",
       "url": "https://resmed.wd3.myworkdayjobs.com/resmed_external_careers/job/CN-Shanghai/UX-Researcher_JR_043967-1",
+      "source": "Workday",
+      "postedAt": ""
+    },
+    {
+      "id": "Workday-202605-112571",
+      "title": "Senior Human Factors Engineer",
+      "company": "Roche",
+      "location": "South San Francisco",
+      "region": "US",
+      "state": "US",
+      "locationType": "onsite",
+      "seniority": "senior",
+      "tags": [
+        "human factors"
+      ],
+      "salary": "",
+      "url": "https://roche.wd3.myworkdayjobs.com/rog-a2o-gene/job/South-San-Francisco/Senior-Human-Factors-Engineer_202605-112571-1",
       "source": "Workday",
       "postedAt": ""
     },
@@ -5038,6 +5072,21 @@
       "postedAt": ""
     },
     {
+      "id": "Workday-JR102628",
+      "title": "Senior UX Researcher",
+      "company": "Independencepet Group",
+      "location": "4 Locations",
+      "region": "US",
+      "state": "Remote",
+      "locationType": "remote",
+      "seniority": "senior",
+      "tags": [],
+      "salary": "",
+      "url": "https://independencepetgroup.wd12.myworkdayjobs.com/careers/job/Illinois/Senior-UX-Researcher_JR102628",
+      "source": "Workday",
+      "postedAt": ""
+    },
+    {
       "id": "Workday-R154151",
       "title": "Senior UX Researcher - Temporary assignment",
       "company": "Intactfc",
@@ -5098,6 +5147,21 @@
       "postedAt": ""
     },
     {
+      "id": "Google-135712944682869446",
+      "title": "Senior UX Researcher, YouTube Shorts Creation",
+      "company": "Google",
+      "location": "San Bruno, CA, USA",
+      "region": "US",
+      "state": "CA",
+      "locationType": "onsite",
+      "seniority": "senior",
+      "tags": [],
+      "salary": "",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/135712944682869446-senior-ux-researcher-youtube-shorts-creation",
+      "source": "Google",
+      "postedAt": ""
+    },
+    {
       "id": "Google-123357048548008646",
       "title": "Senior UX Research Program Manager, Payments",
       "company": "Google",
@@ -5139,21 +5203,6 @@
       "tags": [],
       "salary": "",
       "url": "https://www.google.com/about/careers/applications/jobs/results/86147107605357254-senior-ux-researcher-search-ads",
-      "source": "Google",
-      "postedAt": ""
-    },
-    {
-      "id": "Google-95709725588366022",
-      "title": "Senior User Experience Researcher, Google Pay",
-      "company": "Google",
-      "location": "Bengaluru, Karnataka, India",
-      "region": "India",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [],
-      "salary": "",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/95709725588366022-senior-user-experience-researcher-google-pay",
       "source": "Google",
       "postedAt": ""
     },
@@ -5535,6 +5584,36 @@
       "salary": "",
       "url": "https://lifeattiktok.com/search/7657767734512437557",
       "source": "Tiktok",
+      "postedAt": ""
+    },
+    {
+      "id": "Builtin-10091077",
+      "title": "UX Researcher",
+      "company": "Unknown",
+      "location": "",
+      "region": "US",
+      "state": "US",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [],
+      "salary": "",
+      "url": "https://builtin.com/job/ux-researcher/10091077",
+      "source": "Builtin",
+      "postedAt": ""
+    },
+    {
+      "id": "Builtin-9717682",
+      "title": "Director of UX Research, Dating Outcomes & Platform",
+      "company": "Unknown",
+      "location": "",
+      "region": "US",
+      "state": "US",
+      "locationType": "onsite",
+      "seniority": "lead",
+      "tags": [],
+      "salary": "",
+      "url": "https://builtin.com/job/director-ux-research-dating-outcomes-platform/9717682",
+      "source": "Builtin",
       "postedAt": ""
     },
     {
