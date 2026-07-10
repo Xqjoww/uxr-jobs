@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-10T09:23:08Z",
-  "count": 364,
+  "updated": "2026-07-10T14:06:44Z",
+  "count": 363,
   "roles": [
     {
       "id": "Bundesagentur-10001-1003353167-S",
@@ -2971,23 +2971,6 @@
       "url": "https://job-boards.greenhouse.io/stackadapt/jobs/4244148009",
       "source": "Greenhouse",
       "postedAt": "2026-05-11T22:36:51-04:00"
-    },
-    {
-      "id": "Greenhouse-5215708008",
-      "title": "Senior UX Designer (Research & AI)",
-      "company": "Energyexemplarllc",
-      "location": "Pune, Maharashtra, India",
-      "region": "India",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [
-        "ai"
-      ],
-      "salary": "",
-      "url": "https://job-boards.greenhouse.io/energyexemplarllc/jobs/5215708008",
-      "source": "Greenhouse",
-      "postedAt": "2026-05-11T09:46:08-04:00"
     },
     {
       "id": "Personio-2669468",
