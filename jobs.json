@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-09T19:29:29Z",
-  "count": 365,
+  "updated": "2026-07-10T02:14:26Z",
+  "count": 364,
   "roles": [
     {
       "id": "Bundesagentur-10001-1003353167-S",
@@ -2988,23 +2988,6 @@
       "url": "https://job-boards.greenhouse.io/energyexemplarllc/jobs/5215708008",
       "source": "Greenhouse",
       "postedAt": "2026-05-11T09:46:08-04:00"
-    },
-    {
-      "id": "Amazon-10416519",
-      "title": "Senior UX Researcher, Applied AI Solution",
-      "company": "Amazon",
-      "location": "Sunnyvale, California, USA",
-      "region": "US",
-      "state": "CA",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [
-        "ai"
-      ],
-      "salary": "",
-      "url": "https://account.amazon.jobs/jobs/10416519/apply",
-      "source": "Amazon",
-      "postedAt": "2026-05-11T00:00:00"
     },
     {
       "id": "Personio-2669468",
