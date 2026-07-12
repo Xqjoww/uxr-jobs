@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-12T08:05:47Z",
-  "count": 370,
+  "updated": "2026-07-12T13:03:47Z",
+  "count": 369,
   "roles": [
     {
       "id": "Welcometothejungle-6781206e-0b89-4ac4-92fc-bbaa3518b7ab",
@@ -2971,21 +2971,6 @@
       "url": "https://job-boards.greenhouse.io/dept/jobs/7921189",
       "source": "Greenhouse",
       "postedAt": "2026-05-13T10:31:03-04:00"
-    },
-    {
-      "id": "Greenhouse-7733093003",
-      "title": "Senior UX Researcher",
-      "company": "SentinelOne",
-      "location": "Brno, South Moravian, Czech Republic",
-      "region": "Europe",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [],
-      "salary": "",
-      "url": "https://www.sentinelone.com/jobs/7733093003?gh_jid=7733093003",
-      "source": "Greenhouse",
-      "postedAt": "2026-05-13T08:34:31-04:00"
     },
     {
       "id": "Personio-2669468",
