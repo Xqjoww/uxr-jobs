@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-16T19:01:03Z",
-  "count": 360,
+  "updated": "2026-07-17T02:02:06Z",
+  "count": 358,
   "roles": [
     {
       "id": "Welcometothejungle-9a30d7a6-a59f-41c7-891c-67a6e3126627",
@@ -3048,38 +3048,6 @@
       "url": "https://job-boards.greenhouse.io/slingshotaerospace/jobs/5999803004?gh_jid=5999803004",
       "source": "Greenhouse",
       "postedAt": "2026-05-19T10:14:09-04:00"
-    },
-    {
-      "id": "Oracle-111787",
-      "title": "Advanced Human Factors Scientist - m/f/d",
-      "company": "Unknown",
-      "location": "Brno-Mesto, Czech Republic",
-      "region": "Europe",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "human factors"
-      ],
-      "salary": "",
-      "url": "https://icfcjb.fa.ocs.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX_1#111787",
-      "source": "Oracle",
-      "postedAt": "2026-05-18T00:00:00"
-    },
-    {
-      "id": "Amazon-10423136",
-      "title": "Principal User Researcher, Senior Talent & Transformation:  Design",
-      "company": "Amazon",
-      "location": "Seattle, Washington, USA",
-      "region": "US",
-      "state": "WA",
-      "locationType": "onsite",
-      "seniority": "staff",
-      "tags": [],
-      "salary": "",
-      "url": "https://account.amazon.jobs/jobs/10423136/apply",
-      "source": "Amazon",
-      "postedAt": "2026-05-18T00:00:00"
     },
     {
       "id": "Personio-2669468",
