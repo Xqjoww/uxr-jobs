@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-18T18:53:49Z",
-  "count": 363,
+  "updated": "2026-07-19T02:01:02Z",
+  "count": 361,
   "roles": [
     {
       "id": "Bundesagentur-15986-REF289500U-eef3500-S",
@@ -3111,38 +3111,6 @@
       "url": "https://jobs.ashbyhq.com/brigit/d344ee86-0644-4b29-9c32-882673524a20",
       "source": "Ashby",
       "postedAt": "2026-05-20T17:21:21.556000+00:00"
-    },
-    {
-      "id": "Greenhouse-8555257002",
-      "title": "Head of UX Design and Research",
-      "company": "Wing",
-      "location": "Palo Alto, California",
-      "region": "US",
-      "state": "CA",
-      "locationType": "onsite",
-      "seniority": "lead",
-      "tags": [],
-      "salary": "",
-      "url": "https://wing.com/careers/8555257002?gh_jid=8555257002",
-      "source": "Greenhouse",
-      "postedAt": "2026-05-19T17:18:35-04:00"
-    },
-    {
-      "id": "Greenhouse-7921500",
-      "title": "UX Research Ops",
-      "company": "OneTrust",
-      "location": "Atlanta, Georgia",
-      "region": "US",
-      "state": "GA",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "research ops"
-      ],
-      "salary": "",
-      "url": "https://job-boards.greenhouse.io/onetrust/jobs/7921500",
-      "source": "Greenhouse",
-      "postedAt": "2026-05-19T14:58:55-04:00"
     },
     {
       "id": "Personio-2669468",
