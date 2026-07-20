@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-19T18:58:32Z",
-  "count": 352,
+  "updated": "2026-07-20T03:12:56Z",
+  "count": 350,
   "roles": [
     {
       "id": "Eures-NTZkYWU1OWMtMTc2Yi1mZDZiLWUwNjMtNjg5M2IyMGFiYTk2IDQy",
@@ -2991,38 +2991,6 @@
       "url": "https://job-boards.greenhouse.io/monzoreferrals/jobs/7949798",
       "source": "Greenhouse",
       "postedAt": "2026-05-21T04:23:00-04:00"
-    },
-    {
-      "id": "Workable-A36A56432F",
-      "title": "UX Researcher",
-      "company": "Maker Lab",
-      "location": "Bengaluru, Karnataka, India",
-      "region": "India",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [],
-      "salary": "",
-      "url": "https://apply.workable.com/j/A36A56432F",
-      "source": "Workable",
-      "postedAt": "2026-05-21T00:00:00"
-    },
-    {
-      "id": "Smartrecruiters-744000127528120",
-      "title": "Senior Human Factors Research Engineer",
-      "company": "Intuitive",
-      "location": "Sunnyvale, CA, us",
-      "region": "US",
-      "state": "CA",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [
-        "human factors"
-      ],
-      "salary": "",
-      "url": "https://jobs.smartrecruiters.com/intuitive/744000127528120",
-      "source": "Smartrecruiters",
-      "postedAt": "2026-05-20T23:51:27.107000+00:00"
     },
     {
       "id": "Personio-2669468",
