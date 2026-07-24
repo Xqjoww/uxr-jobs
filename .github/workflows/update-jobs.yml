@@ -19,7 +19,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install "jobhive-py[scrapers]" pyarrow
+        run: pip install "ats-scrapers==0.2.0" pyarrow || pip install "ats-scrapers" pyarrow
 
       - name: Fetch jobs
         run: python fetch_jobs.py
