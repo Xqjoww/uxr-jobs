@@ -1,18 +1,21 @@
 #!/usr/bin/env python3
 """
-Build jobs.json for the UXR Jobs Board (US-only) from jobhive's hosted dataset.
+Build jobs.json for the UXR Jobs Board from the ats-scrapers (formerly
+jobhive-py) hosted dataset.
 
-Two filters run over the hosted snapshot:
-  1. is_uxr  -> keep only genuine UX/user/design research roles (and close
-                adjacents: research ops, human factors, usability, ethnography,
-                mixed methods). Explicitly rejects the look-alikes that flooded
-                the board: quantitative finance "research", academic postdocs,
-                R&D / lab / clinical research, and market research.
-  2. is_us   -> keep only US positions (by geocoordinates when present, else by
-                parsing the location text; anything clearly abroad is dropped).
+Two passes run over the hosted snapshot:
+  1. is_uxr     -> keep only genuine UX/user/design research roles (and close
+                   adjacents: research ops, human factors, usability,
+                   ethnography, mixed methods). Explicitly rejects the
+                   look-alikes that flooded the board: quantitative finance
+                   "research", academic postdocs, R&D / lab / clinical
+                   research, and market research.
+  2. region_of  -> classify every role into a region bucket (US, UK & Ireland,
+                   Europe, India, Canada, APAC, Rest of World) for the board's
+                   region buttons.
 
 Install (the GitHub Action does this for you):
-    pip install "jobhive-py[scrapers]" pyarrow
+    pip install "ats-scrapers" pyarrow
 """
 
 import io
@@ -27,9 +30,9 @@ from datetime import datetime, timezone
 import httpx
 import pandas as pd
 import pyarrow.parquet as pq
-import jobhive as jh
-from jobhive.manifest import Manifest, DEFAULT_MANIFEST_URL
-from jobhive.models import ATSType
+import ats_scrapers as jh
+from ats_scrapers.manifest import Manifest, DEFAULT_MANIFEST_URL
+from ats_scrapers.models import ATSType
 
 OUTPUT_PATH = "jobs.json"
 
@@ -511,20 +514,25 @@ def classify_location(location: str, is_remote=None) -> str:
 
 
 TAG_RULES = [
-    ("ai", r"\b(ai|ml|machine learning|genai|llm)\b"),
-    ("quant", r"\bquantitative\b"),
-    ("qual", r"\bqualitative\b"),
-    ("mixed methods", r"\bmixed[\s-]?methods?\b"),
-    ("research ops", r"research\s?op"),
-    ("design systems", r"\bdesign systems?\b"),
-    ("human factors", r"\bhuman factors\b"),
-    ("accessibility", r"\b(accessibility|a11y)\b"),
+    ("AI", r"\b(ai|a\.i\.|ml|machine learning|gen\s?ai|generative ai|llms?|artificial intelligence)\b"),
+    ("Quantitative", r"\b(quant|quantitative|statistic\w*|psychometric\w*|econometric\w*|"
+                     r"causal|experimentation|data scien\w*|analytic\w*)\b"),
+    ("Mixed Methods", r"\bmixed[\s-]?methods?\b"),
+    ("Qualitative", r"\b(qualitative|ethnograph\w*|usability|contextual inquiry|"
+                    r"generative research|foundational research)\b"),
+    ("Research Ops", r"\bresearch[\s-]?op\w*\b"),
 ]
 
 
 def derive_tags(title: str):
+    """Method-first tags. A role's method is rarely spelled out, so anything with
+    no explicit quant / mixed / AI signal is treated as Qualitative (the UXR
+    default: interviews, usability, generative work)."""
     t = (title or "").lower()
-    return [label for label, pat in TAG_RULES if re.search(pat, t)][:3]
+    tags = [label for label, pat in TAG_RULES if re.search(pat, t)]
+    if not tags:
+        tags = ["Qualitative"]
+    return tags[:3]
 
 
 def source_label(ats_type) -> str:
