@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-25T07:55:14Z",
-  "count": 352,
+  "updated": "2026-07-25T13:08:17Z",
+  "count": 351,
   "roles": [
     {
       "id": "Ashby-23747ca1-3eb7-4f08-9301-7a9a1d64b983",
@@ -3282,23 +3282,6 @@
       "url": "https://toss.im/career/job-detail?gh_jid=7749155003",
       "source": "Greenhouse",
       "postedAt": "2026-05-27T02:04:05-04:00"
-    },
-    {
-      "id": "Greenhouse-6004599004",
-      "title": "Human Factors Engineer",
-      "company": "Oklo",
-      "location": "Santa Clara, CA or Remote",
-      "region": "US",
-      "state": "CA",
-      "locationType": "remote",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://job-boards.greenhouse.io/oklo/jobs/6004599004",
-      "source": "Greenhouse",
-      "postedAt": "2026-05-26T07:49:43-04:00"
     },
     {
       "id": "Personio-2586086",
