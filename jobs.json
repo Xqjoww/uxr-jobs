@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-26T02:05:34Z",
-  "count": 352,
+  "updated": "2026-07-26T08:13:43Z",
+  "count": 350,
   "roles": [
     {
       "id": "Icims-2334",
@@ -3282,40 +3282,6 @@
       "url": "https://account.amazon.jobs/jobs/10433838/apply",
       "source": "Amazon",
       "postedAt": "2026-05-28T00:00:00"
-    },
-    {
-      "id": "Icims-2452",
-      "title": "Human Factors Scientist (Ph.D.)",
-      "company": "Exponent",
-      "location": "New York, NY, US",
-      "region": "US",
-      "state": "NY",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://careers-exponent.icims.com/jobs/2452/human-factors-scientist-%28ph.d.%29/job?in_iframe=1",
-      "source": "Icims",
-      "postedAt": "2026-05-27T04:00:00+00:00"
-    },
-    {
-      "id": "Greenhouse-7749155003",
-      "title": "[증권] Japan Hiring - UX Researcher",
-      "company": "Tosscareers",
-      "location": "Seoul",
-      "region": "APAC",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://toss.im/career/job-detail?gh_jid=7749155003",
-      "source": "Greenhouse",
-      "postedAt": "2026-05-27T02:04:05-04:00"
     },
     {
       "id": "Personio-2586086",
