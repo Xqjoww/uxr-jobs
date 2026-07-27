@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-26T19:01:17Z",
-  "count": 350,
+  "updated": "2026-07-27T02:13:27Z",
+  "count": 349,
   "roles": [
     {
       "id": "Bundesagentur-10001-1003443629-S",
@@ -3299,23 +3299,6 @@
       "url": "https://icfcjb.fa.ocs.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX_1#112757",
       "source": "Oracle",
       "postedAt": "2026-05-29T00:00:00"
-    },
-    {
-      "id": "Amazon-10433838",
-      "title": "UX Researcher II, Global Procurement Technology",
-      "company": "Amazon",
-      "location": "Bellevue, Washington, USA",
-      "region": "US",
-      "state": "WA",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://account.amazon.jobs/jobs/10433838/apply",
-      "source": "Amazon",
-      "postedAt": "2026-05-28T00:00:00"
     },
     {
       "id": "Personio-2586086",
