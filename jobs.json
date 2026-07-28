@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-28T02:19:51Z",
-  "count": 319,
+  "updated": "2026-07-28T08:21:53Z",
+  "count": 318,
   "roles": [
     {
       "id": "Eures-MTAwMDEtMTAwMzQ0MzYyOS1TIDE",
@@ -3265,23 +3265,6 @@
       "url": "https://jobs.gem.com/fetch/am9icG9zdDqymHcmYiQ49OpjFjuvveQ8",
       "source": "Gem",
       "postedAt": "2026-05-29T21:36:30"
-    },
-    {
-      "id": "Breezy-495d9ae860b401",
-      "title": "User Research Ops F/M",
-      "company": "Betclic Group",
-      "location": "Bordeaux, FR",
-      "region": "Europe",
-      "state": "",
-      "locationType": "remote",
-      "seniority": "mid",
-      "tags": [
-        "Research Ops"
-      ],
-      "salary": "",
-      "url": "https://betclic-group.breezy.hr/p/495d9ae860b401-user-research-ops-f-m",
-      "source": "Breezy",
-      "postedAt": "2026-05-29T07:56:23.390000+00:00"
     },
     {
       "id": "Personio-2586086",
