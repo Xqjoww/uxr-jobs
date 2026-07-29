@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-28T19:13:35Z",
-  "count": 343,
+  "updated": "2026-07-29T01:56:55Z",
+  "count": 342,
   "roles": [
     {
       "id": "Lever-ff478541-a607-4fa2-b178-a95c68ef5e5f",
@@ -3163,23 +3163,6 @@
       "url": "https://job-boards.greenhouse.io/hudl/jobs/7947590",
       "source": "Greenhouse",
       "postedAt": "2026-06-01T16:50:26-04:00"
-    },
-    {
-      "id": "Gem-am9icG9zdDqymHcmYiQ49OpjFjuvveQ8",
-      "title": "Principal UX Researcher, Consumer",
-      "company": "Fetch",
-      "location": "USA",
-      "region": "US",
-      "state": "Remote",
-      "locationType": "remote",
-      "seniority": "staff",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://jobs.gem.com/fetch/am9icG9zdDqymHcmYiQ49OpjFjuvveQ8",
-      "source": "Gem",
-      "postedAt": "2026-05-29T21:36:30"
     },
     {
       "id": "Personio-2586086",
