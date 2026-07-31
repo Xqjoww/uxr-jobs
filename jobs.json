@@ -1,7 +1,41 @@
 {
-  "updated": "2026-07-30T19:14:44Z",
-  "count": 329,
+  "updated": "2026-07-31T02:07:02Z",
+  "count": 337,
   "roles": [
+    {
+      "id": "Eures-NTU4OTQ3MSA5",
+      "title": "Usability / Human Factors Engineer (H/F)",
+      "company": "Médiane Système",
+      "location": "FR (FRK24)",
+      "region": "Europe",
+      "state": "",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://europa.eu/eures/portal/jv-se/jv-details/NTU4OTQ3MSA5?lang=en",
+      "source": "Eures",
+      "postedAt": "2026-07-30T08:10:37"
+    },
+    {
+      "id": "Eures-NTdjYzRiYjMtNjEzNC03MTJkLWUwNjMtNjg5M2IyMGFmOGRiIDQy",
+      "title": "UX Designer & Researcher Pensioen",
+      "company": "Unknown",
+      "location": "NL (NL366)",
+      "region": "Europe",
+      "state": "",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://europa.eu/eures/portal/jv-se/jv-details/NTdjYzRiYjMtNjEzNC03MTJkLWUwNjMtNjg5M2IyMGFmOGRiIDQy?lang=en",
+      "source": "Eures",
+      "postedAt": "2026-07-30T01:11:50.727000"
+    },
     {
       "id": "Welcometothejungle-01b937ce-425b-4ef3-935b-affb13c4c8a3",
       "title": "Senior UX Researcher (Okta Device Access)",
@@ -122,6 +156,23 @@
       "postedAt": "2026-07-29T10:18:55.899000"
     },
     {
+      "id": "Dayforce-whb:CANDIDATEPORTAL:197953",
+      "title": "Digital Customer Experience - User Experience Researcher",
+      "company": "Whitbread",
+      "location": "Chancery Ln, London, England, GB",
+      "region": "UK & Ireland",
+      "state": "",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://jobs.dayforcehcm.com/en-GB/whb/CANDIDATEPORTAL/jobs/197953",
+      "source": "Dayforce",
+      "postedAt": "2026-07-29T01:00:00+00:00"
+    },
+    {
       "id": "Teamtailor-8139004",
       "title": "Senior UX Designer & Researcher (B2B Cybersecurity SaaS)",
       "company": "Secomea",
@@ -190,23 +241,6 @@
       "postedAt": "2026-07-28T10:37:04.555000+00:00"
     },
     {
-      "id": "Eures-NTdhNDEwMDUtMDI2Yy05NzM3LWUwNjMtNjg5M2IyMGE1NGJkIDQy",
-      "title": "UX Designer & Researcher",
-      "company": "Unknown",
-      "location": "NL (NL366)",
-      "region": "Europe",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://europa.eu/eures/portal/jv-se/jv-details/NTdhNDEwMDUtMDI2Yy05NzM3LWUwNjMtNjg5M2IyMGE1NGJkIDQy?lang=en",
-      "source": "Eures",
-      "postedAt": "2026-07-28T01:12:57.699000"
-    },
-    {
       "id": "Eures-NTdhNDEwMDQtZWZlMy05NzM3LWUwNjMtNjg5M2IyMGE1NGJkIDQy",
       "title": "Senior User Researcher",
       "company": "Unknown",
@@ -273,6 +307,23 @@
       "url": "https://jobs.lever.co/jobgether/dbebe846-d792-4179-9bdf-9e7bd7d20d58",
       "source": "Lever",
       "postedAt": "2026-07-27T05:06:53.553000"
+    },
+    {
+      "id": "Paycom-14J76:214877",
+      "title": "UX Design Researcher (7225)",
+      "company": "Run Studios Llc",
+      "location": "SEATTLE, WA 98109",
+      "region": "US",
+      "state": "WA",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://www.paycomonline.net/v4/ats/web.php/portal/4e21055c7c6a8d15943dfeef3f8e0dda/jobs/214877",
+      "source": "Paycom",
+      "postedAt": "2026-07-27T00:00:00+00:00"
     },
     {
       "id": "Phenom-586105",
@@ -751,6 +802,23 @@
       "postedAt": "2026-07-20T16:21:04-04:00"
     },
     {
+      "id": "Softgarden-59224353",
+      "title": "Werkstudent (w/m/d) - GenAI User Research & Support",
+      "company": "Hörmann Digital Gmbh",
+      "location": "Freddie-Mercury-Straße 5, 80797 München, Bayern, Deutschland",
+      "region": "Europe",
+      "state": "",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [
+        "AI"
+      ],
+      "salary": "",
+      "url": "https://karriere.hoermann-gruppe.com/jobs/59224353/Werkstudent-w-m-d---GenAI-User-Research-Support/",
+      "source": "Softgarden",
+      "postedAt": "2026-07-20T15:15:30.389000+02:00"
+    },
+    {
       "id": "Lever-17571499-2e18-4c7d-b526-fbdb0bb0f381",
       "title": "UX Researcher",
       "company": "Netomi",
@@ -1106,6 +1174,23 @@
       "url": "https://www.welcometothejungle.com/en/companies/R0K5K0/jobs/business-analyst-user-research-h-f",
       "source": "Welcometothejungle",
       "postedAt": "2026-07-16T06:35:29+00:00"
+    },
+    {
+      "id": "Ukg-1915f2e3-b41d-4881-8131-8ab1df3b88ad",
+      "title": "Senior User Experience Researcher II",
+      "company": "Onestream",
+      "location": "Remote, USA, United States",
+      "region": "US",
+      "state": "Remote",
+      "locationType": "remote",
+      "seniority": "senior",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://recruiting.ultipro.com/ONE1018ONSO/JobBoard/1955ffa6-bda6-4c95-8412-2c731d693ab2/OpportunityDetail?opportunityId=1915f2e3-b41d-4881-8131-8ab1df3b88ad",
+      "source": "Ukg",
+      "postedAt": "2026-07-15T19:41:08.923000+00:00"
     },
     {
       "id": "Ashby-6cc4eee0-cf33-493b-8d83-5cece0baf976",
@@ -1599,6 +1684,23 @@
       "url": "https://denieuwezaak.nl/o/onderzoeksstage-ai-design-research-innovatie",
       "source": "Recruitee",
       "postedAt": "2026-07-08T07:22:50"
+    },
+    {
+      "id": "Paycom-0HZ22:365351",
+      "title": "Senior Human Factors Engineer (Ph.D. Level) (57093)",
+      "company": "Ats Family",
+      "location": "ARCCA LLC - PENNS PARK, PA 18943",
+      "region": "US",
+      "state": "PA",
+      "locationType": "onsite",
+      "seniority": "senior",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "$90k to $140k",
+      "url": "https://www.paycomonline.net/v4/ats/web.php/portal/1821c6983d9ba3adedfe39848c720b8f/jobs/365351",
+      "source": "Paycom",
+      "postedAt": "2026-07-08T00:00:00+00:00"
     },
     {
       "id": "Greenhouse-8050040",
@@ -2570,6 +2672,23 @@
       "postedAt": "2026-06-17T10:42:35.594000+00:00"
     },
     {
+      "id": "Dayforce-kardium:CANDIDATEPORTAL:4502",
+      "title": "Human Factors Engineer (Hybrid)",
+      "company": "Kardium Inc.",
+      "location": "155-8518 Glenlyon Parkway, Burnaby, BC, CAN",
+      "region": "Canada",
+      "state": "",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://jobs.dayforcehcm.com/en-CA/kardium/CANDIDATEPORTAL/jobs/4502",
+      "source": "Dayforce",
+      "postedAt": "2026-06-17T03:00:00+00:00"
+    },
+    {
       "id": "Workable-08D37FD888",
       "title": "UX Research Internship",
       "company": "Blueground",
@@ -3027,6 +3146,23 @@
       "url": "https://job-boards.greenhouse.io/hudl/jobs/7947590",
       "source": "Greenhouse",
       "postedAt": "2026-06-01T16:50:26-04:00"
+    },
+    {
+      "id": "Hrmos-i3design:i3D_D0008",
+      "title": "UXリサーチャー／ UX Researcher",
+      "company": "株式会社アイスリーデザイン",
+      "location": "東京都港区赤坂八丁目１番22号　NMF青山一丁目ビル３階",
+      "region": "Rest of World",
+      "state": "",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://hrmos.co/pages/i3design/jobs/i3D_D0008",
+      "source": "Hrmos",
+      "postedAt": ""
     },
     {
       "id": "Personio-2709328",
