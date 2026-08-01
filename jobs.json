@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-01T08:09:05Z",
-  "count": 385,
+  "updated": "2026-08-01T13:03:17Z",
+  "count": 384,
   "roles": [
     {
       "id": "Welcometothejungle-58f8bb75-68d7-4f9d-b795-80af8c28ba30",
@@ -3623,23 +3623,6 @@
       "url": "https://job-boards.eu.greenhouse.io/moniepoint/jobs/4880858101",
       "source": "Greenhouse",
       "postedAt": "2026-06-02T11:48:53-04:00"
-    },
-    {
-      "id": "Rippling-db252f30-a460-444b-b4c1-b952a89ba159",
-      "title": "UX Research Intern",
-      "company": "Alaan Careers",
-      "location": "Bengaluru, India",
-      "region": "India",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "junior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://ats.rippling.com/alaan-careers/jobs/db252f30-a460-444b-b4c1-b952a89ba159",
-      "source": "Rippling",
-      "postedAt": "2026-06-02T04:38:53.263000-07:00"
     },
     {
       "id": "Gupy-11475089",
