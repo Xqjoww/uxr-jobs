@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-31T19:13:49Z",
-  "count": 337,
+  "updated": "2026-08-01T02:08:07Z",
+  "count": 335,
   "roles": [
     {
       "id": "Eures-NTU4OTQ3MSA5",
@@ -3112,40 +3112,6 @@
       "url": "https://ats.rippling.com/alaan-careers/jobs/db252f30-a460-444b-b4c1-b952a89ba159",
       "source": "Rippling",
       "postedAt": "2026-06-02T04:38:53.263000-07:00"
-    },
-    {
-      "id": "Oracle-9733",
-      "title": "Director, UX & Research",
-      "company": "Unknown",
-      "location": "Austin, TX, United States",
-      "region": "US",
-      "state": "TX",
-      "locationType": "onsite",
-      "seniority": "lead",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://ejta.fa.us6.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX_1#9733",
-      "source": "Oracle",
-      "postedAt": "2026-06-02T00:00:00"
-    },
-    {
-      "id": "Greenhouse-7947590",
-      "title": "Senior Design Researcher",
-      "company": "Hudl",
-      "location": "Austin, TX, United States; Chicago, IL United States; Dallas, TX, United States; Kansas City, MO, United States; Lincoln, NE, United States; Omaha, NE, United States",
-      "region": "US",
-      "state": "TX",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://job-boards.greenhouse.io/hudl/jobs/7947590",
-      "source": "Greenhouse",
-      "postedAt": "2026-06-01T16:50:26-04:00"
     },
     {
       "id": "Hrmos-i3design:i3D_D0008",
