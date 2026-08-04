@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-03T19:22:57Z",
-  "count": 373,
+  "updated": "2026-08-04T01:52:34Z",
+  "count": 371,
   "roles": [
     {
       "id": "Eures-YmJmMzc3NzYtZGZlMC00M2UyLWFlZDEtNGQ2MmM5NDIxMzdlIDYx",
@@ -3419,40 +3419,6 @@
       "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/15861-44025497-310-S",
       "source": "Bundesagentur",
       "postedAt": "2026-06-08T00:00:00"
-    },
-    {
-      "id": "Welcometothejungle-b5bf6194-b3e0-459f-9c20-c7e88716474f",
-      "title": "UX Research H/F",
-      "company": "Groupe Vyv",
-      "location": "Paris, Ile-de-France, France",
-      "region": "Europe",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://www.welcometothejungle.com/en/companies/dxUciQ/jobs/ux-research-h-f_paris",
-      "source": "Welcometothejungle",
-      "postedAt": "2026-06-04T22:06:18+00:00"
-    },
-    {
-      "id": "Greenhouse-5156105007",
-      "title": "Senior Manager, User Research",
-      "company": "Xometry",
-      "location": "Waltham, MA",
-      "region": "US",
-      "state": "MA",
-      "locationType": "onsite",
-      "seniority": "lead",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://job-boards.greenhouse.io/xometry/jobs/5156105007",
-      "source": "Greenhouse",
-      "postedAt": "2026-06-04T17:38:07-04:00"
     },
     {
       "id": "Gupy-11475089",
