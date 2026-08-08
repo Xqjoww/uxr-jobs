@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-08T12:33:24Z",
-  "count": 372,
+  "updated": "2026-08-08T18:26:20Z",
+  "count": 370,
   "roles": [
     {
       "id": "Welcometothejungle-a9aa22ea-9c87-4ab6-924d-1dbfb1c8eba0",
@@ -3334,40 +3334,6 @@
       "url": "https://europa.eu/eures/portal/jv-se/jv-details/NDQ1MjkxIDEyMQ?lang=en",
       "source": "Eures",
       "postedAt": "2026-06-10T05:35:17.144000"
-    },
-    {
-      "id": "Lever-bf89ef33-8b5b-4140-8b61-89e67140108a",
-      "title": "Lead Product Designer (UX Research & Design Systems)",
-      "company": "Resilientco",
-      "location": "Argentina",
-      "region": "Rest of World",
-      "state": "",
-      "locationType": "remote",
-      "seniority": "lead",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://jobs.lever.co/resilientco/bf89ef33-8b5b-4140-8b61-89e67140108a",
-      "source": "Lever",
-      "postedAt": "2026-06-09T17:53:51.626000"
-    },
-    {
-      "id": "Ashby-2988feb7-781a-4161-83f7-682c6f9f26b4",
-      "title": "Senior User Experience Researcher",
-      "company": "Angi",
-      "location": "Remote - United States",
-      "region": "US",
-      "state": "Remote",
-      "locationType": "remote",
-      "seniority": "senior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://jobs.ashbyhq.com/angi/2988feb7-781a-4161-83f7-682c6f9f26b4",
-      "source": "Ashby",
-      "postedAt": "2026-06-09T17:43:00.869000+00:00"
     },
     {
       "id": "Gupy-11475089",
