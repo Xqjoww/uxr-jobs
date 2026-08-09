@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-09T12:35:07Z",
-  "count": 368,
+  "updated": "2026-08-09T18:29:57Z",
+  "count": 367,
   "roles": [
     {
       "id": "Welcometothejungle-a9aa22ea-9c87-4ab6-924d-1dbfb1c8eba0",
@@ -3283,23 +3283,6 @@
       "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTAwMDEtMTAwMzIwNDg0My1TIDE?lang=en",
       "source": "Eures",
       "postedAt": "2026-06-10T20:31:11.545000"
-    },
-    {
-      "id": "Lever-9a8d4a8f-2880-4399-899b-5c1a20f1f9a4",
-      "title": "Director of UX Research, Dating Outcomes & Platform",
-      "company": "Matchgroup",
-      "location": "New York, New York",
-      "region": "US",
-      "state": "NY",
-      "locationType": "onsite",
-      "seniority": "lead",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "$235k to $287k",
-      "url": "https://jobs.lever.co/matchgroup/9a8d4a8f-2880-4399-899b-5c1a20f1f9a4",
-      "source": "Lever",
-      "postedAt": "2026-06-10T17:38:53.418000"
     },
     {
       "id": "Gupy-11475089",
