@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-10T18:47:21Z",
-  "count": 366,
+  "updated": "2026-08-11T01:09:38Z",
+  "count": 362,
   "roles": [
     {
       "id": "Welcometothejungle-a9aa22ea-9c87-4ab6-924d-1dbfb1c8eba0",
@@ -3197,75 +3197,6 @@
       "url": "https://europa.eu/eures/portal/jv-se/jv-details/NTQxYWQxNDQtZDEzZC03OTBhLWUwNjMtNjg5M2IyMGEyYTRmIDQy?lang=en",
       "source": "Eures",
       "postedAt": "2026-06-13T01:10:57.638000"
-    },
-    {
-      "id": "Oracle-ialmme.fa.ocs.oraclecloud.com:3439",
-      "title": "Senior User Researcher",
-      "company": "Ialmme",
-      "location": "Canada",
-      "region": "Canada",
-      "state": "",
-      "locationType": "remote",
-      "seniority": "senior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://ialmme.fa.ocs.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=ciklum-career#3439",
-      "source": "Oracle",
-      "postedAt": "2026-06-12T00:00:00"
-    },
-    {
-      "id": "Eures-MTk3MzktMDA2NTI0NjU3Ni1TIDE",
-      "title": "(Senior) UX-Designer - User Research (m/w/d) (UX-Designer/in)",
-      "company": "Verlag C.h.beck Gmbh & Co. KG",
-      "location": "DE (DE212)",
-      "region": "Europe",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTk3MzktMDA2NTI0NjU3Ni1TIDE?lang=en",
-      "source": "Eures",
-      "postedAt": "2026-06-11T21:17:58.977000"
-    },
-    {
-      "id": "Greenhouse-5255881008",
-      "title": "Quantitative - Mixed Method UX Researcher IV (Consumer Insights)",
-      "company": "Lindawernerassociates",
-      "location": "United States",
-      "region": "US",
-      "state": "US",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Quantitative",
-        "Mixed Methods"
-      ],
-      "salary": "",
-      "url": "https://job-boards.greenhouse.io/lindawernerassociates/jobs/5255881008",
-      "source": "Greenhouse",
-      "postedAt": "2026-06-11T19:44:00-04:00"
-    },
-    {
-      "id": "Greenhouse-8001360",
-      "title": "Human Factors Engineer",
-      "company": "Skyryse",
-      "location": "El Segundo, CA",
-      "region": "US",
-      "state": "CA",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://job-boards.greenhouse.io/skyryse/jobs/8001360",
-      "source": "Greenhouse",
-      "postedAt": "2026-06-11T14:55:45-04:00"
     },
     {
       "id": "Gupy-11475089",
