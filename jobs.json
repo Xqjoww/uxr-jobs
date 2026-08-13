@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-12T18:53:15Z",
-  "count": 361,
+  "updated": "2026-08-13T01:19:43Z",
+  "count": 360,
   "roles": [
     {
       "id": "Welcometothejungle-a9aa22ea-9c87-4ab6-924d-1dbfb1c8eba0",
@@ -3163,23 +3163,6 @@
       "url": "https://account.amazon.jobs/jobs/10449315/apply",
       "source": "Amazon",
       "postedAt": "2026-06-15T00:00:00"
-    },
-    {
-      "id": "Welcometothejungle-f7c482aa-2e72-4666-b6aa-eb7f546bf714",
-      "title": "Senior User Researcher (Enterprise & Platform)",
-      "company": "Glean",
-      "location": "San Francisco, United States",
-      "region": "US",
-      "state": "Remote",
-      "locationType": "remote",
-      "seniority": "senior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "$185k to $210k",
-      "url": "https://www.welcometothejungle.com/en/companies/UO1waO/jobs/senior-user-researcher-enterprise-platform_san-francisco_vow6hwqh",
-      "source": "Welcometothejungle",
-      "postedAt": "2026-06-14T00:09:13+00:00"
     },
     {
       "id": "Gupy-11475089",
