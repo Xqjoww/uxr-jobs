@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-16T00:53:05Z",
-  "count": 358,
+  "updated": "2026-08-16T06:27:33Z",
+  "count": 357,
   "roles": [
     {
       "id": "Welcometothejungle-a9aa22ea-9c87-4ab6-924d-1dbfb1c8eba0",
@@ -3112,23 +3112,6 @@
       "url": "https://job-boards.greenhouse.io/gallup/jobs/4288599009",
       "source": "Greenhouse",
       "postedAt": "2026-06-17T14:15:40-04:00"
-    },
-    {
-      "id": "Dayforce-kardium:CANDIDATEPORTAL:4502",
-      "title": "Human Factors Engineer (Hybrid)",
-      "company": "Kardium Inc.",
-      "location": "155-8518 Glenlyon Parkway, Burnaby, BC, CAN",
-      "region": "Canada",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://jobs.dayforcehcm.com/en-CA/kardium/CANDIDATEPORTAL/jobs/4502",
-      "source": "Dayforce",
-      "postedAt": "2026-06-17T03:00:00+00:00"
     },
     {
       "id": "Gupy-11475089",
