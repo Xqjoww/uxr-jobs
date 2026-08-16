@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-16T12:24:37Z",
-  "count": 357,
+  "updated": "2026-08-16T18:18:10Z",
+  "count": 355,
   "roles": [
     {
       "id": "Welcometothejungle-a9aa22ea-9c87-4ab6-924d-1dbfb1c8eba0",
@@ -3078,40 +3078,6 @@
       "url": "https://www.welcometothejungle.com/en/companies/JUfGJ2/jobs/director-of-ux-research-dating-outcomes-platform_new-york_ceixr3hs",
       "source": "Welcometothejungle",
       "postedAt": "2026-06-18T00:04:14+00:00"
-    },
-    {
-      "id": "Lever-ee15f45c-fd09-471f-a526-9b553efbbc6e",
-      "title": "Design Researcher, Geospatial & Utility Operations",
-      "company": "Gridware",
-      "location": "San Francisco, CA",
-      "region": "US",
-      "state": "CA",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "$155k to $165k",
-      "url": "https://jobs.lever.co/gridware/ee15f45c-fd09-471f-a526-9b553efbbc6e",
-      "source": "Lever",
-      "postedAt": "2026-06-17T17:09:59.318000"
-    },
-    {
-      "id": "Greenhouse-4288599009",
-      "title": "Senior User Researcher",
-      "company": "Gallup",
-      "location": "San Francisco",
-      "region": "US",
-      "state": "US",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://job-boards.greenhouse.io/gallup/jobs/4288599009",
-      "source": "Greenhouse",
-      "postedAt": "2026-06-17T14:15:40-04:00"
     },
     {
       "id": "Gupy-11475089",
