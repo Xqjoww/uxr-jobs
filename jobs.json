@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-22T12:23:54Z",
-  "count": 346,
+  "updated": "2026-08-22T18:19:18Z",
+  "count": 345,
   "roles": [
     {
       "id": "Welcometothejungle-a9aa22ea-9c87-4ab6-924d-1dbfb1c8eba0",
@@ -2908,23 +2908,6 @@
       "url": "https://jobs.lever.co/kabam/28fb96f9-f044-4435-b49d-db5fd7b93857",
       "source": "Lever",
       "postedAt": "2026-06-23T21:03:18.904000"
-    },
-    {
-      "id": "Ashby-6684931f-a85f-4849-9240-e2329b21305f",
-      "title": "UXR Operations Lead, AI",
-      "company": "Harvey",
-      "location": "San Francisco",
-      "region": "US",
-      "state": "Remote",
-      "locationType": "remote",
-      "seniority": "lead",
-      "tags": [
-        "AI"
-      ],
-      "salary": "$121k to $181k",
-      "url": "https://jobs.ashbyhq.com/harvey/6684931f-a85f-4849-9240-e2329b21305f",
-      "source": "Ashby",
-      "postedAt": "2026-06-23T14:13:57.356000+00:00"
     },
     {
       "id": "Gupy-11475089",
