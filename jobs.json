@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-23T12:24:56Z",
-  "count": 343,
+  "updated": "2026-08-23T18:19:00Z",
+  "count": 341,
   "roles": [
     {
       "id": "Welcometothejungle-a9aa22ea-9c87-4ab6-924d-1dbfb1c8eba0",
@@ -2825,23 +2825,6 @@
       "postedAt": "2026-06-24T20:12:49.376000+00:00"
     },
     {
-      "id": "Apple-200669479",
-      "title": "Reliability User Research Engineering Manager",
-      "company": "Apple",
-      "location": "Cupertino",
-      "region": "US",
-      "state": "US",
-      "locationType": "onsite",
-      "seniority": "lead",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://jobs.apple.com/en-us/details/200669479/reliability-user-research-engineering-manager",
-      "source": "Apple",
-      "postedAt": "2026-06-24T17:47:04.887000+00:00"
-    },
-    {
       "id": "Greenhouse-8023794",
       "title": "Manager, UX Research",
       "company": "Smartsheet",
@@ -2857,23 +2840,6 @@
       "url": "https://job-boards.greenhouse.io/smartsheet/jobs/8023794",
       "source": "Greenhouse",
       "postedAt": "2026-06-24T16:22:14-04:00"
-    },
-    {
-      "id": "Greenhouse-4295034009",
-      "title": "Senior Human Factors Researcher",
-      "company": "Oura",
-      "location": "Hybrid - San Francisco, California",
-      "region": "US",
-      "state": "CA",
-      "locationType": "hybrid",
-      "seniority": "senior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://job-boards.greenhouse.io/oura/jobs/4295034009",
-      "source": "Greenhouse",
-      "postedAt": "2026-06-24T11:51:32-04:00"
     },
     {
       "id": "Gupy-11475089",
