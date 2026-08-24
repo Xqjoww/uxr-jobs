@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-23T18:19:00Z",
-  "count": 341,
+  "updated": "2026-08-24T00:52:32Z",
+  "count": 337,
   "roles": [
     {
       "id": "Welcometothejungle-a9aa22ea-9c87-4ab6-924d-1dbfb1c8eba0",
@@ -2772,74 +2772,6 @@
       "url": "https://consultdss.recruitee.com/o/freelance-senior-consultant-sme-operational-risk-human-factors-manufacturing-assessments",
       "source": "Recruitee",
       "postedAt": "2026-06-25T10:37:12"
-    },
-    {
-      "id": "Workable-2FC5B3C985",
-      "title": "UX Research Operations (ResOps) Specialist",
-      "company": "Interactive Investor",
-      "location": "Manchester, England, United Kingdom",
-      "region": "UK & Ireland",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Research Ops"
-      ],
-      "salary": "",
-      "url": "https://apply.workable.com/j/2FC5B3C985",
-      "source": "Workable",
-      "postedAt": "2026-06-25T00:00:00"
-    },
-    {
-      "id": "Eures-MTU4NjEtNDQyNjg1ODctNjI0LVMgMQ",
-      "title": "STUDENTISCHE HILFSKRAFT im Bereich Psychologie / Human Factors (Psychologe/Psychologin)",
-      "company": "Fraunhofer Gesellschaft E.v. Zentrale München",
-      "location": "DE (DEA2C)",
-      "region": "Europe",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTU4NjEtNDQyNjg1ODctNjI0LVMgMQ?lang=en",
-      "source": "Eures",
-      "postedAt": "2026-06-24T21:14:59.494000"
-    },
-    {
-      "id": "Ashby-9a802eca-14bc-4577-b5f4-8e49e61bd7f5",
-      "title": "UX Researcher",
-      "company": "Kalshi",
-      "location": "New York Office",
-      "region": "US",
-      "state": "NY",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "$180k to $275k",
-      "url": "https://jobs.ashbyhq.com/kalshi/9a802eca-14bc-4577-b5f4-8e49e61bd7f5",
-      "source": "Ashby",
-      "postedAt": "2026-06-24T20:12:49.376000+00:00"
-    },
-    {
-      "id": "Greenhouse-8023794",
-      "title": "Manager, UX Research",
-      "company": "Smartsheet",
-      "location": "-REMOTE, USA-",
-      "region": "US",
-      "state": "Remote",
-      "locationType": "remote",
-      "seniority": "lead",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://job-boards.greenhouse.io/smartsheet/jobs/8023794",
-      "source": "Greenhouse",
-      "postedAt": "2026-06-24T16:22:14-04:00"
     },
     {
       "id": "Gupy-11475089",
