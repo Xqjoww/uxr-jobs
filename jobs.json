@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-24T18:29:27Z",
-  "count": 335,
+  "updated": "2026-08-25T00:52:50Z",
+  "count": 332,
   "roles": [
     {
       "id": "Welcometothejungle-a9aa22ea-9c87-4ab6-924d-1dbfb1c8eba0",
@@ -2672,74 +2672,6 @@
       "postedAt": "2026-06-26T10:54:40-04:00"
     },
     {
-      "id": "Phenom-585826",
-      "title": "User Experience Researcher (Bothell, WA)",
-      "company": "Philips",
-      "location": "Bothell, Washington, United States, Washington, United States of America",
-      "region": "US",
-      "state": "WA",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://www.careers.philips.com/job/585826",
-      "source": "Phenom",
-      "postedAt": "2026-06-26T00:00:00+00:00"
-    },
-    {
-      "id": "Oracle-emit.fa.ca3.oraclecloud.com:89383",
-      "title": "Human Factors Consultant (All Levels)",
-      "company": "Emit",
-      "location": "Birmingham, West Midlands, United Kingdom",
-      "region": "UK & Ireland",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://emit.fa.ca3.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX_2001#89383",
-      "source": "Oracle",
-      "postedAt": "2026-06-26T00:00:00"
-    },
-    {
-      "id": "Eures-MTU4NjEtNDQyNzE4MjQtNjI1LVMgMQ",
-      "title": "WISSENSCHAFTLICHE*R MITARBEITER*IN im Bereich Data Science / Human Factors (Wissenschaftliche/r Mitarbeiter/in)",
-      "company": "Fraunhofer Gesellschaft E.v. Zentrale München",
-      "location": "DE (DEA2C)",
-      "region": "Europe",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Quantitative"
-      ],
-      "salary": "",
-      "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTU4NjEtNDQyNzE4MjQtNjI1LVMgMQ?lang=en",
-      "source": "Eures",
-      "postedAt": "2026-06-25T20:53:59.362000"
-    },
-    {
-      "id": "Smartrecruiters-744000134333289",
-      "title": "Human Factors Manager",
-      "company": "Intuitive",
-      "location": "Sunnyvale, CA, us",
-      "region": "US",
-      "state": "CA",
-      "locationType": "onsite",
-      "seniority": "lead",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://jobs.smartrecruiters.com/intuitive/744000134333289",
-      "source": "Smartrecruiters",
-      "postedAt": "2026-06-25T19:30:47.685000+00:00"
-    },
-    {
       "id": "Gupy-11475089",
       "title": "UX Researcher Júnior (Exclusiva para PCDs)",
       "company": "Asaas",
@@ -4946,6 +4878,23 @@
       ],
       "salary": "",
       "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Best/Verification-and-Validation-Department-Manager_586105-1",
+      "source": "Workday",
+      "postedAt": ""
+    },
+    {
+      "id": "Workday-585826",
+      "title": "User Experience Researcher (Bothell, WA)",
+      "company": "Philips",
+      "location": "Bothell, Washington, United States",
+      "region": "US",
+      "state": "WA",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Bothell-Washington-United-States/User-Experience-Researcher--Bothell--WA-_585826",
       "source": "Workday",
       "postedAt": ""
     },
