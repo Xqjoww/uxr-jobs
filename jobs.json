@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-28T08:22:57Z",
-  "count": 326,
+  "updated": "2026-08-28T21:38:06Z",
+  "count": 325,
   "roles": [
     {
       "id": "Welcometothejungle-a9aa22ea-9c87-4ab6-924d-1dbfb1c8eba0",
@@ -2551,23 +2551,6 @@
       "url": "https://account.amazon.jobs/jobs/10463052/apply",
       "source": "Amazon",
       "postedAt": "2026-06-30T00:00:00"
-    },
-    {
-      "id": "Greenhouse-8036177",
-      "title": "Senior UX Strategist & Researcher, Research Operations",
-      "company": "Hellofresh",
-      "location": "Boulder, Colorado, United States",
-      "region": "US",
-      "state": "CO",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [
-        "Research Ops"
-      ],
-      "salary": "",
-      "url": "https://careers.hellofresh.com/global/en/job/8036177?gh_jid=8036177",
-      "source": "Greenhouse",
-      "postedAt": "2026-06-29T13:48:02-04:00"
     },
     {
       "id": "Gupy-11475089",
