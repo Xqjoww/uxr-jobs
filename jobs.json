@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-01T20:22:43Z",
-  "count": 366,
+  "updated": "2026-09-02T02:18:31Z",
+  "count": 365,
   "roles": [
     {
       "id": "Ashby-e4b38c5f-565d-4cb9-af12-8568376fcb9d",
@@ -3265,23 +3265,6 @@
       "url": "https://jobs.lever.co/foundation-llm-technologies/a546b2ca-fd7a-458a-97be-b89cd89fa42b",
       "source": "Lever",
       "postedAt": "2026-07-07T00:20:47.474000"
-    },
-    {
-      "id": "Eures-MTM2NDQtMjkwNTc2LVMgMQ",
-      "title": "Initiativbewerbung UX User Experience Research (m/w/d) (Forschungs- und Entwicklungsingenieur/in)",
-      "company": "Skopos Group",
-      "location": "DE (DEA27)",
-      "region": "Europe",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTM2NDQtMjkwNTc2LVMgMQ?lang=en",
-      "source": "Eures",
-      "postedAt": "2026-07-03T20:25:47.098000"
     },
     {
       "id": "Hrmos-i3design:i3D_D0008",
