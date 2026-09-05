@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-04T20:08:58Z",
-  "count": 375,
+  "updated": "2026-09-05T02:21:48Z",
+  "count": 374,
   "roles": [
     {
       "id": "Ashby-a24e063f-7ee6-4941-a4ec-fed6d2b60763",
@@ -3418,23 +3418,6 @@
       "url": "https://job-boards.greenhouse.io/emergentlabsinc/jobs/4307283009",
       "source": "Greenhouse",
       "postedAt": "2026-07-07T07:32:25-04:00"
-    },
-    {
-      "id": "Lever-a546b2ca-fd7a-458a-97be-b89cd89fa42b",
-      "title": "Computational Design Research Engineer",
-      "company": "Foundation Llm Technologies",
-      "location": "Remote",
-      "region": "US",
-      "state": "Remote",
-      "locationType": "remote",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "$100k to $140k",
-      "url": "https://jobs.lever.co/foundation-llm-technologies/a546b2ca-fd7a-458a-97be-b89cd89fa42b",
-      "source": "Lever",
-      "postedAt": "2026-07-07T00:20:47.474000"
     },
     {
       "id": "Gupy-11715660",
