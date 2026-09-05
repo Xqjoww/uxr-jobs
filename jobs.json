@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-05T09:46:02Z",
-  "count": 374,
+  "updated": "2026-09-05T14:21:17Z",
+  "count": 373,
   "roles": [
     {
       "id": "Ashby-a24e063f-7ee6-4941-a4ec-fed6d2b60763",
@@ -3401,23 +3401,6 @@
       "url": "https://www.paycomonline.net/v4/ats/web.php/portal/1821c6983d9ba3adedfe39848c720b8f/jobs/365351",
       "source": "Paycom",
       "postedAt": "2026-07-08T00:00:00+00:00"
-    },
-    {
-      "id": "Greenhouse-4307283009",
-      "title": "UX Researcher",
-      "company": "Emergentlabsinc",
-      "location": "Bangalore",
-      "region": "India",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://job-boards.greenhouse.io/emergentlabsinc/jobs/4307283009",
-      "source": "Greenhouse",
-      "postedAt": "2026-07-07T07:32:25-04:00"
     },
     {
       "id": "Gupy-11715660",
