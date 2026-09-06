@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-06T10:02:18Z",
-  "count": 382,
+  "updated": "2026-09-06T14:44:14Z",
+  "count": 381,
   "roles": [
     {
       "id": "Smartrecruiters-744000147525939",
@@ -3452,23 +3452,6 @@
       "url": "https://job-boards.greenhouse.io/reddit/jobs/8027458",
       "source": "Greenhouse",
       "postedAt": "2026-07-09T10:14:52-04:00"
-    },
-    {
-      "id": "Lever-302d967b-3cb3-47c2-9208-6d4e69a1b5b2",
-      "title": "Lead UX Researcher, Growth",
-      "company": "Matchgroup",
-      "location": "New York, New York",
-      "region": "US",
-      "state": "NY",
-      "locationType": "onsite",
-      "seniority": "lead",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "$207k to $254k",
-      "url": "https://jobs.lever.co/matchgroup/302d967b-3cb3-47c2-9208-6d4e69a1b5b2",
-      "source": "Lever",
-      "postedAt": "2026-07-08T14:39:57.386000"
     },
     {
       "id": "Greenhouse-5309796008",
