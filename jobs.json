@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-06T02:17:38Z",
-  "count": 383,
+  "updated": "2026-09-06T10:02:18Z",
+  "count": 382,
   "roles": [
     {
       "id": "Smartrecruiters-744000147525939",
@@ -3486,23 +3486,6 @@
       "url": "https://job-boards.greenhouse.io/anteristech/jobs/5309796008",
       "source": "Greenhouse",
       "postedAt": "2026-07-08T14:31:19-04:00"
-    },
-    {
-      "id": "Recruitee-2670120",
-      "title": "Onderzoeksstage AI, Design Research & Innovatie",
-      "company": "DE Nieuwe Zaak",
-      "location": "Zwolle, Overijssel, Nederland",
-      "region": "Europe",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "AI"
-      ],
-      "salary": "",
-      "url": "https://denieuwezaak.nl/o/onderzoeksstage-ai-design-research-innovatie",
-      "source": "Recruitee",
-      "postedAt": "2026-07-08T07:22:50"
     },
     {
       "id": "Gupy-11715660",
