@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-07T20:58:55Z",
-  "count": 373,
+  "updated": "2026-09-08T02:27:19Z",
+  "count": 371,
   "roles": [
     {
       "id": "Welcometothejungle-0592f4ac-ebf6-4100-b720-221f8b8831ac",
@@ -3435,40 +3435,6 @@
       "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTI4MTEtMjI5MzY4NS1TIDE?lang=en",
       "source": "Eures",
       "postedAt": "2026-07-10T20:30:22.115000"
-    },
-    {
-      "id": "Oracle-emit.fa.ca3.oraclecloud.com:90911",
-      "title": "Senior Consultant - Human Factors",
-      "company": "Emit",
-      "location": "London, United Kingdom",
-      "region": "UK & Ireland",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://emit.fa.ca3.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX_2001#90911",
-      "source": "Oracle",
-      "postedAt": "2026-07-10T00:00:00"
-    },
-    {
-      "id": "Oracle-fa-ewdg-saasfaprod1.fa.ocs.oraclecloud.com:2551",
-      "title": "Lead UX Researcher",
-      "company": "FA Ewdg Saasfaprod",
-      "location": "United Kingdom",
-      "region": "UK & Ireland",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "lead",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://fa-ewdg-saasfaprod1.fa.ocs.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CynclyJobs#2551",
-      "source": "Oracle",
-      "postedAt": "2026-07-10T00:00:00"
     },
     {
       "id": "Gupy-11715660",
