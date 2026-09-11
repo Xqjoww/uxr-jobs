@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-11T15:40:28Z",
-  "count": 375,
+  "updated": "2026-09-11T20:18:30Z",
+  "count": 374,
   "roles": [
     {
       "id": "Welcometothejungle-78165cbd-f920-4b12-99df-b5cb82310964",
@@ -3436,23 +3436,6 @@
       "url": "https://job-boards.greenhouse.io/oura/jobs/4314496009",
       "source": "Greenhouse",
       "postedAt": "2026-07-13T18:54:48-04:00"
-    },
-    {
-      "id": "Eures-NTAyZTBhNmItMjQ1OS00ZmJhLWJlODYtY2ZkOTIyMWFkZmRmIDM",
-      "title": "UX Designer - Researcher",
-      "company": "Editx BV",
-      "location": "BE (BE100)",
-      "region": "Europe",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://europa.eu/eures/portal/jv-se/jv-details/NTAyZTBhNmItMjQ1OS00ZmJhLWJlODYtY2ZkOTIyMWFkZmRmIDM?lang=en",
-      "source": "Eures",
-      "postedAt": "2026-07-13T18:47:38.826000"
     },
     {
       "id": "Gupy-11715660",
