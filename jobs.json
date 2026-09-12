@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-12T09:53:40Z",
-  "count": 373,
+  "updated": "2026-09-12T14:46:24Z",
+  "count": 371,
   "roles": [
     {
       "id": "Welcometothejungle-78165cbd-f920-4b12-99df-b5cb82310964",
@@ -3385,40 +3385,6 @@
       "url": "https://job-boards.greenhouse.io/oura/jobs/4313292009",
       "source": "Greenhouse",
       "postedAt": "2026-07-14T18:48:01-04:00"
-    },
-    {
-      "id": "Recruitee-2677352",
-      "title": "Interior Design Research Specialist",
-      "company": "Kravet Llc",
-      "location": "Woodbury, New York, United States",
-      "region": "US",
-      "state": "NY",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "$23 to $25",
-      "url": "https://kravet.recruitee.com/o/interior-design-research-specialist",
-      "source": "Recruitee",
-      "postedAt": "2026-07-14T13:54:59"
-    },
-    {
-      "id": "Icims-15834",
-      "title": "Usability Analyst",
-      "company": "Nyu",
-      "location": "New York, NY, US",
-      "region": "US",
-      "state": "NY",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://uscareers-nyu.icims.com/jobs/15834/usability-analyst/job?in_iframe=1",
-      "source": "Icims",
-      "postedAt": "2026-07-14T12:46:00"
     },
     {
       "id": "Gupy-11715660",
