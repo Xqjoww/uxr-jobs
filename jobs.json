@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-13T15:25:38Z",
-  "count": 376,
+  "updated": "2026-09-13T20:05:36Z",
+  "count": 375,
   "roles": [
     {
       "id": "Welcometothejungle-80718cb7-d50d-46a2-ab82-89e8606d56ac",
@@ -3335,23 +3335,6 @@
       "url": "https://career5.successfactors.eu/sfcareer/jobreqcareer?jobId=397100&company=capgemitecP3",
       "source": "Successfactors",
       "postedAt": "2026-07-16T00:00:00+00:00"
-    },
-    {
-      "id": "Ashby-6cc4eee0-cf33-493b-8d83-5cece0baf976",
-      "title": "Staff Mixed Methods Researcher",
-      "company": "Abridge",
-      "location": "SF Office",
-      "region": "US",
-      "state": "Remote",
-      "locationType": "remote",
-      "seniority": "staff",
-      "tags": [
-        "Mixed Methods"
-      ],
-      "salary": "$215k to $269k",
-      "url": "https://jobs.ashbyhq.com/abridge/6cc4eee0-cf33-493b-8d83-5cece0baf976",
-      "source": "Ashby",
-      "postedAt": "2026-07-15T19:06:41.993000+00:00"
     },
     {
       "id": "Gupy-11715660",
