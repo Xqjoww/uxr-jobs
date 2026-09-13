@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-13T02:31:06Z",
-  "count": 379,
+  "updated": "2026-09-13T10:53:30Z",
+  "count": 378,
   "roles": [
     {
       "id": "Welcometothejungle-80718cb7-d50d-46a2-ab82-89e8606d56ac",
@@ -3403,23 +3403,6 @@
       "url": "https://jobs.ashbyhq.com/abridge/6cc4eee0-cf33-493b-8d83-5cece0baf976",
       "source": "Ashby",
       "postedAt": "2026-07-15T19:06:41.993000+00:00"
-    },
-    {
-      "id": "Greenhouse-8632338002",
-      "title": "Design Researcher (Contract, Tokyo)",
-      "company": "Moon",
-      "location": "Chiyoda, Tokyo, Japan",
-      "region": "APAC",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://job-boards.greenhouse.io/moon/jobs/8632338002",
-      "source": "Greenhouse",
-      "postedAt": "2026-07-15T04:31:32-04:00"
     },
     {
       "id": "Gupy-11715660",
