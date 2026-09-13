@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-12T19:59:17Z",
-  "count": 381,
+  "updated": "2026-09-13T02:31:06Z",
+  "count": 379,
   "roles": [
     {
       "id": "Welcometothejungle-80718cb7-d50d-46a2-ab82-89e8606d56ac",
@@ -3420,40 +3420,6 @@
       "url": "https://job-boards.greenhouse.io/moon/jobs/8632338002",
       "source": "Greenhouse",
       "postedAt": "2026-07-15T04:31:32-04:00"
-    },
-    {
-      "id": "Oracle-hcpd.fa.ca2.oraclecloud.com:11053",
-      "title": "Human Factors Specialist",
-      "company": "Jdi",
-      "location": "Dartmouth, NS, Canada",
-      "region": "Canada",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://hcpd.fa.ca2.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=Careers#11053",
-      "source": "Oracle",
-      "postedAt": "2026-07-15T00:00:00"
-    },
-    {
-      "id": "Greenhouse-4313292009",
-      "title": "Senior UX Researcher, Human Care",
-      "company": "Oura",
-      "location": "Hybrid - San Francisco, California",
-      "region": "US",
-      "state": "CA",
-      "locationType": "hybrid",
-      "seniority": "senior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://job-boards.greenhouse.io/oura/jobs/4313292009",
-      "source": "Greenhouse",
-      "postedAt": "2026-07-14T18:48:01-04:00"
     },
     {
       "id": "Gupy-11715660",
