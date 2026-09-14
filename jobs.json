@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-14T17:23:14Z",
-  "count": 373,
+  "updated": "2026-09-14T21:16:06Z",
+  "count": 371,
   "roles": [
     {
       "id": "Welcometothejungle-80718cb7-d50d-46a2-ab82-89e8606d56ac",
@@ -3284,40 +3284,6 @@
       "url": "https://jobs.apple.com/en-us/details/200672277/quantitative-user-researcher",
       "source": "Apple",
       "postedAt": "2026-07-16T23:59:59.617000+00:00"
-    },
-    {
-      "id": "Ashby-6270d877-f535-43c1-b77c-2fcdabceedde",
-      "title": "Sr. Research Manager, Design Research",
-      "company": "WHOOP",
-      "location": "Boston, MA",
-      "region": "US",
-      "state": "MA",
-      "locationType": "onsite",
-      "seniority": "lead",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://jobs.ashbyhq.com/whoop/6270d877-f535-43c1-b77c-2fcdabceedde",
-      "source": "Ashby",
-      "postedAt": "2026-07-16T20:39:22.439000+00:00"
-    },
-    {
-      "id": "Greenhouse-8067339",
-      "title": "Senior User Experience Researcher | The Points Guy",
-      "company": "Redventures",
-      "location": "United States",
-      "region": "US",
-      "state": "US",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://www.redventures.com/careers/positions/open?gh_jid=8067339",
-      "source": "Greenhouse",
-      "postedAt": "2026-07-16T14:27:58-04:00"
     },
     {
       "id": "Gupy-11715660",
