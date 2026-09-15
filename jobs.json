@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-14T21:16:06Z",
-  "count": 371,
+  "updated": "2026-09-15T02:49:38Z",
+  "count": 367,
   "roles": [
     {
       "id": "Welcometothejungle-80718cb7-d50d-46a2-ab82-89e8606d56ac",
@@ -3216,74 +3216,6 @@
       "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTI4MTEtMjI2ODYxMi1TIDE?lang=en",
       "source": "Eures",
       "postedAt": "2026-07-18T10:49:56.849000"
-    },
-    {
-      "id": "Ashby-fd44f6ba-3177-4e03-8891-ae13c2c1366a",
-      "title": "User Experience Researcher II",
-      "company": "WHOOP",
-      "location": "Boston, MA",
-      "region": "US",
-      "state": "MA",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://jobs.ashbyhq.com/whoop/fd44f6ba-3177-4e03-8891-ae13c2c1366a",
-      "source": "Ashby",
-      "postedAt": "2026-07-17T02:39:52.896000+00:00"
-    },
-    {
-      "id": "Welcometothejungle-caabbfbe-6467-4649-bf05-8bf09c2fbb97",
-      "title": "Lead UX Researcher (Growth)",
-      "company": "Hinge",
-      "location": "New York, United States",
-      "region": "US",
-      "state": "NY",
-      "locationType": "onsite",
-      "seniority": "lead",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "$207k to $254k",
-      "url": "https://www.welcometothejungle.com/en/companies/JUfGJ2/jobs/lead-ux-researcher-growth_new-york_n63zprod",
-      "source": "Welcometothejungle",
-      "postedAt": "2026-07-17T00:06:00+00:00"
-    },
-    {
-      "id": "Jazzhr-EjD0kcTRvk",
-      "title": "UX Researcher, Data Analyst & Optimization Specialist",
-      "company": "Anattadesigninc",
-      "location": "Remote",
-      "region": "US",
-      "state": "Remote",
-      "locationType": "remote",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://anattadesigninc.applytojob.com/apply/jobs/details/EjD0kcTRvk",
-      "source": "Jazzhr",
-      "postedAt": "2026-07-17T00:00:00"
-    },
-    {
-      "id": "Apple-200672277",
-      "title": "Quantitative User Researcher",
-      "company": "Apple",
-      "location": "Austin",
-      "region": "US",
-      "state": "US",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Quantitative"
-      ],
-      "salary": "",
-      "url": "https://jobs.apple.com/en-us/details/200672277/quantitative-user-researcher",
-      "source": "Apple",
-      "postedAt": "2026-07-16T23:59:59.617000+00:00"
     },
     {
       "id": "Gupy-11715660",
