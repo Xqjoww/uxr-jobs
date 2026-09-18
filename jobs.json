@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-18T02:35:31Z",
-  "count": 365,
+  "updated": "2026-09-18T10:21:34Z",
+  "count": 363,
   "roles": [
     {
       "id": "Ashby-295bdba3-7bdc-4f7f-b28e-956536311db7",
@@ -3030,40 +3030,6 @@
       "url": "https://karriere.hoermann-gruppe.com/jobs/59224353/Werkstudent-w-m-d---GenAI-User-Research-Support/",
       "source": "Softgarden",
       "postedAt": "2026-07-20T15:15:30.389000+02:00"
-    },
-    {
-      "id": "Lever-17571499-2e18-4c7d-b526-fbdb0bb0f381",
-      "title": "UX Researcher",
-      "company": "Netomi",
-      "location": "Toronto , Canada",
-      "region": "Canada",
-      "state": "",
-      "locationType": "remote",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://jobs.lever.co/netomi/17571499-2e18-4c7d-b526-fbdb0bb0f381",
-      "source": "Lever",
-      "postedAt": "2026-07-20T07:53:51.208000"
-    },
-    {
-      "id": "Smartrecruiters-744000138575243",
-      "title": "Senior UX Researcher",
-      "company": "Deliveryhero",
-      "location": "Riyadh, Riyadh Province, sa",
-      "region": "Rest of World",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://jobs.smartrecruiters.com/deliveryhero/744000138575243",
-      "source": "Smartrecruiters",
-      "postedAt": "2026-07-20T07:52:47.611000+00:00"
     },
     {
       "id": "Gupy-11715660",
