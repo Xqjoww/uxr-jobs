@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-18T20:15:39Z",
-  "count": 362,
+  "updated": "2026-09-19T02:34:45Z",
+  "count": 360,
   "roles": [
     {
       "id": "Ashby-295bdba3-7bdc-4f7f-b28e-956536311db7",
@@ -2979,40 +2979,6 @@
       "url": "https://www.welcometothejungle.com/en/companies/13QAa65/jobs/ai-ux-researcher-f-h_la-ciotat",
       "source": "Welcometothejungle",
       "postedAt": "2026-07-21T22:35:19+00:00"
-    },
-    {
-      "id": "Ashby-7aecc883-f979-43fa-afbb-65def674f556",
-      "title": "Senior or Staff User Researcher",
-      "company": "Harvey",
-      "location": "San Francisco",
-      "region": "US",
-      "state": "US",
-      "locationType": "onsite",
-      "seniority": "staff",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "$158k to $264k",
-      "url": "https://jobs.ashbyhq.com/harvey/7aecc883-f979-43fa-afbb-65def674f556",
-      "source": "Ashby",
-      "postedAt": "2026-07-21T00:30:12.266000+00:00"
-    },
-    {
-      "id": "Phenom-R0335230",
-      "title": "AI UX Researcher (F/H)",
-      "company": "Thalesgroup",
-      "location": "La Ciotat, Bouches-du-Rhone, France",
-      "region": "Europe",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "AI"
-      ],
-      "salary": "",
-      "url": "https://careers.thalesgroup.com/job/R0335230",
-      "source": "Phenom",
-      "postedAt": "2026-07-21T00:00:00+00:00"
     },
     {
       "id": "Gupy-11715660",
