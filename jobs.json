@@ -1,7 +1,92 @@
 {
-  "updated": "2026-09-20T10:23:38Z",
-  "count": 363,
+  "updated": "2026-09-20T15:13:42Z",
+  "count": 361,
   "roles": [
+    {
+      "id": "Welcometothejungle-e112953b-9498-49fb-8266-a0d5bdfdfff6",
+      "title": "Senior UX Researcher (Qualitative)",
+      "company": "Suno",
+      "location": "Los Angeles, United States",
+      "region": "US",
+      "state": "US",
+      "locationType": "onsite",
+      "seniority": "senior",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "$176k to $220k",
+      "url": "https://www.welcometothejungle.com/en/companies/pXtP4o/jobs/senior-ux-researcher-qualitative_los-angeles_wkjpa3d4",
+      "source": "Welcometothejungle",
+      "postedAt": "2026-09-20T00:22:49+00:00"
+    },
+    {
+      "id": "Welcometothejungle-c9af77fb-4a69-40df-9a2c-d9c272070631",
+      "title": "Senior Staff UX Researcher (Quantitative)",
+      "company": "Gusto",
+      "location": "San Francisco, United States",
+      "region": "US",
+      "state": "US",
+      "locationType": "onsite",
+      "seniority": "staff",
+      "tags": [
+        "Quantitative"
+      ],
+      "salary": "$177k to $256k",
+      "url": "https://www.welcometothejungle.com/en/companies/z01cDO/jobs/senior-staff-ux-researcher-quantitative_denver_qruq46gh",
+      "source": "Welcometothejungle",
+      "postedAt": "2026-09-20T00:13:39+00:00"
+    },
+    {
+      "id": "Welcometothejungle-67b61015-2a35-407a-9720-2fd3ff6335de",
+      "title": "User Research Intern",
+      "company": "Coinbase",
+      "location": "San Francisco, United States",
+      "region": "US",
+      "state": "US",
+      "locationType": "onsite",
+      "seniority": "junior",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://www.welcometothejungle.com/en/companies/v9N3ax/jobs/user-research-intern_san-francisco_hgfatm3q",
+      "source": "Welcometothejungle",
+      "postedAt": "2026-09-20T00:09:16+00:00"
+    },
+    {
+      "id": "Welcometothejungle-dda28bb6-fadf-4280-9d9e-42e5f2050c85",
+      "title": "AI UX Researcher (F/H)",
+      "company": "Thales",
+      "location": "La Ciotat, Provence-Alpes-Cote d'Azur, France",
+      "region": "Europe",
+      "state": "",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [
+        "AI"
+      ],
+      "salary": "",
+      "url": "https://www.welcometothejungle.com/en/companies/13QAa65/jobs/ai-ux-researcher-f-h_la-ciotat",
+      "source": "Welcometothejungle",
+      "postedAt": "2026-09-19T22:15:44+00:00"
+    },
+    {
+      "id": "Eures-NWJjZTNkOWItYTRjMy0wZDY1LWUwNjMtNjg5M2IyMGE0ODQyIDQy",
+      "title": "UX Researcher",
+      "company": "Unknown",
+      "location": "NL (NL414)",
+      "region": "Europe",
+      "state": "",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://europa.eu/eures/portal/jv-se/jv-details/NWJjZTNkOWItYTRjMy0wZDY1LWUwNjMtNjg5M2IyMGE0ODQyIDQy?lang=en",
+      "source": "Eures",
+      "postedAt": "2026-09-19T01:12:12.640000"
+    },
     {
       "id": "Welcometothejungle-168b6a24-d10f-4a3a-a75a-85eb33e36b15",
       "title": "UX Researcher",
@@ -54,23 +139,6 @@
       "postedAt": "2026-09-18T20:17:04.141000"
     },
     {
-      "id": "Recruitee-2752084",
-      "title": "Quantitative UX Researcher",
-      "company": "Ogc Global",
-      "location": "Remote job",
-      "region": "US",
-      "state": "Remote",
-      "locationType": "remote",
-      "seniority": "mid",
-      "tags": [
-        "Quantitative"
-      ],
-      "salary": "",
-      "url": "https://ogcglobal.recruitee.com/o/quantitative-ux-researcher",
-      "source": "Recruitee",
-      "postedAt": "2026-09-18T13:49:01"
-    },
-    {
       "id": "Teamtailor-8402110",
       "title": "AI Research Lab UI/UX & Brand Designer (100 % remote) (m/f/d)",
       "company": "Eworgmbh",
@@ -116,13 +184,13 @@
       "tags": [
         "Qualitative"
       ],
-      "salary": "€1k+",
+      "salary": "$1k+",
       "url": "https://www.welcometothejungle.com/en/companies/ZMmVp03/jobs/user-research-ux-apprentice_bordeaux",
       "source": "Welcometothejungle",
       "postedAt": "2026-09-18T00:02:15+00:00"
     },
     {
-      "id": "Phenom-202607-119674",
+      "id": "Phenom-202607-119641",
       "title": "Fullstack UX/UI Researchers/Designer - Applied & Agentic AI Systems",
       "company": "Roche",
       "location": "Hyderabad, Telangāna, India",
@@ -134,9 +202,26 @@
         "AI"
       ],
       "salary": "",
-      "url": "https://careers.roche.com/job/202607-119674",
+      "url": "https://careers.roche.com/job/202607-119641",
       "source": "Phenom",
       "postedAt": "2026-09-18T00:00:00+00:00"
+    },
+    {
+      "id": "Workable-2C01A7AA58",
+      "title": "UX Researcher & Service Designer - A26344",
+      "company": "Activate Interactive Pte Ltd",
+      "location": "Singapore, Singapore, Singapore",
+      "region": "APAC",
+      "state": "",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://apply.workable.com/j/2C01A7AA58",
+      "source": "Workable",
+      "postedAt": "2026-09-18T00:00:00"
     },
     {
       "id": "Greenhouse-5285458008",
@@ -308,23 +393,6 @@
       "url": "https://jobs.ashbyhq.com/suno/295bdba3-7bdc-4f7f-b28e-956536311db7",
       "source": "Ashby",
       "postedAt": "2026-09-16T21:02:32.057000+00:00"
-    },
-    {
-      "id": "Ashby-10cd0f73-a84a-4826-9892-42a655466f98",
-      "title": "Senior UX Researcher, Qualitative",
-      "company": "Suno",
-      "location": "Los Angeles",
-      "region": "US",
-      "state": "US",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "$176k to $220k",
-      "url": "https://jobs.ashbyhq.com/suno/10cd0f73-a84a-4826-9892-42a655466f98",
-      "source": "Ashby",
-      "postedAt": "2026-09-16T20:35:26.975000+00:00"
     },
     {
       "id": "Eures-NjI5MjA4OSAxMjE",
@@ -1078,7 +1146,7 @@
     {
       "id": "Oracle-efds.fa.em5.oraclecloud.com:69861",
       "title": "UX Researcher, Mixed Methods",
-      "company": "Ford Model E U.s.",
+      "company": "Ford Global Career Site",
       "location": "Dearborn, MI, United States",
       "region": "US",
       "state": "MI",
@@ -1088,26 +1156,9 @@
         "Mixed Methods"
       ],
       "salary": "",
-      "url": "https://efds.fa.em5.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=Ford-Model-e#69861",
+      "url": "https://efds.fa.em5.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX_1#69861",
       "source": "Oracle",
       "postedAt": "2026-09-09T00:00:00"
-    },
-    {
-      "id": "Greenhouse-8168907",
-      "title": "Senior Staff UX Researcher, Quantitative",
-      "company": "Gusto",
-      "location": "Denver, CO - Hybrid; New York, NY - Hybrid; San Francisco, CA - Hybrid",
-      "region": "US",
-      "state": "CO",
-      "locationType": "hybrid",
-      "seniority": "staff",
-      "tags": [
-        "Quantitative"
-      ],
-      "salary": "",
-      "url": "https://job-boards.greenhouse.io/gusto/jobs/8168907",
-      "source": "Greenhouse",
-      "postedAt": "2026-09-08T23:02:23-04:00"
     },
     {
       "id": "Lever-45145540-54ab-4430-b6bc-88b341bd8f02",
@@ -1125,23 +1176,6 @@
       "url": "https://jobs.lever.co/steerbridge/45145540-54ab-4430-b6bc-88b341bd8f02",
       "source": "Lever",
       "postedAt": "2026-09-08T19:09:21.404000"
-    },
-    {
-      "id": "Greenhouse-8175360",
-      "title": "User Research Intern",
-      "company": "Coinbase",
-      "location": "Hybrid - San Francisco, CA",
-      "region": "US",
-      "state": "CA",
-      "locationType": "hybrid",
-      "seniority": "junior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://www.coinbase.com/careers/positions/8175360?gh_jid=8175360",
-      "source": "Greenhouse",
-      "postedAt": "2026-09-08T18:17:48-04:00"
     },
     {
       "id": "Eures-NWFmMGY1NWEtNzlkMC1kMGViLWUwNjMtNjg5M2IyMGE4MDE2IDQy",
@@ -1566,7 +1600,7 @@
       "salary": "",
       "url": "https://www.ycombinator.com/companies/emergent/jobs/mQWjPff-ux-researcher",
       "source": "Ycombinator",
-      "postedAt": "2026-09-01T00:04:12.355251"
+      "postedAt": "2026-09-01T00:04:16.991011"
     },
     {
       "id": "Ashby-e4b38c5f-565d-4cb9-af12-8568376fcb9d",
@@ -1790,6 +1824,23 @@
       "postedAt": "2026-08-26T13:12:36.104000+00:00"
     },
     {
+      "id": "Welcometothejungle-f4e637fa-3875-4987-b0a5-53a638307c98",
+      "title": "Professional, Engineering - Flight deck Integration and Human Factors",
+      "company": "Sogeclair",
+      "location": "Wichita, Kansas, United States",
+      "region": "US",
+      "state": "KS",
+      "locationType": "remote",
+      "seniority": "mid",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://www.welcometothejungle.com/en/companies/dLMGVu/jobs/professional-engineering-flight-deck-integration-and-human-factors_wichita",
+      "source": "Welcometothejungle",
+      "postedAt": "2026-08-26T03:00:24+00:00"
+    },
+    {
       "id": "Smartrecruiters-744000145591356",
       "title": "UX Research Senior",
       "company": "Applusidiada",
@@ -1924,6 +1975,23 @@
       "url": "https://www.welcometothejungle.com/en/companies/JUfGJ2/jobs/senior-ux-researcher-interaction_new-york_5gyutnrq",
       "source": "Welcometothejungle",
       "postedAt": "2026-08-23T00:06:03+00:00"
+    },
+    {
+      "id": "Workable-DD8A501C3B",
+      "title": "UX Researcher/ Service Designer (Product Discovery) - A26308",
+      "company": "Activate Interactive Pte Ltd",
+      "location": "Singapore, Singapore, Singapore",
+      "region": "APAC",
+      "state": "",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://apply.workable.com/j/DD8A501C3B",
+      "source": "Workable",
+      "postedAt": "2026-08-23T00:00:00"
     },
     {
       "id": "Apple-200679293",
@@ -2317,6 +2385,23 @@
       "postedAt": "2026-08-14T06:53:46-04:00"
     },
     {
+      "id": "Workable-66893AD93B",
+      "title": "Senior Design Expert - Paid AI Design Research Study",
+      "company": "Weekday AI",
+      "location": "United States",
+      "region": "US",
+      "state": "Remote",
+      "locationType": "remote",
+      "seniority": "senior",
+      "tags": [
+        "AI"
+      ],
+      "salary": "",
+      "url": "https://apply.workable.com/j/66893AD93B",
+      "source": "Workable",
+      "postedAt": "2026-08-14T00:00:00"
+    },
+    {
       "id": "Smartrecruiters-744000143371924",
       "title": "Senior Human Factors Engineering (UX/HCI, GUI Design)",
       "company": "Gdmsi",
@@ -2434,23 +2519,6 @@
       "url": "https://work.mercor.com/jobs/list_AAABn-6oGNFXnUAaNf5Cnp1f/senior-design-expert-paid-ai-design-research-study",
       "source": "Mercor",
       "postedAt": "2026-08-11T02:30:22"
-    },
-    {
-      "id": "Eures-NThiZGIxY2MtMDlhMi04NzU2LWUwNjMtNjg5M2IyMGFmN2IxIDQy",
-      "title": "UX Researcher",
-      "company": "Unknown",
-      "location": "NL (NL115)",
-      "region": "Europe",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://europa.eu/eures/portal/jv-se/jv-details/NThiZGIxY2MtMDlhMi04NzU2LWUwNjMtNjg5M2IyMGFmN2IxIDQy?lang=en",
-      "source": "Eures",
-      "postedAt": "2026-08-11T01:12:35.592000"
     },
     {
       "id": "Amazon-10499121",
@@ -2759,23 +2827,6 @@
       "postedAt": "2026-08-01T00:13:45+00:00"
     },
     {
-      "id": "Welcometothejungle-22c94a7e-eba9-4741-b45b-8ce4481b2533",
-      "title": "Senior User Researcher",
-      "company": "Fonoa",
-      "location": "London, United Kingdom",
-      "region": "UK & Ireland",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://www.welcometothejungle.com/en/companies/djx2fN/jobs/senior-user-researcher_london_r62ibbga",
-      "source": "Welcometothejungle",
-      "postedAt": "2026-08-01T00:11:48+00:00"
-    },
-    {
       "id": "Jobsch-78d168e9-0b33-4409-93da-d0a42134e360",
       "title": "Head of Product Design & UX Research (f/m/d) | 80-100% | Hybrid working model | Zurich Switzerland",
       "company": "Smg Swiss Marketplace Group",
@@ -2791,23 +2842,6 @@
       "url": "https://www.jobs.ch/en/vacancies/detail/78d168e9-0b33-4409-93da-d0a42134e360/",
       "source": "Jobsch",
       "postedAt": "2026-07-31T15:02:14+02:00"
-    },
-    {
-      "id": "Workable-F3DB477566",
-      "title": "UX Researcher and Service Designer - Public Sector (Part-Time)",
-      "company": "Xtremax Pte. Ltd.",
-      "location": "Singapore, Singapore, Singapore",
-      "region": "APAC",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://apply.workable.com/j/F3DB477566",
-      "source": "Workable",
-      "postedAt": "2026-07-31T00:00:00"
     },
     {
       "id": "Ashby-92dbcf63-fbca-48ce-ace1-699bb1a42433",
@@ -3099,7 +3133,7 @@
       "postedAt": ""
     },
     {
-      "id": "Successfactors-1410546900",
+      "id": "Successfactors-1410592100",
       "title": "Customer Experience Research Operations Manager (Budapest, Central Hungary (Közép-Magyarország), HU)",
       "company": "Agco",
       "location": "Budapest, Central Hungary (Közép-Magyarország), HU",
@@ -3111,7 +3145,7 @@
         "Research Ops"
       ],
       "salary": "",
-      "url": "https://careers.agcocorp.com/job/Budapest-Customer-Experience-Research-Operations-Manager-Cent/1410546900/",
+      "url": "https://careers.agcocorp.com/job/Budapest-Customer-Experience-Research-Operations-Manager-Cent/1410592100/",
       "source": "Successfactors",
       "postedAt": ""
     },
@@ -3133,23 +3167,6 @@
       "postedAt": ""
     },
     {
-      "id": "Successfactors-1412969600",
-      "title": "Manager, Human Factors",
-      "company": "Enable Injections Inc.",
-      "location": "Cincinnati, OH, US, 45241",
-      "region": "US",
-      "state": "OH",
-      "locationType": "onsite",
-      "seniority": "lead",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://careers.enableinjections.com/job/Cincinnati-Manager%2C-Human-Factors-OH-45241/1412969600/",
-      "source": "Successfactors",
-      "postedAt": ""
-    },
-    {
       "id": "Successfactors-1429156400",
       "title": "Co-Op, Human Factors - Spring 2027",
       "company": "Enable Injections Inc.",
@@ -3167,104 +3184,19 @@
       "postedAt": ""
     },
     {
-      "id": "Successfactors-1404120600",
-      "title": "Human Factors Engineer - TS I",
-      "company": "Gulfstream Aerospace Corporation",
-      "location": "Savannah, GA, US",
+      "id": "Successfactors-1412969600",
+      "title": "Manager, Human Factors",
+      "company": "Enable Injections Inc.",
+      "location": "Cincinnati, OH, US, 45241",
       "region": "US",
-      "state": "GA",
+      "state": "OH",
       "locationType": "onsite",
-      "seniority": "junior",
+      "seniority": "lead",
       "tags": [
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://careers.gulfstream.com/job/Savannah-Human-Factors-Engineer-TS-I-GA-31401/1404120600/",
-      "source": "Successfactors",
-      "postedAt": ""
-    },
-    {
-      "id": "Successfactors-1426840900",
-      "title": "Summer 2027 - IEF - SE&I / Human Factors Collegiate Intern",
-      "company": "Gulfstream Aerospace Corporation",
-      "location": "Savannah, GA, US",
-      "region": "US",
-      "state": "GA",
-      "locationType": "onsite",
-      "seniority": "junior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://careers.gulfstream.com/job/Savannah-Summer-2027-IEF-SE&I-Human-Factors-Collegiate-Intern-GA-31401/1426840900/",
-      "source": "Successfactors",
-      "postedAt": ""
-    },
-    {
-      "id": "Successfactors-1427325700",
-      "title": "Human Factors Engineer I",
-      "company": "Gulfstream Aerospace Corporation",
-      "location": "Savannah, GA, US",
-      "region": "US",
-      "state": "GA",
-      "locationType": "onsite",
-      "seniority": "junior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://careers.gulfstream.com/job/Savannah-Human-Factors-Engineer-I-GA-31401/1427325700/",
-      "source": "Successfactors",
-      "postedAt": ""
-    },
-    {
-      "id": "Successfactors-1424045300",
-      "title": "Human Factors Engineer - Technical Specialist III",
-      "company": "Gulfstream Aerospace Corporation",
-      "location": "Savannah, GA, US",
-      "region": "US",
-      "state": "GA",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://careers.gulfstream.com/job/Savannah-Human-Factors-Engineer-Technical-Specialist-III-GA-31401/1424045300/",
-      "source": "Successfactors",
-      "postedAt": ""
-    },
-    {
-      "id": "Successfactors-1425040800",
-      "title": "Spring 2027 - IEF - SE&I / Human Factors Collegiate Intern",
-      "company": "Gulfstream Aerospace Corporation",
-      "location": "Savannah, GA, US",
-      "region": "US",
-      "state": "GA",
-      "locationType": "onsite",
-      "seniority": "junior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://careers.gulfstream.com/job/Savannah-Spring-2027-IEF-SE&I-Human-Factors-Collegiate-Intern-GA-31401/1425040800/",
-      "source": "Successfactors",
-      "postedAt": ""
-    },
-    {
-      "id": "Successfactors-1374185800",
-      "title": "Human Factors Engineer II",
-      "company": "Gulfstream Aerospace Corporation",
-      "location": "Savannah, GA, US",
-      "region": "US",
-      "state": "GA",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://careers.gulfstream.com/job/Savannah-Human-Factors-Engineer-II-GA-31401/1374185800/",
+      "url": "https://careers.enableinjections.com/job/Cincinnati-Manager%2C-Human-Factors-OH-45241/1412969600/",
       "source": "Successfactors",
       "postedAt": ""
     },
@@ -3286,6 +3218,57 @@
       "postedAt": ""
     },
     {
+      "id": "Successfactors-1374185800",
+      "title": "Human Factors Engineer II",
+      "company": "Gulfstream Aerospace Corporation",
+      "location": "Savannah, GA, US",
+      "region": "US",
+      "state": "GA",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://careers.gulfstream.com/job/Savannah-Human-Factors-Engineer-II-GA-31401/1374185800/",
+      "source": "Successfactors",
+      "postedAt": ""
+    },
+    {
+      "id": "Successfactors-1425040800",
+      "title": "Spring 2027 - IEF - SE&I / Human Factors Collegiate Intern",
+      "company": "Gulfstream Aerospace Corporation",
+      "location": "Savannah, GA, US",
+      "region": "US",
+      "state": "GA",
+      "locationType": "onsite",
+      "seniority": "junior",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://careers.gulfstream.com/job/Savannah-Spring-2027-IEF-SE&I-Human-Factors-Collegiate-Intern-GA-31401/1425040800/",
+      "source": "Successfactors",
+      "postedAt": ""
+    },
+    {
+      "id": "Successfactors-1427325700",
+      "title": "Human Factors Engineer I",
+      "company": "Gulfstream Aerospace Corporation",
+      "location": "Savannah, GA, US",
+      "region": "US",
+      "state": "GA",
+      "locationType": "onsite",
+      "seniority": "junior",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://careers.gulfstream.com/job/Savannah-Human-Factors-Engineer-I-GA-31401/1427325700/",
+      "source": "Successfactors",
+      "postedAt": ""
+    },
+    {
       "id": "Successfactors-1374183700",
       "title": "Human Factors Engineer - Technical Specialist II",
       "company": "Gulfstream Aerospace Corporation",
@@ -3299,6 +3282,57 @@
       ],
       "salary": "",
       "url": "https://careers.gulfstream.com/job/Savannah-Human-Factors-Engineer-Technical-Specialist-II-GA-31401/1374183700/",
+      "source": "Successfactors",
+      "postedAt": ""
+    },
+    {
+      "id": "Successfactors-1426840900",
+      "title": "Summer 2027 - IEF - SE&I / Human Factors Collegiate Intern",
+      "company": "Gulfstream Aerospace Corporation",
+      "location": "Savannah, GA, US",
+      "region": "US",
+      "state": "GA",
+      "locationType": "onsite",
+      "seniority": "junior",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://careers.gulfstream.com/job/Savannah-Summer-2027-IEF-SE&I-Human-Factors-Collegiate-Intern-GA-31401/1426840900/",
+      "source": "Successfactors",
+      "postedAt": ""
+    },
+    {
+      "id": "Successfactors-1404120600",
+      "title": "Human Factors Engineer - TS I",
+      "company": "Gulfstream Aerospace Corporation",
+      "location": "Savannah, GA, US",
+      "region": "US",
+      "state": "GA",
+      "locationType": "onsite",
+      "seniority": "junior",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://careers.gulfstream.com/job/Savannah-Human-Factors-Engineer-TS-I-GA-31401/1404120600/",
+      "source": "Successfactors",
+      "postedAt": ""
+    },
+    {
+      "id": "Successfactors-1424045300",
+      "title": "Human Factors Engineer - Technical Specialist III",
+      "company": "Gulfstream Aerospace Corporation",
+      "location": "Savannah, GA, US",
+      "region": "US",
+      "state": "GA",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://careers.gulfstream.com/job/Savannah-Human-Factors-Engineer-Technical-Specialist-III-GA-31401/1424045300/",
       "source": "Successfactors",
       "postedAt": ""
     },
@@ -3354,23 +3388,6 @@
       "postedAt": ""
     },
     {
-      "id": "Successfactors-1384056100",
-      "title": "Human Factors Specialist",
-      "company": "Westinghouse Electric Company, Llc",
-      "location": "Salwick Preston, GB",
-      "region": "US",
-      "state": "US",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://careers.westinghousenuclear.com/job/Salwick-Preston-Human-Factors-Specialist/1384056100/",
-      "source": "Successfactors",
-      "postedAt": ""
-    },
-    {
       "id": "Successfactors-1391784100",
       "title": "Human Factors Engineer",
       "company": "Westinghouse Electric Company, Llc",
@@ -3384,6 +3401,23 @@
       ],
       "salary": "",
       "url": "https://careers.westinghousenuclear.com/job/ASCO-Human-Factors-Engineer/1391784100/",
+      "source": "Successfactors",
+      "postedAt": ""
+    },
+    {
+      "id": "Successfactors-1384056100",
+      "title": "Human Factors Specialist",
+      "company": "Westinghouse Electric Company, Llc",
+      "location": "Salwick Preston, GB",
+      "region": "US",
+      "state": "US",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://careers.westinghousenuclear.com/job/Salwick-Preston-Human-Factors-Specialist/1384056100/",
       "source": "Successfactors",
       "postedAt": ""
     },
@@ -3456,10 +3490,10 @@
       "postedAt": ""
     },
     {
-      "id": "Successfactors-1424183633",
+      "id": "Successfactors-1424183733",
       "title": "Senior User Researcher, Consumer (m/f/d)",
       "company": "Levio",
-      "location": "10623, Berlin, Kantstrasse 17, Germany",
+      "location": "1079 MZ, Amsterdam, Gelrestraat 30-46, Netherlands",
       "region": "Europe",
       "state": "",
       "locationType": "onsite",
@@ -3468,7 +3502,7 @@
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://jobsearch.createyourowncareer.com/Riverty/job/Berlin-Senior-User-Researcher%2C-Consumer-%28mfd%29-10623/1424183633/",
+      "url": "https://jobsearch.createyourowncareer.com/Riverty/job/Amsterdam-Senior-User-Researcher%2C-Consumer-%28mfd%29-1079-MZ/1424183733/",
       "source": "Successfactors",
       "postedAt": ""
     },
@@ -3558,11 +3592,11 @@
       "postedAt": ""
     },
     {
-      "id": "Successfactors-1372605257",
-      "title": "User Research (Discovery) Specialist",
-      "company": "British Telecommunications Plc",
-      "location": "London, GB, E1 8EP",
-      "region": "UK & Ireland",
+      "id": "Successfactors-1402090633",
+      "title": "Professional, Engineering - Flightdeck Integration, Human Factors and Ergonomics",
+      "company": "Bombardier Inc.",
+      "location": "Dorval, Québec, CA, H4S 1Y9",
+      "region": "Canada",
       "state": "",
       "locationType": "onsite",
       "seniority": "mid",
@@ -3570,16 +3604,16 @@
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://jobs.bt.com/BT/job/London-User-Research-%28Discovery%29-Specialist-E1-8EP/1372605257/",
+      "url": "https://jobs.bombardier.com/job/Dorval-Professional%2C-Engineering-Flightdeck-Integration%2C-Human-Factors-and-Ergonomics-Qu%C3%A9b-H4S-1Y9/1402090633/",
       "source": "Successfactors",
       "postedAt": ""
     },
     {
-      "id": "Successfactors-1370549157",
-      "title": "User Researcher",
-      "company": "British Telecommunications Plc",
-      "location": "London, GB, E1 8EP",
-      "region": "UK & Ireland",
+      "id": "Successfactors-1399522833",
+      "title": "CONTRACT Human Factors and Ergonomics - Professional (Montreal)",
+      "company": "Bombardier Inc.",
+      "location": "Dorval, Québec, CA, H4S 1Y9",
+      "region": "Canada",
       "state": "",
       "locationType": "onsite",
       "seniority": "mid",
@@ -3587,24 +3621,24 @@
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://jobs.bt.com/BT/job/London-User-Researcher-E1-8EP/1370549157/",
+      "url": "https://jobs.bombardier.com/job/Dorval-CONTRACT-Human-Factors-and-Ergonomics-Professional-%28Montreal%29-Qu%C3%A9b-H4S-1Y9/1399522833/",
       "source": "Successfactors",
       "postedAt": ""
     },
     {
-      "id": "Successfactors-1372607357",
-      "title": "User Research Professional - Employee Corporate Units",
-      "company": "British Telecommunications Plc",
-      "location": "London, GB, E1 8EP",
-      "region": "UK & Ireland",
+      "id": "Successfactors-1249250301",
+      "title": "Senior Professional, Human Factors Engineering, Flight Deck Design",
+      "company": "Bombardier Inc.",
+      "location": "Dorval, Québec, CA, H4S 1Y9",
+      "region": "Canada",
       "state": "",
       "locationType": "onsite",
-      "seniority": "mid",
+      "seniority": "senior",
       "tags": [
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://jobs.bt.com/BT/job/London-User-Research-Professional-Employee-Corporate-Units-E1-8EP/1372607357/",
+      "url": "https://jobs.bombardier.com/job/Dorval-Senior-Professional%2C-Human-Factors-Engineering%2C-Flight-Deck-Design-Qu%C3%A9b-H4S-1Y9/1249250301/",
       "source": "Successfactors",
       "postedAt": ""
     },
@@ -3643,11 +3677,11 @@
       "postedAt": ""
     },
     {
-      "id": "Successfactors-1402090633",
-      "title": "Professional, Engineering - Flightdeck Integration, Human Factors and Ergonomics",
-      "company": "Bombardier Inc.",
-      "location": "Dorval, Québec, CA, H4S 1Y9",
-      "region": "Canada",
+      "id": "Successfactors-1370549157",
+      "title": "User Researcher",
+      "company": "British Telecommunications Plc",
+      "location": "London, GB, E1 8EP",
+      "region": "UK & Ireland",
       "state": "",
       "locationType": "onsite",
       "seniority": "mid",
@@ -3655,33 +3689,16 @@
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://jobs.bombardier.com/job/Dorval-Professional%2C-Engineering-Flightdeck-Integration%2C-Human-Factors-and-Ergonomics-Qu%C3%A9b-H4S-1Y9/1402090633/",
+      "url": "https://jobs.bt.com/BT/job/London-User-Researcher-E1-8EP/1370549157/",
       "source": "Successfactors",
       "postedAt": ""
     },
     {
-      "id": "Successfactors-1249250301",
-      "title": "Senior Professional, Human Factors Engineering, Flight Deck Design",
-      "company": "Bombardier Inc.",
-      "location": "Dorval, Québec, CA, H4S 1Y9",
-      "region": "Canada",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://jobs.bombardier.com/job/Dorval-Senior-Professional%2C-Human-Factors-Engineering%2C-Flight-Deck-Design-Qu%C3%A9b-H4S-1Y9/1249250301/",
-      "source": "Successfactors",
-      "postedAt": ""
-    },
-    {
-      "id": "Successfactors-1399522833",
-      "title": "CONTRACT Human Factors and Ergonomics - Professional (Montreal)",
-      "company": "Bombardier Inc.",
-      "location": "Dorval, Québec, CA, H4S 1Y9",
-      "region": "Canada",
+      "id": "Successfactors-1372607357",
+      "title": "User Research Professional - Employee Corporate Units",
+      "company": "British Telecommunications Plc",
+      "location": "London, GB, E1 8EP",
+      "region": "UK & Ireland",
       "state": "",
       "locationType": "onsite",
       "seniority": "mid",
@@ -3689,7 +3706,24 @@
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://jobs.bombardier.com/job/Dorval-CONTRACT-Human-Factors-and-Ergonomics-Professional-%28Montreal%29-Qu%C3%A9b-H4S-1Y9/1399522833/",
+      "url": "https://jobs.bt.com/BT/job/London-User-Research-Professional-Employee-Corporate-Units-E1-8EP/1372607357/",
+      "source": "Successfactors",
+      "postedAt": ""
+    },
+    {
+      "id": "Successfactors-1372605257",
+      "title": "User Research (Discovery) Specialist",
+      "company": "British Telecommunications Plc",
+      "location": "London, GB, E1 8EP",
+      "region": "UK & Ireland",
+      "state": "",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://jobs.bt.com/BT/job/London-User-Research-%28Discovery%29-Specialist-E1-8EP/1372605257/",
       "source": "Successfactors",
       "postedAt": ""
     },
@@ -3762,23 +3796,6 @@
       "postedAt": ""
     },
     {
-      "id": "Successfactors-1428709700",
-      "title": "COORDINADOR UX RESEARCH",
-      "company": "Compartamos Servicios S.a. DE C.v.",
-      "location": "CULIACAN, SINALOA, MX, 80000",
-      "region": "US",
-      "state": "US",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://vacantesbancocompartamos.gentera.com.mx/job/CULIACAN-COORDINADOR-UX-RESEARCH-SINA-80000/1428709700/",
-      "source": "Successfactors",
-      "postedAt": ""
-    },
-    {
       "id": "Successfactors-https://career012.successfactors.eu/sfcareer/jobreqcareer?jobId=42640&company=HagerGroup",
       "title": "Lead Design Researcher (M/F/X)",
       "company": "Hager Group",
@@ -3830,23 +3847,6 @@
       "postedAt": ""
     },
     {
-      "id": "Workday-REQ261012",
-      "title": "Ethnographic Researcher",
-      "company": "Cba (commbank Careers)",
-      "location": "Sydney CBD Area",
-      "region": "APAC",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://cba.wd3.myworkdayjobs.com/CommBank_Careers/job/Sydney-CBD-Area/Ethnographic-Researcher_REQ261012",
-      "source": "Workday",
-      "postedAt": ""
-    },
-    {
       "id": "Workday-R00353595",
       "title": "*Design Research Senior Analyst*",
       "company": "Accenture",
@@ -3877,23 +3877,6 @@
       ],
       "salary": "",
       "url": "https://accenture.wd103.myworkdayjobs.com/accenturecareers/job/Newcastle/User-Researcher---Newcastle_R00324411",
-      "source": "Workday",
-      "postedAt": ""
-    },
-    {
-      "id": "Workday-R-57288",
-      "title": "UX Research Lead***Chargé de recherche UX",
-      "company": "Aliaxis",
-      "location": "CA - Oakville 3 - Office",
-      "region": "US",
-      "state": "CA",
-      "locationType": "onsite",
-      "seniority": "lead",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://aliaxis.wd3.myworkdayjobs.com/aliaxis/job/CA---Oakville-3---Office/UX-Research-Lead---Charg-de-recherche-UX_R-57288-1",
       "source": "Workday",
       "postedAt": ""
     },
@@ -3945,6 +3928,23 @@
       ],
       "salary": "",
       "url": "https://ag.wd3.myworkdayjobs.com/airbus/job/Getafe-Area/Test-Engineer--Human-Factors-_JR10418895",
+      "source": "Workday",
+      "postedAt": ""
+    },
+    {
+      "id": "Workday-R-57288",
+      "title": "UX Research Lead***Chargé de recherche UX",
+      "company": "Aliaxis",
+      "location": "CA - Oakville 3 - Office",
+      "region": "US",
+      "state": "CA",
+      "locationType": "onsite",
+      "seniority": "lead",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://aliaxis.wd3.myworkdayjobs.com/aliaxis/job/CA---Oakville-3---Office/UX-Research-Lead---Charg-de-recherche-UX_R-57288-1",
       "source": "Workday",
       "postedAt": ""
     },
@@ -4136,40 +4136,6 @@
       "postedAt": ""
     },
     {
-      "id": "Workday-JR74214",
-      "title": "UX & Predictive Experience Lead Researcher",
-      "company": "Safelite",
-      "location": "2 Locations",
-      "region": "US",
-      "state": "US",
-      "locationType": "onsite",
-      "seniority": "lead",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://belron.wd3.myworkdayjobs.com/safelite_careers/job/OH---STATEWIDE-or-REMOTE/UX---Predictive-Experience-Lead-Researcher_JR74214",
-      "source": "Workday",
-      "postedAt": ""
-    },
-    {
-      "id": "Workday-R-550936",
-      "title": "Sr. Human Factors Engineer",
-      "company": "Bdx",
-      "location": "2 Locations",
-      "region": "US",
-      "state": "US",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://bdx.wd1.myworkdayjobs.com/external_career_site_usa/job/USA-UT---Salt-Lake-City/Sr-Human-Factors-Engineer_R-550936-1",
-      "source": "Workday",
-      "postedAt": ""
-    },
-    {
       "id": "Workday-JR - 208257",
       "title": "Principal Human Factors Engineer",
       "company": "Baxter",
@@ -4204,6 +4170,40 @@
       "postedAt": ""
     },
     {
+      "id": "Workday-R-550936",
+      "title": "Sr. Human Factors Engineer",
+      "company": "Bdx",
+      "location": "2 Locations",
+      "region": "US",
+      "state": "US",
+      "locationType": "onsite",
+      "seniority": "senior",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://bdx.wd1.myworkdayjobs.com/external_career_site_usa/job/USA-UT---Salt-Lake-City/Sr-Human-Factors-Engineer_R-550936-1",
+      "source": "Workday",
+      "postedAt": ""
+    },
+    {
+      "id": "Workday-JR74214",
+      "title": "UX & Predictive Experience Lead Researcher",
+      "company": "Safelite",
+      "location": "2 Locations",
+      "region": "US",
+      "state": "US",
+      "locationType": "onsite",
+      "seniority": "lead",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://belron.wd3.myworkdayjobs.com/safelite_careers/job/OH---STATEWIDE-or-REMOTE/UX---Predictive-Experience-Lead-Researcher_JR74214",
+      "source": "Workday",
+      "postedAt": ""
+    },
+    {
       "id": "Workday-R260026694",
       "title": "Sr. Manager, User Experience Research",
       "company": "Bmo",
@@ -4217,23 +4217,6 @@
       ],
       "salary": "",
       "url": "https://bmo.wd3.myworkdayjobs.com/external/job/Toronto-ON-CAN/Sr-Manager--User-Experience-Research_R260026694",
-      "source": "Workday",
-      "postedAt": ""
-    },
-    {
-      "id": "Workday-JR-144778",
-      "title": "Principal UX Researcher",
-      "company": "Brighthorizons",
-      "location": "Newton Massachusetts 02459",
-      "region": "US",
-      "state": "MA",
-      "locationType": "onsite",
-      "seniority": "staff",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://brighthorizons.wd5.myworkdayjobs.com/external-northamerica/job/Newton-Massachusetts-02459/Principal-UX-Researcher_JR-144778-1",
       "source": "Workday",
       "postedAt": ""
     },
@@ -4268,6 +4251,23 @@
       ],
       "salary": "",
       "url": "https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Greater-Seattle-Area/Sr-Human-Factors-Engineer_R68796",
+      "source": "Workday",
+      "postedAt": ""
+    },
+    {
+      "id": "Workday-JR-144778",
+      "title": "Principal UX Researcher",
+      "company": "Brighthorizons",
+      "location": "Newton Massachusetts 02459",
+      "region": "US",
+      "state": "MA",
+      "locationType": "onsite",
+      "seniority": "staff",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://brighthorizons.wd5.myworkdayjobs.com/external-northamerica/job/Newton-Massachusetts-02459/Principal-UX-Researcher_JR-144778-1",
       "source": "Workday",
       "postedAt": ""
     },
@@ -4442,23 +4442,6 @@
       "postedAt": ""
     },
     {
-      "id": "Workday-JR10255",
-      "title": "Staff UXR",
-      "company": "Jiostar",
-      "location": "Bengaluru",
-      "region": "India",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "staff",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://jiostar.wd102.myworkdayjobs.com/JioStar/job/Bengaluru/Staff-UXR_JR10255",
-      "source": "Workday",
-      "postedAt": ""
-    },
-    {
       "id": "Workday-R202682395",
       "title": "Manager, UX Research",
       "company": "Cox",
@@ -4540,6 +4523,23 @@
       ],
       "salary": "",
       "url": "https://cox.wd1.myworkdayjobs.com/cox_external_career_site_1/job/Atlanta-GA/Lead-UX-Researcher_R202682394",
+      "source": "Workday",
+      "postedAt": ""
+    },
+    {
+      "id": "Workday-JR10255",
+      "title": "Staff UXR",
+      "company": "Jiostar",
+      "location": "Bengaluru",
+      "region": "India",
+      "state": "",
+      "locationType": "onsite",
+      "seniority": "staff",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://jiostar.wd102.myworkdayjobs.com/JioStar/job/Bengaluru/Staff-UXR_JR10255",
       "source": "Workday",
       "postedAt": ""
     },
@@ -4680,23 +4680,6 @@
       "postedAt": ""
     },
     {
-      "id": "Workday-R-102656",
-      "title": "Staff UX Researcher",
-      "company": "Turo",
-      "location": "San Francisco",
-      "region": "US",
-      "state": "US",
-      "locationType": "onsite",
-      "seniority": "staff",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://turo.wd12.myworkdayjobs.com/turo_careers/job/San-Francisco/Staff-UX-Researcher_R-102656",
-      "source": "Workday",
-      "postedAt": ""
-    },
-    {
       "id": "Workday-R0075281",
       "title": "Principal, UX Research Systems",
       "company": "Tcgplayer (apply)",
@@ -4731,6 +4714,40 @@
       "postedAt": ""
     },
     {
+      "id": "Workday-R-102656",
+      "title": "Staff UX Researcher",
+      "company": "Turo",
+      "location": "San Francisco",
+      "region": "US",
+      "state": "US",
+      "locationType": "onsite",
+      "seniority": "staff",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://turo.wd12.myworkdayjobs.com/turo_careers/job/San-Francisco/Staff-UX-Researcher_R-102656",
+      "source": "Workday",
+      "postedAt": ""
+    },
+    {
+      "id": "Workday-R4044941",
+      "title": "MR Lead Systems Engineer, Usability",
+      "company": "Gehc",
+      "location": "Waukesha",
+      "region": "US",
+      "state": "US",
+      "locationType": "onsite",
+      "seniority": "lead",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Waukesha/MR-Lead-Systems-Engineer--Usability_R4044941",
+      "source": "Workday",
+      "postedAt": ""
+    },
+    {
       "id": "Workday-R0259397",
       "title": "Expert Global Human Factors Engineering",
       "company": "Freseniusmedicalcare",
@@ -4761,23 +4778,6 @@
       ],
       "salary": "",
       "url": "https://freseniusmedicalcare.wd3.myworkdayjobs.com/fme/job/Suzhou-Jiangsu-China/Engineer--Program-Application-Management---Human-Factors-Engineering_R0259360-2",
-      "source": "Workday",
-      "postedAt": ""
-    },
-    {
-      "id": "Workday-R4044941",
-      "title": "MR Lead Systems Engineer, Usability",
-      "company": "Gehc",
-      "location": "Waukesha",
-      "region": "US",
-      "state": "US",
-      "locationType": "onsite",
-      "seniority": "lead",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Waukesha/MR-Lead-Systems-Engineer--Usability_R4044941",
       "source": "Workday",
       "postedAt": ""
     },
@@ -5037,23 +5037,6 @@
       "postedAt": ""
     },
     {
-      "id": "Workday-R2616001",
-      "title": "Senior Human Factors Engineer",
-      "company": "Medline",
-      "location": "Northfield, Illinois",
-      "region": "US",
-      "state": "IL",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://medline.wd5.myworkdayjobs.com/medline/job/Northfield-Illinois/Senior-Human-Factors-Engineer_R2616001",
-      "source": "Workday",
-      "postedAt": ""
-    },
-    {
       "id": "Workday-R37572",
       "title": "Human Factors Engineer - Undergraduate Placement 2027",
       "company": "Mbda",
@@ -5067,6 +5050,23 @@
       ],
       "salary": "",
       "url": "https://mbda.wd3.myworkdayjobs.com/mbda-uk/job/Stevenage/Human-Factors-Engineer---Undergraduate-Placement-2027_R37572",
+      "source": "Workday",
+      "postedAt": ""
+    },
+    {
+      "id": "Workday-R2616001",
+      "title": "Senior Human Factors Engineer",
+      "company": "Medline",
+      "location": "Northfield, Illinois",
+      "region": "US",
+      "state": "IL",
+      "locationType": "onsite",
+      "seniority": "senior",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://medline.wd5.myworkdayjobs.com/medline/job/Northfield-Illinois/Senior-Human-Factors-Engineer_R2616001",
       "source": "Workday",
       "postedAt": ""
     },
@@ -5390,40 +5390,6 @@
       ],
       "salary": "",
       "url": "https://regeneron.wd1.myworkdayjobs.com/careers/job/RENSS---TECH-VALLEY/Director-Human-Factors---Sustaining-Engineering_R49091",
-      "source": "Workday",
-      "postedAt": ""
-    },
-    {
-      "id": "Workday-R117340",
-      "title": "Senior UX Researcher I",
-      "company": "Relx",
-      "location": "London Wall",
-      "region": "UK & Ireland",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://relx.wd3.myworkdayjobs.com/relx/job/London-Wall/Senior-UX-Researcher-I_R117340-1",
-      "source": "Workday",
-      "postedAt": ""
-    },
-    {
-      "id": "Workday-R117368",
-      "title": "UX Researcher I",
-      "company": "Relx",
-      "location": "London Wall",
-      "region": "UK & Ireland",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "junior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://relx.wd3.myworkdayjobs.com/relx/job/London-Wall/UX-Researcher-I_R117368-1",
       "source": "Workday",
       "postedAt": ""
     },
