@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-20T20:06:42Z",
-  "count": 361,
+  "updated": "2026-09-21T02:43:28Z",
+  "count": 359,
   "roles": [
     {
       "id": "Welcometothejungle-e112953b-9498-49fb-8266-a0d5bdfdfff6",
@@ -2961,40 +2961,6 @@
       "url": "https://www.jobs.ch/en/vacancies/detail/ff471cb6-6db5-4c35-a9e9-8e924bd7de06/",
       "source": "Jobsch",
       "postedAt": "2026-07-23T09:47:40+02:00"
-    },
-    {
-      "id": "Amazon-10482909",
-      "title": "Senior UX Researcher, AWS Marketplace and Partner Services",
-      "company": "Amazon",
-      "location": "Austin, Texas, USA",
-      "region": "US",
-      "state": "TX",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://account.amazon.jobs/jobs/10482909/apply",
-      "source": "Amazon",
-      "postedAt": "2026-07-23T00:00:00"
-    },
-    {
-      "id": "Apple-200673351",
-      "title": "Senior Human Factors Engineer",
-      "company": "Apple",
-      "location": "Cupertino",
-      "region": "US",
-      "state": "US",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://jobs.apple.com/en-us/details/200673351/senior-human-factors-engineer",
-      "source": "Apple",
-      "postedAt": "2026-07-22T21:40:24.782000+00:00"
     },
     {
       "id": "Gupy-11715660",
