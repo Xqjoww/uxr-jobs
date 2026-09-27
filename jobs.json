@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-26T20:29:16Z",
-  "count": 367,
+  "updated": "2026-09-27T02:57:32Z",
+  "count": 365,
   "roles": [
     {
       "id": "Smartrecruiters-744000151900739",
@@ -3012,40 +3012,6 @@
       "url": "https://jobs.ashbyhq.com/rula/92dbcf63-fbca-48ce-ace1-699bb1a42433",
       "source": "Ashby",
       "postedAt": "2026-07-29T19:25:20.650000+00:00"
-    },
-    {
-      "id": "Dayforce-whb:CANDIDATEPORTAL:197953",
-      "title": "Digital Customer Experience - User Experience Researcher",
-      "company": "Whitbread",
-      "location": "Chancery Ln, London, England, GB",
-      "region": "UK & Ireland",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://jobs.dayforcehcm.com/en-GB/whb/CANDIDATEPORTAL/jobs/197953",
-      "source": "Dayforce",
-      "postedAt": "2026-07-29T01:00:00+00:00"
-    },
-    {
-      "id": "Rippling-a86e563d-1b8e-4ab7-9811-7fc01c44c31a",
-      "title": "Senior Human Factors Engineer",
-      "company": "Goddard Technologies",
-      "location": "Wilmington, MA",
-      "region": "US",
-      "state": "MA",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://ats.rippling.com/goddard-technologies/jobs/a86e563d-1b8e-4ab7-9811-7fc01c44c31a",
-      "source": "Rippling",
-      "postedAt": "2026-07-28T13:35:38.722000-07:00"
     },
     {
       "id": "Gupy-12461331",
