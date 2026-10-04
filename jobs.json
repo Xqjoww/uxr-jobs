@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-04T11:37:23Z",
-  "count": 351,
+  "updated": "2026-10-04T16:15:51Z",
+  "count": 343,
   "roles": [
     {
       "id": "Welcometothejungle-19b87a92-b48c-47f8-8cf0-1179e1b62bff",
@@ -174,7 +174,7 @@
     },
     {
       "id": "Greenhouse-8140217",
-      "title": "UX Quantitative Research Intern (USA)  *Remote",
+      "title": "UX Quantitative Research Intern (USA)",
       "company": "Pinterest",
       "location": "Remote, US",
       "region": "US",
@@ -599,23 +599,6 @@
       "postedAt": "2026-09-27T00:15:20+00:00"
     },
     {
-      "id": "Lever-feed53b5-c454-474c-8956-f11bffbd5fec",
-      "title": "Associate Experience Design Researcher",
-      "company": "Jobgether",
-      "location": "US",
-      "region": "US",
-      "state": "Remote",
-      "locationType": "remote",
-      "seniority": "junior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://jobs.lever.co/jobgether/feed53b5-c454-474c-8956-f11bffbd5fec",
-      "source": "Lever",
-      "postedAt": "2026-09-26T09:23:34.608000"
-    },
-    {
       "id": "Eures-MTAwMDEtMTAwMzc2NzI4NS1TIDE",
       "title": "Human Factors Engineer (d/f/m) für AIRBUS Defence and Space (Ingenieur/in - Luft- und Raumfahrttechnik)",
       "company": "Simplexx Gmbh",
@@ -801,23 +784,6 @@
       "url": "https://jobs.lever.co/steerbridge/8ae90d9b-d0a3-4568-a284-aa432fa7b40f",
       "source": "Lever",
       "postedAt": "2026-09-24T15:23:23.398000"
-    },
-    {
-      "id": "Recruitee-2758462",
-      "title": "UX Researcher",
-      "company": "Hard Rock Digital",
-      "location": "Remote job",
-      "region": "US",
-      "state": "Remote",
-      "locationType": "remote",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://hardrockdigital.recruitee.com/o/ux-researcher-1",
-      "source": "Recruitee",
-      "postedAt": "2026-09-24T14:24:49"
     },
     {
       "id": "Eures-NzE2MTgzOSA5",
@@ -1755,23 +1721,6 @@
       "postedAt": "2026-09-11T13:50:25-04:00"
     },
     {
-      "id": "Eures-NjgyNDc0NCA5",
-      "title": "UX research & product design - Freelance (H/F)",
-      "company": "Collective",
-      "location": "FR (FR101)",
-      "region": "Europe",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://europa.eu/eures/portal/jv-se/jv-details/NjgyNDc0NCA5?lang=en",
-      "source": "Eures",
-      "postedAt": "2026-09-11T06:01:43"
-    },
-    {
       "id": "Welcometothejungle-78165cbd-f920-4b12-99df-b5cb82310964",
       "title": "Senior User Experience Researcher",
       "company": "WHOOP",
@@ -2246,23 +2195,6 @@
       "url": "https://jobs.ashbyhq.com/wrapbook/e4b38c5f-565d-4cb9-af12-8568376fcb9d",
       "source": "Ashby",
       "postedAt": "2026-08-31T18:29:33.556000+00:00"
-    },
-    {
-      "id": "Welcometothejungle-0d134ed9-a325-45f9-9b4d-8d334ba3a62a",
-      "title": "Senior UX Researcher (Consumer Product)",
-      "company": "Reddit",
-      "location": "United States",
-      "region": "US",
-      "state": "Remote",
-      "locationType": "remote",
-      "seniority": "senior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "$168k to $234k",
-      "url": "https://www.welcometothejungle.com/en/companies/iESWJ5/jobs/senior-ux-researcher-consumer-product_us_7bm6tkqq",
-      "source": "Welcometothejungle",
-      "postedAt": "2026-08-30T00:15:37+00:00"
     },
     {
       "id": "Welcometothejungle-10944cd3-ec12-4502-8f26-398965a39de0",
@@ -2792,23 +2724,6 @@
       "postedAt": "2026-08-14T21:24:54.958000+00:00"
     },
     {
-      "id": "Workable-66893AD93B",
-      "title": "Senior Design Expert - Paid AI Design Research Study",
-      "company": "Weekday AI",
-      "location": "United States",
-      "region": "US",
-      "state": "Remote",
-      "locationType": "remote",
-      "seniority": "senior",
-      "tags": [
-        "AI"
-      ],
-      "salary": "",
-      "url": "https://apply.workable.com/j/66893AD93B",
-      "source": "Workable",
-      "postedAt": "2026-08-14T00:00:00"
-    },
-    {
       "id": "Smartrecruiters-744000143371924",
       "title": "Senior Human Factors Engineering (UX/HCI, GUI Design)",
       "company": "Gdmsi",
@@ -2892,23 +2807,6 @@
       "url": "https://apply.workable.com/j/F08660B12C",
       "source": "Workable",
       "postedAt": "2026-08-12T00:00:00"
-    },
-    {
-      "id": "Mercor-list_AAABn-6oGNFXnUAaNf5Cnp1f",
-      "title": "Senior Design Expert - Paid AI Design Research Study",
-      "company": "Mercor",
-      "location": "Remote",
-      "region": "US",
-      "state": "Remote",
-      "locationType": "remote",
-      "seniority": "senior",
-      "tags": [
-        "AI"
-      ],
-      "salary": "$150 to $250",
-      "url": "https://work.mercor.com/jobs/list_AAABn-6oGNFXnUAaNf5Cnp1f/senior-design-expert-paid-ai-design-research-study",
-      "source": "Mercor",
-      "postedAt": "2026-08-11T02:30:22"
     },
     {
       "id": "Amazon-10499121",
@@ -3268,23 +3166,6 @@
       "postedAt": ""
     },
     {
-      "id": "Successfactors-1413961100",
-      "title": "Engineer 3 - Human Factors",
-      "company": "Terumo Bct, Inc.",
-      "location": "Lakewood, CO, US",
-      "region": "US",
-      "state": "CO",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://careers.terumobct.com/job/Lakewood-Engineer-3-Human-Factors-CO-80123/1413961100/",
-      "source": "Successfactors",
-      "postedAt": ""
-    },
-    {
       "id": "Successfactors-1413962200",
       "title": "Engineer 2 - Human Factors",
       "company": "Terumo Bct, Inc.",
@@ -3298,6 +3179,23 @@
       ],
       "salary": "",
       "url": "https://careers.terumobct.com/job/Lakewood-Engineer-2-Human-Factors-CO-80123/1413962200/",
+      "source": "Successfactors",
+      "postedAt": ""
+    },
+    {
+      "id": "Successfactors-1413961100",
+      "title": "Engineer 3 - Human Factors",
+      "company": "Terumo Bct, Inc.",
+      "location": "Lakewood, CO, US",
+      "region": "US",
+      "state": "CO",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://careers.terumobct.com/job/Lakewood-Engineer-3-Human-Factors-CO-80123/1413961100/",
       "source": "Successfactors",
       "postedAt": ""
     },
@@ -3540,6 +3438,23 @@
       "postedAt": ""
     },
     {
+      "id": "Successfactors-1372607357",
+      "title": "User Researcher - Enterprise",
+      "company": "British Telecommunications Plc",
+      "location": "London, GB, E1 8EP",
+      "region": "UK & Ireland",
+      "state": "",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://jobs.bt.com/BT/job/London-User-Researcher-Enterprise-E1-8EP/1372607357/",
+      "source": "Successfactors",
+      "postedAt": ""
+    },
+    {
       "id": "Successfactors-1370549157",
       "title": "User Researcher",
       "company": "British Telecommunications Plc",
@@ -3557,11 +3472,28 @@
       "postedAt": ""
     },
     {
-      "id": "Successfactors-1372607357",
-      "title": "User Researcher - Enterprise",
-      "company": "British Telecommunications Plc",
-      "location": "London, GB, E1 8EP",
-      "region": "UK & Ireland",
+      "id": "Successfactors-1271680101",
+      "title": "(CONTRACT) Professional, Engineering - Flight deck Integration and Human Factors - Wichita",
+      "company": "Bombardier Inc.",
+      "location": "Wichita, KS, US, 67209",
+      "region": "US",
+      "state": "KS",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://jobs.bombardier.com/job/Wichita-%28CONTRACT%29-Professional%2C-Engineering-Flight-deck-Integration-and-Human-Factors-Wichita-KS-67209/1271680101/",
+      "source": "Successfactors",
+      "postedAt": ""
+    },
+    {
+      "id": "Successfactors-1402090633",
+      "title": "Professional, Engineering - Flightdeck Integration, Human Factors and Ergonomics",
+      "company": "Bombardier Inc.",
+      "location": "Dorval, Québec, CA, H4S 1Y9",
+      "region": "Canada",
       "state": "",
       "locationType": "onsite",
       "seniority": "mid",
@@ -3569,7 +3501,7 @@
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://jobs.bt.com/BT/job/London-User-Researcher-Enterprise-E1-8EP/1372607357/",
+      "url": "https://jobs.bombardier.com/job/Dorval-Professional%2C-Engineering-Flightdeck-Integration%2C-Human-Factors-and-Ergonomics-Qu%C3%A9b-H4S-1Y9/1402090633/",
       "source": "Successfactors",
       "postedAt": ""
     },
@@ -3621,40 +3553,6 @@
       ],
       "salary": "",
       "url": "https://jobs.bombardier.com/job/Dorval-CONTRACT-Human-Factors-and-Ergonomics-Professional-%28Montreal%29-Qu%C3%A9b-H4S-1Y9/1399522833/",
-      "source": "Successfactors",
-      "postedAt": ""
-    },
-    {
-      "id": "Successfactors-1402090633",
-      "title": "Professional, Engineering - Flightdeck Integration, Human Factors and Ergonomics",
-      "company": "Bombardier Inc.",
-      "location": "Dorval, Québec, CA, H4S 1Y9",
-      "region": "Canada",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://jobs.bombardier.com/job/Dorval-Professional%2C-Engineering-Flightdeck-Integration%2C-Human-Factors-and-Ergonomics-Qu%C3%A9b-H4S-1Y9/1402090633/",
-      "source": "Successfactors",
-      "postedAt": ""
-    },
-    {
-      "id": "Successfactors-1271680101",
-      "title": "(CONTRACT) Professional, Engineering - Flight deck Integration and Human Factors - Wichita",
-      "company": "Bombardier Inc.",
-      "location": "Wichita, KS, US, 67209",
-      "region": "US",
-      "state": "KS",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://jobs.bombardier.com/job/Wichita-%28CONTRACT%29-Professional%2C-Engineering-Flight-deck-Integration-and-Human-Factors-Wichita-KS-67209/1271680101/",
       "source": "Successfactors",
       "postedAt": ""
     },
@@ -3829,23 +3727,6 @@
       "postedAt": ""
     },
     {
-      "id": "Workday-R-57288",
-      "title": "UX Research Lead***Chargé de recherche UX",
-      "company": "Aliaxis",
-      "location": "CA - Oakville 3 - Office",
-      "region": "US",
-      "state": "CA",
-      "locationType": "onsite",
-      "seniority": "lead",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://aliaxis.wd3.myworkdayjobs.com/aliaxis/job/CA---Oakville-3---Office/UX-Research-Lead---Charg-de-recherche-UX_R-57288-1",
-      "source": "Workday",
-      "postedAt": ""
-    },
-    {
       "id": "Workday-JR10434714",
       "title": "ATR - Human Factors Specialist (M/F)",
       "company": "AG",
@@ -3876,6 +3757,23 @@
       ],
       "salary": "",
       "url": "https://ag.wd3.myworkdayjobs.com/airbus/job/Toulouse-Area/Human-Factors-Engineering-and-Flight-Deck-Specialist_JR10385110-1",
+      "source": "Workday",
+      "postedAt": ""
+    },
+    {
+      "id": "Workday-R-57288",
+      "title": "UX Research Lead***Chargé de recherche UX",
+      "company": "Aliaxis",
+      "location": "CA - Oakville 3 - Office",
+      "region": "US",
+      "state": "CA",
+      "locationType": "onsite",
+      "seniority": "lead",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://aliaxis.wd3.myworkdayjobs.com/aliaxis/job/CA---Oakville-3---Office/UX-Research-Lead---Charg-de-recherche-UX_R-57288-1",
       "source": "Workday",
       "postedAt": ""
     },
@@ -4050,23 +3948,6 @@
       "postedAt": ""
     },
     {
-      "id": "Workday-R-8262",
-      "title": "SENIOR UX RESEARCHER & PRODUCT EXPERIENCE, AI-NATIVE INCUBATOR",
-      "company": "Bdc",
-      "location": "Montreal",
-      "region": "Canada",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [
-        "AI"
-      ],
-      "salary": "",
-      "url": "https://bdc.wd10.myworkdayjobs.com/bdc_careers/job/Montreal/SENIOR-UX-RESEARCHER---PRODUCT-EXPERIENCE--AI-NATIVE-INCUBATOR_R-8262",
-      "source": "Workday",
-      "postedAt": ""
-    },
-    {
       "id": "Workday-JR-0000107921",
       "title": "UX Researcher",
       "company": "Barclays",
@@ -4101,19 +3982,19 @@
       "postedAt": ""
     },
     {
-      "id": "Workday-JR74214",
-      "title": "UX & Predictive Experience Lead Researcher",
-      "company": "Safelite",
-      "location": "2 Locations",
-      "region": "US",
-      "state": "US",
+      "id": "Workday-R-8262",
+      "title": "SENIOR UX RESEARCHER & PRODUCT EXPERIENCE, AI-NATIVE INCUBATOR",
+      "company": "Bdc",
+      "location": "Montreal",
+      "region": "Canada",
+      "state": "",
       "locationType": "onsite",
-      "seniority": "lead",
+      "seniority": "senior",
       "tags": [
-        "Qualitative"
+        "AI"
       ],
       "salary": "",
-      "url": "https://belron.wd3.myworkdayjobs.com/safelite_careers/job/OH---STATEWIDE-or-REMOTE/UX---Predictive-Experience-Lead-Researcher_JR74214",
+      "url": "https://bdc.wd10.myworkdayjobs.com/bdc_careers/job/Montreal/SENIOR-UX-RESEARCHER---PRODUCT-EXPERIENCE--AI-NATIVE-INCUBATOR_R-8262",
       "source": "Workday",
       "postedAt": ""
     },
@@ -4131,6 +4012,23 @@
       ],
       "salary": "",
       "url": "https://bdx.wd1.myworkdayjobs.com/external_career_site_usa/job/USA-UT---Salt-Lake-City/Sr-Human-Factors-Engineer_R-550936-1",
+      "source": "Workday",
+      "postedAt": ""
+    },
+    {
+      "id": "Workday-JR74214",
+      "title": "UX & Predictive Experience Lead Researcher",
+      "company": "Safelite",
+      "location": "2 Locations",
+      "region": "US",
+      "state": "US",
+      "locationType": "onsite",
+      "seniority": "lead",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://belron.wd3.myworkdayjobs.com/safelite_careers/job/OH---STATEWIDE-or-REMOTE/UX---Predictive-Experience-Lead-Researcher_JR74214",
       "source": "Workday",
       "postedAt": ""
     },
@@ -4169,23 +4067,6 @@
       "postedAt": ""
     },
     {
-      "id": "Workday-REQ-4570",
-      "title": "Senior UX Research and Design Specialist",
-      "company": "Cambium Learning® Group",
-      "location": "Remote",
-      "region": "US",
-      "state": "Remote",
-      "locationType": "remote",
-      "seniority": "senior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://cambiumlearning.wd1.myworkdayjobs.com/camb/job/Remote/Senior-UX-Research-and-Design-Specialist_REQ-4570",
-      "source": "Workday",
-      "postedAt": ""
-    },
-    {
       "id": "Workday-WD89118",
       "title": "Senior Associate, User Experience Researcher, Group Design, Consumer Banking Group",
       "company": "Dbs",
@@ -4216,6 +4097,23 @@
       ],
       "salary": "",
       "url": "https://dbs.wd3.myworkdayjobs.com/DBS_Careers/job/Singapore---Central/VP--Team-Lead--User-Experience-Research--Group-Design--Consumer-Banking-Group_WD89045",
+      "source": "Workday",
+      "postedAt": ""
+    },
+    {
+      "id": "Workday-REQ-4570",
+      "title": "Senior UX Research and Design Specialist",
+      "company": "Cambium Learning® Group",
+      "location": "Remote",
+      "region": "US",
+      "state": "Remote",
+      "locationType": "remote",
+      "seniority": "senior",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://cambiumlearning.wd1.myworkdayjobs.com/camb/job/Remote/Senior-UX-Research-and-Design-Specialist_REQ-4570",
       "source": "Workday",
       "postedAt": ""
     },
@@ -4254,23 +4152,6 @@
       "postedAt": ""
     },
     {
-      "id": "Workday-26994596",
-      "title": "BANAMEX UX Researcher Senior (C13) Canales Digitales AFORE",
-      "company": "Citi",
-      "location": "Ciudad De Mexico Distrito Federal Mexico",
-      "region": "Rest of World",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Ciudad-De-Mexico-Distrito-Federal-Mexico/BANAMEX-UX-Researcher-Senior--C13-_26994596",
-      "source": "Workday",
-      "postedAt": ""
-    },
-    {
       "id": "Workday-26983412",
       "title": "UX Product Research and Strategy Lead",
       "company": "Citi",
@@ -4301,23 +4182,6 @@
       ],
       "salary": "",
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/Belfast--United-Kingdom/UX---Product-Research---Strategy-Lead--VP-_26984048",
-      "source": "Workday",
-      "postedAt": ""
-    },
-    {
-      "id": "Workday-JR10255",
-      "title": "Staff UXR",
-      "company": "Jiostar",
-      "location": "Bengaluru",
-      "region": "India",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "staff",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://jiostar.wd102.myworkdayjobs.com/JioStar/job/Bengaluru/Staff-UXR_JR10255",
       "source": "Workday",
       "postedAt": ""
     },
@@ -4403,6 +4267,23 @@
       ],
       "salary": "",
       "url": "https://cox.wd1.myworkdayjobs.com/cox_external_career_site_1/job/Atlanta-GA/Lead-UX-Researcher_R202682394",
+      "source": "Workday",
+      "postedAt": ""
+    },
+    {
+      "id": "Workday-JR10255",
+      "title": "Staff UXR",
+      "company": "Jiostar",
+      "location": "Bengaluru",
+      "region": "India",
+      "state": "",
+      "locationType": "onsite",
+      "seniority": "staff",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://jiostar.wd102.myworkdayjobs.com/JioStar/job/Bengaluru/Staff-UXR_JR10255",
       "source": "Workday",
       "postedAt": ""
     },
@@ -4934,23 +4815,6 @@
       "postedAt": ""
     },
     {
-      "id": "Workday-JR0150772",
-      "title": "Senior UX Researcher & Designer",
-      "company": "Mckesson",
-      "location": "London",
-      "region": "UK & Ireland",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://mckesson.wd3.myworkdayjobs.com/external_careers/job/London/Sr-UX-Designer_JR0150772",
-      "source": "Workday",
-      "postedAt": ""
-    },
-    {
       "id": "Workday-R2616001",
       "title": "Senior Human Factors Engineer",
       "company": "Medline",
@@ -5172,19 +5036,19 @@
       "postedAt": ""
     },
     {
-      "id": "Workday-JR_053995",
-      "title": "Lead User Researcher - Hardware Research",
-      "company": "Resmed",
-      "location": "AU Sydney Bella Vista",
-      "region": "APAC",
-      "state": "",
+      "id": "Workday-R49091",
+      "title": "Director Human Factors & Sustaining Engineering",
+      "company": "Regeneron",
+      "location": "2 Locations",
+      "region": "US",
+      "state": "US",
       "locationType": "onsite",
       "seniority": "lead",
       "tags": [
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://resmed.wd3.myworkdayjobs.com/resmed_external_careers/job/AU-Sydney-Bella-Vista/Lead-User-Researcher---Hardware-Research_JR_053995",
+      "url": "https://regeneron.wd1.myworkdayjobs.com/careers/job/RENSS---TECH-VALLEY/Director-Human-Factors---Sustaining-Engineering_R49091",
       "source": "Workday",
       "postedAt": ""
     },
@@ -5240,19 +5104,19 @@
       "postedAt": ""
     },
     {
-      "id": "Workday-R49091",
-      "title": "Director Human Factors & Sustaining Engineering",
-      "company": "Regeneron",
-      "location": "2 Locations",
-      "region": "US",
-      "state": "US",
+      "id": "Workday-JR_053995",
+      "title": "Lead User Researcher - Hardware Research",
+      "company": "Resmed",
+      "location": "AU Sydney Bella Vista",
+      "region": "APAC",
+      "state": "",
       "locationType": "onsite",
       "seniority": "lead",
       "tags": [
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://regeneron.wd1.myworkdayjobs.com/careers/job/RENSS---TECH-VALLEY/Director-Human-Factors---Sustaining-Engineering_R49091",
+      "url": "https://resmed.wd3.myworkdayjobs.com/resmed_external_careers/job/AU-Sydney-Bella-Vista/Lead-User-Researcher---Hardware-Research_JR_053995",
       "source": "Workday",
       "postedAt": ""
     },
