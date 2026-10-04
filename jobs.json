@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-03T20:26:40Z",
-  "count": 353,
+  "updated": "2026-10-04T03:42:13Z",
+  "count": 351,
   "roles": [
     {
       "id": "Welcometothejungle-19b87a92-b48c-47f8-8cf0-1179e1b62bff",
@@ -3045,40 +3045,6 @@
       "url": "https://jobs.gem.com/retool/am9icG9zdDqpN76c-U8seAk_DVqZ_1d8",
       "source": "Gem",
       "postedAt": "2026-08-05T20:54:29"
-    },
-    {
-      "id": "Welcometothejungle-9e724e42-8db7-4a9e-a28b-4691cce00e00",
-      "title": "User Researcher",
-      "company": "Methods",
-      "location": "Manchester, United Kingdom",
-      "region": "UK & Ireland",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://www.welcometothejungle.com/en/companies/geRv8s/jobs/user-researcher_manchester_yfro2p3w",
-      "source": "Welcometothejungle",
-      "postedAt": "2026-08-05T00:11:38+00:00"
-    },
-    {
-      "id": "Greenhouse-5202965007",
-      "title": "Senior User Experience Researcher",
-      "company": "Andurilindustries",
-      "location": "Irvine, California, United States; Seattle, Washington, United States",
-      "region": "US",
-      "state": "CA",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://boards.greenhouse.io/andurilindustries/jobs/5202965007?gh_jid=5202965007",
-      "source": "Greenhouse",
-      "postedAt": "2026-08-04T17:58:09-04:00"
     },
     {
       "id": "Gupy-12461331",
