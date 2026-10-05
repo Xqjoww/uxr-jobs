@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-04T20:44:36Z",
-  "count": 343,
+  "updated": "2026-10-05T03:25:39Z",
+  "count": 342,
   "roles": [
     {
       "id": "Welcometothejungle-19b87a92-b48c-47f8-8cf0-1179e1b62bff",
@@ -2926,23 +2926,6 @@
       "url": "https://job-boards.greenhouse.io/thetradedesk/jobs/5205760007",
       "source": "Greenhouse",
       "postedAt": "2026-08-06T12:23:52-04:00"
-    },
-    {
-      "id": "Gem-am9icG9zdDqpN76c-U8seAk_DVqZ_1d8",
-      "title": "UX Research Manager",
-      "company": "Retool",
-      "location": "San Francisco, USA",
-      "region": "US",
-      "state": "US",
-      "locationType": "onsite",
-      "seniority": "lead",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://jobs.gem.com/retool/am9icG9zdDqpN76c-U8seAk_DVqZ_1d8",
-      "source": "Gem",
-      "postedAt": "2026-08-05T20:54:29"
     },
     {
       "id": "Gupy-12461331",
