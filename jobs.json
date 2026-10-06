@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-05T23:33:51Z",
-  "count": 349,
+  "updated": "2026-10-06T04:12:52Z",
+  "count": 347,
   "roles": [
     {
       "id": "Workable-2C01A7AA58",
@@ -3011,40 +3011,6 @@
       "url": "https://hire-r1.mokahr.com/social-recruitment/bitget/100000079/job/84fd53c7-8593-458d-8246-10e1947c8115",
       "source": "Moka",
       "postedAt": "2026-08-07T16:11:02+00:00"
-    },
-    {
-      "id": "Oracle-ecqf.fa.em2.oraclecloud.com:9246",
-      "title": "UX Research Executive",
-      "company": "Ipsos",
-      "location": "Thailand",
-      "region": "APAC",
-      "state": "",
-      "locationType": "remote",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://ecqf.fa.em2.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX_2001#9246",
-      "source": "Oracle",
-      "postedAt": "2026-08-07T00:00:00"
-    },
-    {
-      "id": "Amazon-10495455",
-      "title": "Senior UX Researcher, Amazon Global Logistics",
-      "company": "Amazon",
-      "location": "Shanghai, CHN",
-      "region": "APAC",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://account.amazon.jobs/jobs/10495455/apply",
-      "source": "Amazon",
-      "postedAt": "2026-08-07T00:00:00"
     },
     {
       "id": "Gupy-12461331",
