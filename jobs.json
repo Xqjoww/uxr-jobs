@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-09T22:05:44Z",
-  "count": 347,
+  "updated": "2026-10-10T03:44:36Z",
+  "count": 345,
   "roles": [
     {
       "id": "Welcometothejungle-113a0795-b39f-46be-935d-e68f3658ccc3",
@@ -2927,40 +2927,6 @@
       "url": "https://odigeo.csod.com/ux/ats/careersite/2/job/2828?c=odigeo",
       "source": "Cornerstone",
       "postedAt": "2026-08-12T00:00:00"
-    },
-    {
-      "id": "Amazon-10499121",
-      "title": "Sr. UX Researcher, AFT - Experience Design",
-      "company": "Amazon",
-      "location": "Austin, Texas, USA",
-      "region": "US",
-      "state": "TX",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://account.amazon.jobs/jobs/10499121/apply",
-      "source": "Amazon",
-      "postedAt": "2026-08-11T00:00:00"
-    },
-    {
-      "id": "Greenhouse-8112572",
-      "title": "Staff UX Researcher, Incubations (Mixed Methods)",
-      "company": "Airbnb",
-      "location": "United States",
-      "region": "US",
-      "state": "US",
-      "locationType": "onsite",
-      "seniority": "staff",
-      "tags": [
-        "Mixed Methods"
-      ],
-      "salary": "",
-      "url": "https://careers.airbnb.com/positions/8112572?gh_jid=8112572",
-      "source": "Greenhouse",
-      "postedAt": "2026-08-10T18:57:54-04:00"
     },
     {
       "id": "Gupy-12461331",
