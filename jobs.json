@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-10T20:59:07Z",
-  "count": 336,
+  "updated": "2026-10-11T03:17:07Z",
+  "count": 335,
   "roles": [
     {
       "id": "Smartrecruiters-744000154682312",
@@ -2927,23 +2927,6 @@
       "url": "https://jobs.lever.co/matchgroup/e198b3f0-e8b0-4b31-898c-db115eeb9c88",
       "source": "Lever",
       "postedAt": "2026-08-13T14:31:01.882000"
-    },
-    {
-      "id": "Cornerstone-2828",
-      "title": "Senior UX Researcher",
-      "company": "Edreams Odigeo",
-      "location": "Barcelona, ES",
-      "region": "Europe",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://odigeo.csod.com/ux/ats/careersite/2/job/2828?c=odigeo",
-      "source": "Cornerstone",
-      "postedAt": "2026-08-12T00:00:00"
     },
     {
       "id": "Gupy-12461331",
