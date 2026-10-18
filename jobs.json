@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-17T19:56:25Z",
-  "count": 316,
+  "updated": "2026-10-18T02:28:54Z",
+  "count": 313,
   "roles": [
     {
       "id": "Welcometothejungle-20d65dc3-02c9-4e8c-922b-dd878be4b93e",
@@ -2706,57 +2706,6 @@
       "url": "https://instacart.careers/job/?gh_jid=8141481",
       "source": "Greenhouse",
       "postedAt": "2026-08-19T09:32:26-04:00"
-    },
-    {
-      "id": "Phenom-R4044941",
-      "title": "MR Lead Systems Engineer, Usability",
-      "company": "Gehealthcare",
-      "location": "Waukesha, Wisconsin, United States of America",
-      "region": "US",
-      "state": "WI",
-      "locationType": "onsite",
-      "seniority": "lead",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://careers.gehealthcare.com/job/R4044941",
-      "source": "Phenom",
-      "postedAt": "2026-08-19T00:00:00+00:00"
-    },
-    {
-      "id": "Bundesagentur-12931-10523-1791224-0-S",
-      "title": "Human Factors Engineer (m/w/d) // AIRBUS",
-      "company": "Kms Personaldienstleistungen Gmbh",
-      "location": "85077 Manching, Bayern, Deutschland",
-      "region": "Europe",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12931-10523-1791224-0-S",
-      "source": "Bundesagentur",
-      "postedAt": "2026-08-19T00:00:00"
-    },
-    {
-      "id": "Bundesagentur-11112-10523-1791222-0-S",
-      "title": "Human Factors Engineer (m/w/d) // AIRBUS",
-      "company": "Kms Zeitarbeit Gmbh",
-      "location": "85077 Manching, Bayern, Deutschland",
-      "region": "Europe",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/11112-10523-1791222-0-S",
-      "source": "Bundesagentur",
-      "postedAt": "2026-08-19T00:00:00"
     },
     {
       "id": "Hrmos-i3design:i3D_D0008",
