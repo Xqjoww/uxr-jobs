@@ -1,7 +1,24 @@
 {
-  "updated": "2026-10-19T11:45:52Z",
-  "count": 305,
+  "updated": "2026-10-19T18:07:01Z",
+  "count": 302,
   "roles": [
+    {
+      "id": "Welcometothejungle-d53bd1c8-2c51-4116-b049-69b6564d12d4",
+      "title": "Senior UX Researcher",
+      "company": "Intrinsic",
+      "location": "Mountain View, CA, United States",
+      "region": "US",
+      "state": "CA",
+      "locationType": "onsite",
+      "seniority": "senior",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "$159k to $217k",
+      "url": "https://www.welcometothejungle.com/en/companies/yABlpo/jobs/senior-ux-researcher_mountain-view-ca_vkntnkwc",
+      "source": "Welcometothejungle",
+      "postedAt": "2026-10-19T00:06:34+00:00"
+    },
     {
       "id": "Getonbrd-ux-researcher-audience-and-product-experience-research-epoch-times-remote",
       "title": "UX Researcher — Audience and Product Experience Research",
@@ -513,23 +530,6 @@
       "postedAt": "2026-10-09T13:32:58.532000+00:00"
     },
     {
-      "id": "Eures-NjMzMjExNSAxMjE",
-      "title": "Principal User Researcher",
-      "company": "Sharkmob AB",
-      "location": "SE (SE224)",
-      "region": "Europe",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "staff",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://europa.eu/eures/portal/jv-se/jv-details/NjMzMjExNSAxMjE?lang=en",
-      "source": "Eures",
-      "postedAt": "2026-10-09T11:43:00.155000"
-    },
-    {
       "id": "Smartrecruiters-744000154621009",
       "title": "UX Researcher Senior H/F",
       "company": "Nexton",
@@ -562,40 +562,6 @@
       "url": "https://jobs.smartrecruiters.com/ifs1/744000154586549",
       "source": "Smartrecruiters",
       "postedAt": "2026-10-09T04:56:57.365000+00:00"
-    },
-    {
-      "id": "Eures-YWI4Y2ExNGEtNDU2MC00MjEzLTkyN2MtZjZhNjg0MmM4NDc5IDI2MQ",
-      "title": "Vil du eie ergonomi og human factors for neste generasjon håndholdte ultralydprober?",
-      "company": "Moyo AS",
-      "location": "NO (NO084)",
-      "region": "Europe",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://europa.eu/eures/portal/jv-se/jv-details/YWI4Y2ExNGEtNDU2MC00MjEzLTkyN2MtZjZhNjg0MmM4NDc5IDI2MQ?lang=en",
-      "source": "Eures",
-      "postedAt": "2026-10-09T04:25:23.107000"
-    },
-    {
-      "id": "Welcometothejungle-039d894e-143d-4e68-86ee-f40bc0e98968",
-      "title": "Lead User Researcher",
-      "company": "Ntt Data",
-      "location": "London, England, United Kingdom",
-      "region": "UK & Ireland",
-      "state": "",
-      "locationType": "remote",
-      "seniority": "lead",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://www.welcometothejungle.com/en/companies/bVBkJa/jobs/lead-user-researcher_london_ND_yZVy4R7",
-      "source": "Welcometothejungle",
-      "postedAt": "2026-10-09T04:01:02+00:00"
     },
     {
       "id": "Welcometothejungle-113a0795-b39f-46be-935d-e68f3658ccc3",
@@ -1431,23 +1397,6 @@
       "url": "https://jpmc.fa.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX_1001#210793050",
       "source": "Oracle",
       "postedAt": "2026-09-25T00:00:00"
-    },
-    {
-      "id": "Recruitee-2758462",
-      "title": "UX Researcher",
-      "company": "Hard Rock Digital",
-      "location": "Remote job",
-      "region": "US",
-      "state": "Remote",
-      "locationType": "remote",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://hardrockdigital.recruitee.com/o/ux-researcher-1",
-      "source": "Recruitee",
-      "postedAt": "2026-09-24T14:24:49"
     },
     {
       "id": "Welcometothejungle-624e54f7-c344-4a33-85bf-ebd577d69151",
@@ -3167,19 +3116,19 @@
       "postedAt": ""
     },
     {
-      "id": "Successfactors-1271680101",
-      "title": "(CONTRACT) Professional, Engineering - Flight deck Integration and Human Factors - Wichita",
+      "id": "Successfactors-1389663633",
+      "title": "Senior Professional, Human Factors Engineering, Flight Deck Design - (Pool Posting)",
       "company": "Bombardier Inc.",
-      "location": "Wichita, KS, US, 67209",
-      "region": "US",
-      "state": "KS",
+      "location": "Dorval, Québec, CA, H4S 1Y9",
+      "region": "Canada",
+      "state": "",
       "locationType": "onsite",
-      "seniority": "mid",
+      "seniority": "senior",
       "tags": [
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://jobs.bombardier.com/job/Wichita-%28CONTRACT%29-Professional%2C-Engineering-Flight-deck-Integration-and-Human-Factors-Wichita-KS-67209/1271680101/",
+      "url": "https://jobs.bombardier.com/job/Dorval-Senior-Professional%2C-Human-Factors-Engineering%2C-Flight-Deck-Design-%28Pool-Posting%29-Qu%C3%A9b-H4S-1Y9/1389663633/",
       "source": "Successfactors",
       "postedAt": ""
     },
@@ -3201,6 +3150,23 @@
       "postedAt": ""
     },
     {
+      "id": "Successfactors-1271680101",
+      "title": "(CONTRACT) Professional, Engineering - Flight deck Integration and Human Factors - Wichita",
+      "company": "Bombardier Inc.",
+      "location": "Wichita, KS, US, 67209",
+      "region": "US",
+      "state": "KS",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://jobs.bombardier.com/job/Wichita-%28CONTRACT%29-Professional%2C-Engineering-Flight-deck-Integration-and-Human-Factors-Wichita-KS-67209/1271680101/",
+      "source": "Successfactors",
+      "postedAt": ""
+    },
+    {
       "id": "Successfactors-1249250301",
       "title": "Senior Professional, Human Factors Engineering, Flight Deck Design",
       "company": "Bombardier Inc.",
@@ -3214,23 +3180,6 @@
       ],
       "salary": "",
       "url": "https://jobs.bombardier.com/job/Dorval-Senior-Professional%2C-Human-Factors-Engineering%2C-Flight-Deck-Design-Qu%C3%A9b-H4S-1Y9/1249250301/",
-      "source": "Successfactors",
-      "postedAt": ""
-    },
-    {
-      "id": "Successfactors-1389663633",
-      "title": "Senior Professional, Human Factors Engineering, Flight Deck Design - (Pool Posting)",
-      "company": "Bombardier Inc.",
-      "location": "Dorval, Québec, CA, H4S 1Y9",
-      "region": "Canada",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://jobs.bombardier.com/job/Dorval-Senior-Professional%2C-Human-Factors-Engineering%2C-Flight-Deck-Design-%28Pool-Posting%29-Qu%C3%A9b-H4S-1Y9/1389663633/",
       "source": "Successfactors",
       "postedAt": ""
     },
@@ -3830,6 +3779,23 @@
       "postedAt": ""
     },
     {
+      "id": "Workday-R4044941",
+      "title": "MR Lead Systems Engineer, Usability",
+      "company": "Gehc",
+      "location": "Waukesha",
+      "region": "US",
+      "state": "US",
+      "locationType": "onsite",
+      "seniority": "lead",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Waukesha/MR-Lead-Systems-Engineer--Usability_R4044941",
+      "source": "Workday",
+      "postedAt": ""
+    },
+    {
       "id": "Workday-R0259397",
       "title": "Expert Global Human Factors Engineering",
       "company": "Freseniusmedicalcare",
@@ -3860,23 +3826,6 @@
       ],
       "salary": "",
       "url": "https://freseniusmedicalcare.wd3.myworkdayjobs.com/fme/job/Suzhou-Jiangsu-China/Engineer--Program-Application-Management---Human-Factors-Engineering_R0259360-2",
-      "source": "Workday",
-      "postedAt": ""
-    },
-    {
-      "id": "Workday-R4044941",
-      "title": "MR Lead Systems Engineer, Usability",
-      "company": "Gehc",
-      "location": "Waukesha",
-      "region": "US",
-      "state": "US",
-      "locationType": "onsite",
-      "seniority": "lead",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/Waukesha/MR-Lead-Systems-Engineer--Usability_R4044941",
       "source": "Workday",
       "postedAt": ""
     },
@@ -4136,40 +4085,6 @@
       "postedAt": ""
     },
     {
-      "id": "Workday-R37572",
-      "title": "Human Factors Engineer - Undergraduate Placement 2027",
-      "company": "Mbda",
-      "location": "2 Locations",
-      "region": "US",
-      "state": "US",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://mbda.wd3.myworkdayjobs.com/mbda-uk/job/Stevenage/Human-Factors-Engineer---Undergraduate-Placement-2027_R37572",
-      "source": "Workday",
-      "postedAt": ""
-    },
-    {
-      "id": "Workday-JR0150772",
-      "title": "Senior UX Researcher & Designer",
-      "company": "Mckesson",
-      "location": "London",
-      "region": "UK & Ireland",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://mckesson.wd3.myworkdayjobs.com/external_careers/job/London/Sr-UX-Designer_JR0150772",
-      "source": "Workday",
-      "postedAt": ""
-    },
-    {
       "id": "Workday-R2616001",
       "title": "Senior Human Factors Engineer",
       "company": "Medline",
@@ -4374,6 +4289,40 @@
       "postedAt": ""
     },
     {
+      "id": "Workday-JR_054450",
+      "title": "Senior UX Researcher, Synthetic Audiences",
+      "company": "Resmed",
+      "location": "Sydney, NSW, Australia",
+      "region": "APAC",
+      "state": "",
+      "locationType": "onsite",
+      "seniority": "senior",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://resmed.wd3.myworkdayjobs.com/resmed_external_careers/job/Sydney-NSW-Australia/Senior-UX-Researcher--Synthetic-Audiences_JR_054450",
+      "source": "Workday",
+      "postedAt": ""
+    },
+    {
+      "id": "Workday-JR_053995",
+      "title": "Lead User Researcher - Hardware Research",
+      "company": "Resmed",
+      "location": "AU Sydney Bella Vista",
+      "region": "APAC",
+      "state": "",
+      "locationType": "onsite",
+      "seniority": "lead",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://resmed.wd3.myworkdayjobs.com/resmed_external_careers/job/AU-Sydney-Bella-Vista/Lead-User-Researcher---Hardware-Research_JR_053995",
+      "source": "Workday",
+      "postedAt": ""
+    },
+    {
       "id": "Workday-R2867503",
       "title": "Human Factors and Usability Engineering Director",
       "company": "Sanofi",
@@ -4425,23 +4374,6 @@
       "postedAt": ""
     },
     {
-      "id": "Workday-R-165739",
-      "title": "Human Factors Specialist (Canada)",
-      "company": "Slihrms",
-      "location": "CA.ON.Toronto.191 The West Mall",
-      "region": "Canada",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://slihrms.wd3.myworkdayjobs.com/careers/job/CAONToronto191-The-West-Mall/Human-Factors-Specialist--Canada-_R-165739",
-      "source": "Workday",
-      "postedAt": ""
-    },
-    {
       "id": "Workday-R-163916",
       "title": "Junior Human Factors Engineer",
       "company": "Slihrms",
@@ -4489,6 +4421,23 @@
       ],
       "salary": "",
       "url": "https://slihrms.wd3.myworkdayjobs.com/careers/job/CAONMississauga2251-Speakman-Drive/Senior-Human-Factors-Engineer_R-161670",
+      "source": "Workday",
+      "postedAt": ""
+    },
+    {
+      "id": "Workday-R-165739",
+      "title": "Human Factors Specialist (Canada)",
+      "company": "Slihrms",
+      "location": "CA.ON.Toronto.191 The West Mall",
+      "region": "Canada",
+      "state": "",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://slihrms.wd3.myworkdayjobs.com/careers/job/CAONToronto191-The-West-Mall/Human-Factors-Specialist--Canada-_R-165739",
       "source": "Workday",
       "postedAt": ""
     },
