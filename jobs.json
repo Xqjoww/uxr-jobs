@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-23T20:52:29Z",
-  "count": 295,
+  "updated": "2026-10-24T02:48:18Z",
+  "count": 293,
   "roles": [
     {
       "id": "Breezy-b307452e7d4a01",
@@ -2587,40 +2587,6 @@
       "url": "https://jobs.ashbyhq.com/rula/16e56019-f09c-4663-a410-4b575a140ffd",
       "source": "Ashby",
       "postedAt": "2026-08-25T17:11:04.236000+00:00"
-    },
-    {
-      "id": "Oracle-eczd.fa.us2.oraclecloud.com:5554",
-      "title": "Sr. UX Researcher",
-      "company": "Yum!",
-      "location": "Plano, TX, United States",
-      "region": "US",
-      "state": "TX",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://eczd.fa.us2.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX_1#5554",
-      "source": "Oracle",
-      "postedAt": "2026-08-25T00:00:00"
-    },
-    {
-      "id": "Jazzhr-MF3OjytojY",
-      "title": "Senior Human Factors Engineer",
-      "company": "Engeniousdesign",
-      "location": "PRAIRIE VILLAGE, KS",
-      "region": "US",
-      "state": "KS",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://engeniousdesign.applytojob.com/apply/jobs/details/MF3OjytojY",
-      "source": "Jazzhr",
-      "postedAt": "2026-08-25T00:00:00"
     },
     {
       "id": "Hrmos-i3design:i3D_D0008",
