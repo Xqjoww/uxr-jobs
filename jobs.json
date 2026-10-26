@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-26T12:02:06Z",
-  "count": 294,
+  "updated": "2026-10-26T22:10:08Z",
+  "count": 292,
   "roles": [
     {
       "id": "Teamtailor-8610572",
@@ -1023,23 +1023,6 @@
       "postedAt": "2026-10-08T08:20:31+00:00"
     },
     {
-      "id": "Eures-Nzc2NzkyNSA5",
-      "title": "UX Researcher confirmé - Freelance (H/F)",
-      "company": "Collective",
-      "location": "FR (FRI12)",
-      "region": "Europe",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://europa.eu/eures/portal/jv-se/jv-details/Nzc2NzkyNSA5?lang=en",
-      "source": "Eures",
-      "postedAt": "2026-10-08T06:03:14"
-    },
-    {
       "id": "Greenhouse-6219429004",
       "title": "Senior UX Researcher",
       "company": "Intrinsicrobotics",
@@ -1055,23 +1038,6 @@
       "url": "https://boards.greenhouse.io/intrinsicrobotics/jobs/6219429004?gh_jid=6219429004",
       "source": "Greenhouse",
       "postedAt": "2026-10-08T00:52:11-04:00"
-    },
-    {
-      "id": "Welcometothejungle-cfc2c68b-611c-4cd9-8792-6f31ad77b433",
-      "title": "UX Quantitative Research Intern (USA)",
-      "company": "Pinterest",
-      "location": "United States",
-      "region": "US",
-      "state": "Remote",
-      "locationType": "remote",
-      "seniority": "junior",
-      "tags": [
-        "Quantitative"
-      ],
-      "salary": "",
-      "url": "https://www.welcometothejungle.com/en/companies/qbYqoJ/jobs/ux-quantitative-research-intern-usa_us_h44zotpx",
-      "source": "Welcometothejungle",
-      "postedAt": "2026-10-08T00:16:07+00:00"
     },
     {
       "id": "Greenhouse-4719941006",
@@ -1483,7 +1449,7 @@
       "postedAt": "2026-09-30T13:03:03+02:00"
     },
     {
-      "id": "Phenom-R1319332",
+      "id": "Phenom-R1319331",
       "title": "Senior Human Factors Engineer",
       "company": "Danaher",
       "location": "Bangalore, Karnātaka, India",
@@ -1495,7 +1461,7 @@
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://jobs.danaher.com/job/R1319332",
+      "url": "https://jobs.danaher.com/job/R1319331",
       "source": "Phenom",
       "postedAt": "2026-09-30T00:00:00+00:00"
     },
@@ -1652,6 +1618,23 @@
       "url": "https://jpmc.fa.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX_1001#210793050",
       "source": "Oracle",
       "postedAt": "2026-09-25T00:00:00"
+    },
+    {
+      "id": "Recruitee-2758462",
+      "title": "UX Researcher",
+      "company": "Hard Rock Digital",
+      "location": "Remote job",
+      "region": "US",
+      "state": "Remote",
+      "locationType": "remote",
+      "seniority": "mid",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://hardrockdigital.recruitee.com/o/ux-researcher-1",
+      "source": "Recruitee",
+      "postedAt": "2026-09-24T14:24:49"
     },
     {
       "id": "Welcometothejungle-624e54f7-c344-4a33-85bf-ebd577d69151",
@@ -2317,23 +2300,6 @@
       "postedAt": "2026-09-08T00:00:00"
     },
     {
-      "id": "Welcometothejungle-68947513-c165-4d46-a59e-cfe539522321",
-      "title": "Senior User Researcher (12 Month Maternity Leave Coverage)",
-      "company": "Wrapbook",
-      "location": "Canada",
-      "region": "Canada",
-      "state": "",
-      "locationType": "remote",
-      "seniority": "senior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://www.welcometothejungle.com/en/companies/YaK9Lt/jobs/senior-user-researcher-12-month-maternity-leave-coverage_ca_zjcwrfvx",
-      "source": "Welcometothejungle",
-      "postedAt": "2026-09-04T00:14:01+00:00"
-    },
-    {
       "id": "Greenhouse-8082067",
       "title": "Principal UX Researcher",
       "company": "Zocdoc",
@@ -2674,19 +2640,19 @@
       "postedAt": ""
     },
     {
-      "id": "Successfactors-1410592100",
-      "title": "Customer Experience Research Operations Manager (Budapest, Central Hungary (Közép-Magyarország), HU)",
-      "company": "Agco",
-      "location": "Budapest, Central Hungary (Közép-Magyarország), HU",
-      "region": "Europe",
-      "state": "",
+      "id": "Successfactors-1372767757",
+      "title": "Engineering Co-op - Human Factors",
+      "company": "Arthrex, Inc.",
+      "location": "Naples, FL, US, 34108",
+      "region": "US",
+      "state": "FL",
       "locationType": "onsite",
-      "seniority": "lead",
+      "seniority": "junior",
       "tags": [
-        "Research Ops"
+        "Qualitative"
       ],
       "salary": "",
-      "url": "https://careers.agcocorp.com/job/Budapest-Customer-Experience-Research-Operations-Manager-Cent/1410592100/",
+      "url": "https://careers.arthrex.com/NorthAmerica/job/Naples-Engineering-Co-op-Human-Factors-FL-34108/1372767757/",
       "source": "Successfactors",
       "postedAt": ""
     },
@@ -2708,19 +2674,19 @@
       "postedAt": ""
     },
     {
-      "id": "Successfactors-1372767757",
-      "title": "Engineering Co-op - Human Factors",
-      "company": "Arthrex, Inc.",
-      "location": "Naples, FL, US, 34108",
-      "region": "US",
-      "state": "FL",
+      "id": "Successfactors-1410592100",
+      "title": "Customer Experience Research Operations Manager (Budapest, Central Hungary (Közép-Magyarország), HU)",
+      "company": "Agco",
+      "location": "Budapest, Central Hungary (Közép-Magyarország), HU",
+      "region": "Europe",
+      "state": "",
       "locationType": "onsite",
-      "seniority": "junior",
+      "seniority": "lead",
       "tags": [
-        "Qualitative"
+        "Research Ops"
       ],
       "salary": "",
-      "url": "https://careers.arthrex.com/NorthAmerica/job/Naples-Engineering-Co-op-Human-Factors-FL-34108/1372767757/",
+      "url": "https://careers.agcocorp.com/job/Budapest-Customer-Experience-Research-Operations-Manager-Cent/1410592100/",
       "source": "Successfactors",
       "postedAt": ""
     },
@@ -2759,23 +2725,6 @@
       "postedAt": ""
     },
     {
-      "id": "Successfactors-1368606166",
-      "title": "Human Factors Lead",
-      "company": "Kdr Victoria Pty Ltd",
-      "location": "VIC, AU, 3000",
-      "region": "US",
-      "state": "US",
-      "locationType": "onsite",
-      "seniority": "lead",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://careers.yarratrams.com.au/job/Soansville-Human-Factors-Lead-VIC-3000/1368606166/",
-      "source": "Successfactors",
-      "postedAt": ""
-    },
-    {
       "id": "Successfactors-1384056100",
       "title": "Human Factors Specialist",
       "company": "Westinghouse Electric Company, Llc",
@@ -2810,23 +2759,6 @@
       "postedAt": ""
     },
     {
-      "id": "Successfactors-1442511433",
-      "title": "Staff Engineer - Human Factors - Indianola",
-      "company": "Bayer",
-      "location": "Indianola, Pennsylvania, US",
-      "region": "US",
-      "state": "PA",
-      "locationType": "onsite",
-      "seniority": "staff",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://jobs.bayer.com/job/Indianola-Staff-Engineer-Human-Factors-Indianola-Penn/1442511433/",
-      "source": "Successfactors",
-      "postedAt": ""
-    },
-    {
       "id": "Successfactors-1442515233",
       "title": "Principal Engineer - Human Factors - Indianola, PA",
       "company": "Bayer",
@@ -2840,6 +2772,23 @@
       ],
       "salary": "",
       "url": "https://jobs.bayer.com/job/Indianola-Principal-Engineer-Human-Factors-Indianola%2C-PA-Penn/1442515233/",
+      "source": "Successfactors",
+      "postedAt": ""
+    },
+    {
+      "id": "Successfactors-1442511433",
+      "title": "Staff Engineer - Human Factors - Indianola",
+      "company": "Bayer",
+      "location": "Indianola, Pennsylvania, US",
+      "region": "US",
+      "state": "PA",
+      "locationType": "onsite",
+      "seniority": "staff",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://jobs.bayer.com/job/Indianola-Staff-Engineer-Human-Factors-Indianola-Penn/1442511433/",
       "source": "Successfactors",
       "postedAt": ""
     },
@@ -2980,23 +2929,6 @@
       "postedAt": ""
     },
     {
-      "id": "Successfactors-1249250301",
-      "title": "Senior Professional, Human Factors Engineering, Flight Deck Design",
-      "company": "Bombardier Inc.",
-      "location": "Dorval, Québec, CA, H4S 1Y9",
-      "region": "Canada",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://jobs.bombardier.com/job/Dorval-Senior-Professional%2C-Human-Factors-Engineering%2C-Flight-Deck-Design-Qu%C3%A9b-H4S-1Y9/1249250301/",
-      "source": "Successfactors",
-      "postedAt": ""
-    },
-    {
       "id": "Successfactors-1271680101",
       "title": "(CONTRACT) Professional, Engineering - Flight deck Integration and Human Factors - Wichita",
       "company": "Bombardier Inc.",
@@ -3027,6 +2959,23 @@
       ],
       "salary": "",
       "url": "https://jobs.bombardier.com/job/Dorval-Senior-Professional%2C-Human-Factors-Engineering%2C-Flight-Deck-Design-%28Pool-Posting%29-Qu%C3%A9b-H4S-1Y9/1389663633/",
+      "source": "Successfactors",
+      "postedAt": ""
+    },
+    {
+      "id": "Successfactors-1249250301",
+      "title": "Senior Professional, Human Factors Engineering, Flight Deck Design",
+      "company": "Bombardier Inc.",
+      "location": "Dorval, Québec, CA, H4S 1Y9",
+      "region": "Canada",
+      "state": "",
+      "locationType": "onsite",
+      "seniority": "senior",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://jobs.bombardier.com/job/Dorval-Senior-Professional%2C-Human-Factors-Engineering%2C-Flight-Deck-Design-Qu%C3%A9b-H4S-1Y9/1249250301/",
       "source": "Successfactors",
       "postedAt": ""
     },
@@ -3541,23 +3490,6 @@
       "postedAt": ""
     },
     {
-      "id": "Workday-JOBREQ00114824",
-      "title": "Group Director, Personalization & UX Research",
-      "company": "Chanel",
-      "location": "New York",
-      "region": "US",
-      "state": "NY",
-      "locationType": "onsite",
-      "seniority": "lead",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://cc.wd3.myworkdayjobs.com/chanelcareers/job/New-York/Group-Director--Personalization---UX-Research_JOBREQ00114824",
-      "source": "Workday",
-      "postedAt": ""
-    },
-    {
       "id": "Workday-165038",
       "title": "Senior Design Researcher (12-month FTC)",
       "company": "Lbg (broadbean External)",
@@ -3813,6 +3745,57 @@
       "postedAt": ""
     },
     {
+      "id": "Workday-R0271310",
+      "title": "R&D Engineering Co-op, Human Factors and Usability",
+      "company": "Freseniusmedicalcare",
+      "location": "Lawrence, MA, USA",
+      "region": "US",
+      "state": "MA",
+      "locationType": "onsite",
+      "seniority": "junior",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://freseniusmedicalcare.wd3.myworkdayjobs.com/fme/job/Lawrence-MA-USA/R-D-Engineering-Co-op--Human-Factors-and-Usability_R0271310",
+      "source": "Workday",
+      "postedAt": ""
+    },
+    {
+      "id": "Workday-R0259397",
+      "title": "Expert Global Human Factors Engineering",
+      "company": "Freseniusmedicalcare",
+      "location": "Suzhou, Jiangsu, China",
+      "region": "APAC",
+      "state": "",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://freseniusmedicalcare.wd3.myworkdayjobs.com/fme/job/Suzhou-Jiangsu-China/Expert-Global-Human-Factors-Engineering_R0259397-1",
+      "source": "Workday",
+      "postedAt": ""
+    },
+    {
+      "id": "Workday-R0259360",
+      "title": "Engineer, Program Application Management / Human Factors Engineering",
+      "company": "Freseniusmedicalcare",
+      "location": "Suzhou, Jiangsu, China",
+      "region": "APAC",
+      "state": "",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://freseniusmedicalcare.wd3.myworkdayjobs.com/fme/job/Suzhou-Jiangsu-China/Engineer--Program-Application-Management---Human-Factors-Engineering_R0259360-2",
+      "source": "Workday",
+      "postedAt": ""
+    },
+    {
       "id": "Workday-R4044941",
       "title": "MR Lead Systems Engineer, Usability",
       "company": "Gehc",
@@ -4030,23 +4013,6 @@
       ],
       "salary": "",
       "url": "https://leidos.wd5.myworkdayjobs.com/external/job/Baltimore-MD/Human-Centered-Design--HCD--Lead--UI-UX-Researcher_R-00193036",
-      "source": "Workday",
-      "postedAt": ""
-    },
-    {
-      "id": "Workday-R37572",
-      "title": "Human Factors Engineer - Undergraduate Placement 2027",
-      "company": "Mbda",
-      "location": "2 Locations",
-      "region": "US",
-      "state": "US",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://mbda.wd3.myworkdayjobs.com/mbda-uk/job/Stevenage/Human-Factors-Engineer---Undergraduate-Placement-2027_R37572",
       "source": "Workday",
       "postedAt": ""
     },
@@ -4357,23 +4323,6 @@
       "postedAt": ""
     },
     {
-      "id": "Workday-R-165739",
-      "title": "Human Factors Specialist (Canada)",
-      "company": "Slihrms",
-      "location": "CA.ON.Toronto.191 The West Mall",
-      "region": "Canada",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://slihrms.wd3.myworkdayjobs.com/careers/job/CAONToronto191-The-West-Mall/Human-Factors-Specialist--Canada-_R-165739",
-      "source": "Workday",
-      "postedAt": ""
-    },
-    {
       "id": "Workday-R-163916",
       "title": "Junior Human Factors Engineer",
       "company": "Slihrms",
@@ -4421,6 +4370,23 @@
       ],
       "salary": "",
       "url": "https://slihrms.wd3.myworkdayjobs.com/careers/job/CAONMississauga2251-Speakman-Drive/Senior-Human-Factors-Engineer_R-161670",
+      "source": "Workday",
+      "postedAt": ""
+    },
+    {
+      "id": "Workday-R-165739",
+      "title": "Human Factors Specialist (Canada)",
+      "company": "Slihrms",
+      "location": "CA.ON.Toronto.191 The West Mall",
+      "region": "Canada",
+      "state": "",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://slihrms.wd3.myworkdayjobs.com/careers/job/CAONToronto191-The-West-Mall/Human-Factors-Specialist--Canada-_R-165739",
       "source": "Workday",
       "postedAt": ""
     },
@@ -4936,23 +4902,6 @@
       "postedAt": ""
     },
     {
-      "id": "Tiktok-7566578192480913717",
-      "title": "Senior User Researcher - TikTok Product",
-      "company": "Tiktok",
-      "location": "Singapore, Singapore, Singapore",
-      "region": "APAC",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://lifeattiktok.com/search/7566578192480913717",
-      "source": "Tiktok",
-      "postedAt": ""
-    },
-    {
       "id": "Tiktok-7699070278786058549",
       "title": "User Researcher",
       "company": "Tiktok",
@@ -4966,6 +4915,23 @@
       ],
       "salary": "",
       "url": "https://lifeattiktok.com/search/7699070278786058549",
+      "source": "Tiktok",
+      "postedAt": ""
+    },
+    {
+      "id": "Tiktok-7566578192480913717",
+      "title": "Senior User Researcher - TikTok Product",
+      "company": "Tiktok",
+      "location": "Singapore, Singapore, Singapore",
+      "region": "APAC",
+      "state": "",
+      "locationType": "onsite",
+      "seniority": "senior",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://lifeattiktok.com/search/7566578192480913717",
       "source": "Tiktok",
       "postedAt": ""
     },
