@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-01T03:41:53Z",
-  "count": 310,
+  "updated": "2026-11-01T12:28:39Z",
+  "count": 309,
   "roles": [
     {
       "id": "Welcometothejungle-b982c7ce-95b8-4166-bb8d-10447b13b1a8",
@@ -2654,23 +2654,6 @@
       "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13644-290576-S",
       "source": "Bundesagentur",
       "postedAt": "2026-09-03T00:00:00"
-    },
-    {
-      "id": "Greenhouse-8172960",
-      "title": "Senior UX Researcher",
-      "company": "Okta",
-      "location": "Bengaluru, India",
-      "region": "India",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://www.okta.com/company/careers/opportunity/8172960?gh_jid=8172960",
-      "source": "Greenhouse",
-      "postedAt": "2026-09-02T05:49:21-04:00"
     },
     {
       "id": "Hrmos-i3design:i3D_D0008",
