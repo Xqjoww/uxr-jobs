@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-31T20:52:12Z",
-  "count": 312,
+  "updated": "2026-11-01T03:41:53Z",
+  "count": 310,
   "roles": [
     {
       "id": "Welcometothejungle-b982c7ce-95b8-4166-bb8d-10447b13b1a8",
@@ -2671,40 +2671,6 @@
       "url": "https://www.okta.com/company/careers/opportunity/8172960?gh_jid=8172960",
       "source": "Greenhouse",
       "postedAt": "2026-09-02T05:49:21-04:00"
-    },
-    {
-      "id": "Amazon-10526520",
-      "title": "Senior UX Researcher, AWS Experience Analytics (EXA)",
-      "company": "Amazon",
-      "location": "Seattle, Washington, USA",
-      "region": "US",
-      "state": "WA",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [
-        "Quantitative"
-      ],
-      "salary": "",
-      "url": "https://account.amazon.jobs/jobs/10526520/apply",
-      "source": "Amazon",
-      "postedAt": "2026-09-02T00:00:00"
-    },
-    {
-      "id": "Bundesagentur-14953-44387256-91-S",
-      "title": "Praktikum / Internship Consumer User Experience Research",
-      "company": "Alfred Kärcher SE & Co. KG",
-      "location": "71364 Winnenden, Württemberg, Baden Wuerttemberg, Deutschland",
-      "region": "Europe",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "junior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14953-44387256-91-S",
-      "source": "Bundesagentur",
-      "postedAt": "2026-09-02T00:00:00"
     },
     {
       "id": "Hrmos-i3design:i3D_D0008",
