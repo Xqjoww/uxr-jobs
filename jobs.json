@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-01T21:33:54Z",
-  "count": 300,
+  "updated": "2026-11-02T03:46:54Z",
+  "count": 297,
   "roles": [
     {
       "id": "Welcometothejungle-039d894e-143d-4e68-86ee-f40bc0e98968",
@@ -2620,57 +2620,6 @@
       "url": "https://jobs.smartrecruiters.com/servicenow/744000147155135",
       "source": "Smartrecruiters",
       "postedAt": "2026-09-03T06:34:46.070000+00:00"
-    },
-    {
-      "id": "Amazon-10528578",
-      "title": "Sr. UX Researcher Mixed Methods, Amazon Customer Service",
-      "company": "Amazon",
-      "location": "Seattle, Washington, USA",
-      "region": "US",
-      "state": "WA",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [
-        "Mixed Methods"
-      ],
-      "salary": "",
-      "url": "https://account.amazon.jobs/jobs/10528578/apply",
-      "source": "Amazon",
-      "postedAt": "2026-09-03T00:00:00"
-    },
-    {
-      "id": "Bundesagentur-13635-131826be_JB5238665-S",
-      "title": "(Senior) UX Researcher (all genders)",
-      "company": "Kaufland E Commerce Services Gmbh & Co. KG",
-      "location": "50674 Köln, Nordrhein Westfalen, Deutschland",
-      "region": "Europe",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-131826be_JB5238665-S",
-      "source": "Bundesagentur",
-      "postedAt": "2026-09-03T00:00:00"
-    },
-    {
-      "id": "Bundesagentur-13644-290576-S",
-      "title": "Initiativbewerbung UX User Experience Research (m/w/d)",
-      "company": "Skopos Group",
-      "location": "50354 Hürth, Rheinland, Nordrhein Westfalen, Deutschland",
-      "region": "Europe",
-      "state": "",
-      "locationType": "remote",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13644-290576-S",
-      "source": "Bundesagentur",
-      "postedAt": "2026-09-03T00:00:00"
     },
     {
       "id": "Hrmos-i3design:i3D_D0008",
