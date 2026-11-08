@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-08T03:46:19Z",
-  "count": 302,
+  "updated": "2026-11-08T12:34:19Z",
+  "count": 301,
   "roles": [
     {
       "id": "Ashby-0c422449-5b05-41ee-a000-0d5c04f78bea",
@@ -2620,23 +2620,6 @@
       "url": "https://job-boards.greenhouse.io/lindawernerassociates/jobs/5419696008",
       "source": "Greenhouse",
       "postedAt": "2026-09-09T13:55:10-04:00"
-    },
-    {
-      "id": "Welcometothejungle-b55e649c-9664-4fda-9f65-1816a6eecf3d",
-      "title": "UX Researcher - Lille",
-      "company": "Listen Too",
-      "location": "Lille, Hauts-de-France, France",
-      "region": "Europe",
-      "state": "",
-      "locationType": "remote",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://www.welcometothejungle.com/en/companies/5wQXa52/jobs/ux-researcher_lille",
-      "source": "Welcometothejungle",
-      "postedAt": "2026-09-09T08:24:22+00:00"
     },
     {
       "id": "Avature-33240",
