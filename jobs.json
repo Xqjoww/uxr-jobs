@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-15T22:22:11Z",
-  "count": 344,
+  "updated": "2026-11-16T04:10:40Z",
+  "count": 343,
   "roles": [
     {
       "id": "Welcometothejungle-602e80f0-a85e-4005-a386-6c9f0e8200b3",
@@ -3062,23 +3062,6 @@
       "url": "https://jobs.ashbyhq.com/backmarket/54b5b0a5-a6ba-42a9-b12c-522faaf10dd7",
       "source": "Ashby",
       "postedAt": "2026-09-17T13:07:11.878000+00:00"
-    },
-    {
-      "id": "Oracle-ebwb.fa.us2.oraclecloud.com:12367",
-      "title": "Human Factors Engineer 4",
-      "company": "Ebwb",
-      "location": "Marlborough, MA, United States",
-      "region": "US",
-      "state": "MA",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://ebwb.fa.us2.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX#12367",
-      "source": "Oracle",
-      "postedAt": "2026-09-17T00:00:00"
     },
     {
       "id": "Gupy-12661603",
