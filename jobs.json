@@ -1,7 +1,41 @@
 {
-  "updated": "2026-11-16T14:28:26Z",
-  "count": 341,
+  "updated": "2026-11-17T01:25:25Z",
+  "count": 362,
   "roles": [
+    {
+      "id": "Greenhouse-5481250008",
+      "title": "Analista de Produtos Sênior - Foco em UX Research - Campinas/SP",
+      "company": "Agibank",
+      "location": "Campinas, São Paulo, Brasil",
+      "region": "Rest of World",
+      "state": "",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://job-boards.greenhouse.io/agibank/jobs/5481250008",
+      "source": "Greenhouse",
+      "postedAt": "2026-11-15T09:28:41-05:00"
+    },
+    {
+      "id": "Dayforce-asrcfh:CANDIDATEPORTAL:31608",
+      "title": "Interaction Designer/User Researcher/Usability Tester",
+      "company": "Asrc Federal",
+      "location": "TX, US",
+      "region": "US",
+      "state": "TX",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://jobs.dayforcehcm.com/en-US/asrcfh/CANDIDATEPORTAL/jobs/31608",
+      "source": "Dayforce",
+      "postedAt": "2026-11-14T00:00:00+00:00"
+    },
     {
       "id": "Welcometothejungle-602e80f0-a85e-4005-a386-6c9f0e8200b3",
       "title": "STAGE - UX RESEARCHER - H/F",
@@ -49,7 +83,7 @@
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://careers.siemens-healthineers.com/job/P-101403",
+      "url": "https://careers.siemens-healthineers.com/global/en/job/P-101403",
       "source": "Phenom",
       "postedAt": "2026-11-13T13:50:36.062000+00:00"
     },
@@ -71,6 +105,23 @@
       "postedAt": "2026-11-13T03:12:48.884000"
     },
     {
+      "id": "Jobvite-onr6Afwe",
+      "title": "Senior Human Factors Engineer - Combination Products",
+      "company": "Kymanox",
+      "location": "United States",
+      "region": "US",
+      "state": "US",
+      "locationType": "onsite",
+      "seniority": "senior",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://jobs.jobvite.com/kymanox/job/onr6Afwe",
+      "source": "Jobvite",
+      "postedAt": "2026-11-13T00:00:00+00:00"
+    },
+    {
       "id": "Phenom-R-115519",
       "title": "Human Factors Engineering Tech Lead",
       "company": "Lilly",
@@ -83,7 +134,7 @@
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://careers.lilly.com/job/R-115519",
+      "url": "https://careers.lilly.com/us/en/job/R-115519",
       "source": "Phenom",
       "postedAt": "2026-11-13T00:00:00+00:00"
     },
@@ -156,6 +207,23 @@
       "postedAt": "2026-11-12T20:17:00.102000"
     },
     {
+      "id": "Keka-lydesign.keka.com:default:169971",
+      "title": "Intern - UX Research",
+      "company": "Lemon Yellow Llp",
+      "location": "Thane, MH, India",
+      "region": "India",
+      "state": "",
+      "locationType": "onsite",
+      "seniority": "junior",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://lydesign.keka.com/careers/jobdetails/169971",
+      "source": "Keka",
+      "postedAt": "2026-11-12T12:56:04.473000+00:00"
+    },
+    {
       "id": "Icims-57202",
       "title": "Human Factors / HMI Safety Engineer",
       "company": "Expleo Jobs ES EN",
@@ -207,6 +275,23 @@
       "postedAt": "2026-11-12T07:23:48-05:00"
     },
     {
+      "id": "Paycom-0JU31:236280",
+      "title": "Senior Digital UI/UX Researcher",
+      "company": "Chervon North America Inc",
+      "location": "Naperville - Naperville, IL 60563",
+      "region": "US",
+      "state": "IL",
+      "locationType": "onsite",
+      "seniority": "senior",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://www.paycomonline.net/v4/ats/web.php/portal/53bad7d9ddf4b08d38c52f0f84c46f86/jobs/236280",
+      "source": "Paycom",
+      "postedAt": "2026-11-12T00:00:00+00:00"
+    },
+    {
       "id": "Phenom-592631",
       "title": "IGTS Usability Design Intern",
       "company": "Philips",
@@ -219,7 +304,7 @@
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://www.careers.philips.com/job/592631",
+      "url": "https://www.careers.philips.com/na/en/job/592631",
       "source": "Phenom",
       "postedAt": "2026-11-12T00:00:00+00:00"
     },
@@ -236,7 +321,7 @@
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://iawmqy.fa.ocs.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=careers#302635",
+      "url": "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/302635",
       "source": "Oracle",
       "postedAt": "2026-11-12T00:00:00"
     },
@@ -253,7 +338,7 @@
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://account.amazon.jobs/jobs/10603500/apply",
+      "url": "https://www.amazon.jobs/en/jobs/10603500/senior-ux-product-researcher-eu-intech-experience",
       "source": "Amazon",
       "postedAt": "2026-11-12T00:00:00"
     },
@@ -309,6 +394,23 @@
       "postedAt": "2026-11-11T17:01:15+00:00"
     },
     {
+      "id": "Join Com-16939447",
+      "title": "Product UX Researcher (Mensch)",
+      "company": "Eventinc Gmbh",
+      "location": "Hamburg, Germany",
+      "region": "Europe",
+      "state": "",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://join.com/companies/eventinc/jobs/16939447-product-ux-researcher-mensch",
+      "source": "Join Com",
+      "postedAt": "2026-11-11T13:35:07.949000+00:00"
+    },
+    {
       "id": "Smartrecruiters-744000161082575",
       "title": "Human Factors Engineering Analyst",
       "company": "General Dynamics Missions System International",
@@ -341,6 +443,23 @@
       "url": "https://jobs.lever.co/jobgether/3dd88c53-a12e-41fe-8ca3-0d7f24853d0e",
       "source": "Lever",
       "postedAt": "2026-11-11T08:31:48.751000+00:00"
+    },
+    {
+      "id": "Jazzhr-WF7j3il4h2",
+      "title": "Human Factors Engineer",
+      "company": "Watermark Risk Management International",
+      "location": "Alexandria, VA",
+      "region": "US",
+      "state": "VA",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://watermarkriskmanagementinternationalllc.applytojob.com/apply/jobs/details/WF7j3il4h2",
+      "source": "Jazzhr",
+      "postedAt": "2026-11-11T00:00:00"
     },
     {
       "id": "Eures-MTQ5MzEtMTY1MjM4Ny0xLVMgMQ",
@@ -491,7 +610,7 @@
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://jobs.merck.com/job/R426133",
+      "url": "https://jobs.merck.com/us/en/job/R426133",
       "source": "Phenom",
       "postedAt": "2026-11-10T00:00:00+00:00"
     },
@@ -508,7 +627,7 @@
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://careers.humana.com/job/R-435199",
+      "url": "https://careers.humana.com/us/en/job/R-435199",
       "source": "Phenom",
       "postedAt": "2026-11-10T00:00:00+00:00"
     },
@@ -525,7 +644,7 @@
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://jobs.gsk.com/job/451166",
+      "url": "https://jobs.gsk.com/us/en/job/451166",
       "source": "Phenom",
       "postedAt": "2026-11-10T00:00:00+00:00"
     },
@@ -542,7 +661,7 @@
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://ontariotechu.csod.com/ux/ats/careersite/4/job/2295?c=ontariotechu",
+      "url": "https://ontariotechu.csod.com/ux/ats/careersite/4/home/requisition/2295?c=ontariotechu",
       "source": "Cornerstone",
       "postedAt": "2026-11-10T00:00:00"
     },
@@ -610,7 +729,7 @@
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://careers.teksystems.com/job/JP-006408158",
+      "url": "https://careers.teksystems.com/us/en/job/JP-006408158",
       "source": "Phenom",
       "postedAt": "2026-11-09T15:38:24.029000+00:00"
     },
@@ -661,7 +780,7 @@
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://ecqf.fa.em2.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX_2001#9971",
+      "url": "https://ecqf.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/9971",
       "source": "Oracle",
       "postedAt": "2026-11-09T00:00:00"
     },
@@ -678,7 +797,7 @@
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://account.amazon.jobs/jobs/10599927/apply",
+      "url": "https://www.amazon.jobs/en/jobs/10599927/senior-ux-researcher-price-perception-and-evaluation",
       "source": "Amazon",
       "postedAt": "2026-11-09T00:00:00"
     },
@@ -695,7 +814,7 @@
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://www.careers.philips.com/job/583407",
+      "url": "https://www.careers.philips.com/na/en/job/583407",
       "source": "Phenom",
       "postedAt": "2026-11-08T00:00:00+00:00"
     },
@@ -848,7 +967,7 @@
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://www.careers.philips.com/job/593529",
+      "url": "https://www.careers.philips.com/na/en/job/593529",
       "source": "Phenom",
       "postedAt": "2026-11-06T00:00:00+00:00"
     },
@@ -865,7 +984,7 @@
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://careers.nttdata.com/job/8069bd1e8e2b700",
+      "url": "https://careers.nttdata.com/global/en/job/8069bd1e8e2b700",
       "source": "Phenom",
       "postedAt": "2026-11-06T00:00:00+00:00"
     },
@@ -882,7 +1001,7 @@
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://careers.actalentservices.com/job/JP-006401490",
+      "url": "https://careers.actalentservices.com/us/en/job/JP-006401490",
       "source": "Phenom",
       "postedAt": "2026-11-05T16:53:40.208000+00:00"
     },
@@ -933,7 +1052,7 @@
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://careers.siemens-healthineers.com/job/R-31561",
+      "url": "https://careers.siemens-healthineers.com/global/en/job/R-31561",
       "source": "Phenom",
       "postedAt": "2026-11-05T00:00:00+00:00"
     },
@@ -975,7 +1094,7 @@
       "id": "Eightfold-200065030",
       "title": "Principal UX Researcher, AI Experiences",
       "company": "Microsoft",
-      "location": "Mountain View, CA, US",
+      "location": "Mountain View, CA, US; Redmond, WA, US",
       "region": "US",
       "state": "CA",
       "locationType": "onsite",
@@ -1021,6 +1140,23 @@
       "url": "https://jobs.smartrecruiters.com/necsws/744000159667209",
       "source": "Smartrecruiters",
       "postedAt": "2026-11-04T15:39:08.104000+00:00"
+    },
+    {
+      "id": "Greenhouse-8162507003",
+      "title": "Senior Mixed Methods UX Researcher",
+      "company": "Prizepicks",
+      "location": "Atlanta, Georgia, United States; New York, NY, USA",
+      "region": "US",
+      "state": "NY",
+      "locationType": "onsite",
+      "seniority": "senior",
+      "tags": [
+        "Mixed Methods"
+      ],
+      "salary": "",
+      "url": "http://prizepicks.com/position?gh_jid=8162507003",
+      "source": "Greenhouse",
+      "postedAt": "2026-11-04T10:57:59-05:00"
     },
     {
       "id": "Icims-22055",
@@ -1256,7 +1392,7 @@
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://careers.teksystems.com/job/JP-006391860",
+      "url": "https://careers.teksystems.com/us/en/job/JP-006391860",
       "source": "Phenom",
       "postedAt": "2026-11-02T15:19:49.824000+00:00"
     },
@@ -1307,7 +1443,7 @@
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://ecqf.fa.em2.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX_2001#9925",
+      "url": "https://ecqf.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/9925",
       "source": "Oracle",
       "postedAt": "2026-11-02T00:00:00"
     },
@@ -1378,23 +1514,6 @@
       "url": "https://job-boards.greenhouse.io/dept/jobs/8336632",
       "source": "Greenhouse",
       "postedAt": "2026-10-30T08:55:50-04:00"
-    },
-    {
-      "id": "Adp-55192329-c32d-45ac-b4cb-49d65ab192d0:19000101_000001:9201594806453_8",
-      "title": "Human Factors Engineer",
-      "company": "Kaleidoscope",
-      "location": "Seattle, WA, US",
-      "region": "US",
-      "state": "WA",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "$98k to $140k",
-      "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=55192329-c32d-45ac-b4cb-49d65ab192d0&ccId=19000101_000001&lang=en_US&jobId=9201594806453_8&source=CC2",
-      "source": "Adp",
-      "postedAt": "2026-10-30T01:27:00"
     },
     {
       "id": "Apple-200691986",
@@ -1528,7 +1647,7 @@
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://account.amazon.jobs/jobs/10592726/apply",
+      "url": "https://www.amazon.jobs/en/jobs/10592726/ux-researcher-ii-amz27151-2",
       "source": "Amazon",
       "postedAt": "2026-10-29T00:00:00"
     },
@@ -1545,7 +1664,7 @@
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://account.amazon.jobs/jobs/10592767/apply",
+      "url": "https://www.amazon.jobs/en/jobs/10592767/ux-researcher-intern-summer-2027",
       "source": "Amazon",
       "postedAt": "2026-10-29T00:00:00"
     },
@@ -1630,7 +1749,7 @@
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://jobs.merck.com/job/R422538",
+      "url": "https://jobs.merck.com/us/en/job/R422538",
       "source": "Phenom",
       "postedAt": "2026-10-28T00:00:00+00:00"
     },
@@ -1647,7 +1766,7 @@
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://hciq.fa.em2.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX_1#4790",
+      "url": "https://hciq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4790",
       "source": "Oracle",
       "postedAt": "2026-10-28T00:00:00"
     },
@@ -1681,7 +1800,7 @@
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://careers.teksystems.com/job/JP-006379448",
+      "url": "https://careers.teksystems.com/us/en/job/JP-006379448",
       "source": "Phenom",
       "postedAt": "2026-10-27T13:25:39.762000+00:00"
     },
@@ -1754,40 +1873,6 @@
       "postedAt": "2026-10-26T17:45:39.103000-07:00"
     },
     {
-      "id": "Teamtailor-8614463",
-      "title": "Manager in Ergonomics & Human Factors (Germany)",
-      "company": "Actual Talent",
-      "location": "Germany, Germany",
-      "region": "Europe",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "lead",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://winid.teamtailor.com/jobs/8614463-manager-in-ergonomics-human-factors-germany",
-      "source": "Teamtailor",
-      "postedAt": "2026-10-26T11:38:34+01:00"
-    },
-    {
-      "id": "Teamtailor-8610572",
-      "title": "Consultant Human Factors manufacturing (F/M/D)",
-      "company": "Actual Talent",
-      "location": "Germany, Germany",
-      "region": "Europe",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://winid.teamtailor.com/jobs/8610572-consultant-human-factors-manufacturing-f-m-d",
-      "source": "Teamtailor",
-      "postedAt": "2026-10-23T17:07:09+02:00"
-    },
-    {
       "id": "Smartrecruiters-744000157516989",
       "title": "Human Factors Engineer 1",
       "company": "Nemera",
@@ -1834,7 +1919,7 @@
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://emit.fa.ca3.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX_2001#98191",
+      "url": "https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/98191",
       "source": "Oracle",
       "postedAt": "2026-10-23T00:00:00"
     },
@@ -1851,7 +1936,7 @@
         "Mixed Methods"
       ],
       "salary": "",
-      "url": "https://ecqf.fa.em2.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX_2001#9672",
+      "url": "https://ecqf.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/9672",
       "source": "Oracle",
       "postedAt": "2026-10-22T00:00:00"
     },
@@ -2072,7 +2157,7 @@
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://eihu.fa.us8.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX#2618147",
+      "url": "https://eihu.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/2618147",
       "source": "Oracle",
       "postedAt": "2026-10-19T00:00:00"
     },
@@ -2094,6 +2179,23 @@
       "postedAt": "2026-10-19T00:00:00"
     },
     {
+      "id": "Jazzhr-4vnMc5qdcm",
+      "title": "User Research Analyst",
+      "company": "Smart, Savvy + Associates",
+      "location": "Vancouver, BC, Canada",
+      "region": "Canada",
+      "state": "",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://smartsavvy.applytojob.com/apply/jobs/details/4vnMc5qdcm",
+      "source": "Jazzhr",
+      "postedAt": "2026-10-19T00:00:00"
+    },
+    {
       "id": "Recruitee-2787913",
       "title": "Mixed-Methods Research Manager",
       "company": "Ogc Global",
@@ -2109,6 +2211,23 @@
       "url": "https://ogcglobal.recruitee.com/o/mixed-methods-research-manager",
       "source": "Recruitee",
       "postedAt": "2026-10-18T07:12:47"
+    },
+    {
+      "id": "Greenhouse-8898326002",
+      "title": "Senior Product Designer & UX Researcher",
+      "company": "Planful",
+      "location": "Remote, North America",
+      "region": "US",
+      "state": "Remote",
+      "locationType": "remote",
+      "seniority": "senior",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://planful.com/jobs/careers-list/?gh_jid=8898326002",
+      "source": "Greenhouse",
+      "postedAt": "2026-10-17T17:31:34-04:00"
     },
     {
       "id": "Getonbrd-ux-researcher-audience-and-product-experience-research-epoch-times-remote",
@@ -2213,6 +2332,23 @@
       "postedAt": "2026-10-16T00:15:12+00:00"
     },
     {
+      "id": "Greenhouse-8031331003",
+      "title": "UX Research Intern - Spring 2027",
+      "company": "Prizepicks",
+      "location": "Atlanta, Georgia, United States",
+      "region": "US",
+      "state": "GA",
+      "locationType": "onsite",
+      "seniority": "junior",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "http://prizepicks.com/position?gh_jid=8031331003",
+      "source": "Greenhouse",
+      "postedAt": "2026-10-15T13:16:40-04:00"
+    },
+    {
       "id": "Recruitee-2784916",
       "title": "Senior UX Researcher",
       "company": "Flying Bisons",
@@ -2281,6 +2417,23 @@
       "postedAt": "2026-10-13T14:46:41.926000+00:00"
     },
     {
+      "id": "Lever-f9ac5da0-35f5-4dc0-a16b-d6eb9d7bca49",
+      "title": "UX Researcher",
+      "company": "Xtb",
+      "location": "Warsaw",
+      "region": "Europe",
+      "state": "",
+      "locationType": "remote",
+      "seniority": "mid",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "12k to 15k",
+      "url": "https://jobs.eu.lever.co/xtb/f9ac5da0-35f5-4dc0-a16b-d6eb9d7bca49",
+      "source": "Lever",
+      "postedAt": "2026-10-13T07:53:33.887000+00:00"
+    },
+    {
       "id": "Bamboohr-38",
       "title": "Electronics Engineer-Usability Lab Technology",
       "company": "Design Science Group Llc",
@@ -2327,9 +2480,26 @@
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://careers.ucb.com/job/94353",
+      "url": "https://careers.ucb.com/global/en/job/94353",
       "source": "Phenom",
       "postedAt": "2026-10-12T13:50:42+00:00"
+    },
+    {
+      "id": "Jobvite-oEwWAfwq",
+      "title": "(Part-time Contract) Human Factors Study Lead - Combination Products",
+      "company": "Kymanox",
+      "location": "United States",
+      "region": "US",
+      "state": "US",
+      "locationType": "onsite",
+      "seniority": "lead",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://jobs.jobvite.com/kymanox/job/oEwWAfwq",
+      "source": "Jobvite",
+      "postedAt": "2026-10-12T00:00:00+00:00"
     },
     {
       "id": "Phenom-R2603464",
@@ -2344,9 +2514,26 @@
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://careers.icf.com/job/R2603464",
+      "url": "https://careers.icf.com/us/en/job/R2603464",
       "source": "Phenom",
       "postedAt": "2026-10-12T00:00:00+00:00"
+    },
+    {
+      "id": "Jazzhr-YJmD8caeVi",
+      "title": "Senior User Researcher",
+      "company": "Olive Jar Digital",
+      "location": "United Kingdom",
+      "region": "UK & Ireland",
+      "state": "",
+      "locationType": "onsite",
+      "seniority": "senior",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://olivejardigital.applytojob.com/apply/jobs/details/YJmD8caeVi",
+      "source": "Jazzhr",
+      "postedAt": "2026-10-12T00:00:00"
     },
     {
       "id": "Phenom-8881",
@@ -2361,7 +2548,7 @@
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://careers.versuni.com/job/8881",
+      "url": "https://careers.versuni.com/gb/en/job/8881",
       "source": "Phenom",
       "postedAt": "2026-10-08T20:24:46+00:00"
     },
@@ -2451,6 +2638,23 @@
       "postedAt": "2026-10-07T12:45:16.136000+00:00"
     },
     {
+      "id": "Join Com-16796119",
+      "title": "UI/UX Designer (m/w/d) Medizintechnik | Interaction & Usability | regelm. Präsenz in Dresden",
+      "company": "Connected Consumables",
+      "location": "Dresden, Germany",
+      "region": "Europe",
+      "state": "",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://join.com/companies/conncons/jobs/16917570-ui-ux-designer-m-w-d-medizintechnik-oder-interaction-und-usability-oder-regelm-praesenz-in-dresden",
+      "source": "Join Com",
+      "postedAt": "2026-10-07T08:20:11.368000+00:00"
+    },
+    {
       "id": "Smartrecruiters-744000153964329",
       "title": "Senior UX Researcher",
       "company": "Carousell Group",
@@ -2480,7 +2684,7 @@
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://careers.siemens-healthineers.com/job/P-100628",
+      "url": "https://careers.siemens-healthineers.com/global/en/job/P-100628",
       "source": "Phenom",
       "postedAt": "2026-10-07T00:00:00+00:00"
     },
@@ -2500,23 +2704,6 @@
       "url": "https://jobs.smartrecruiters.com/EgisGroup/744000153771119",
       "source": "Smartrecruiters",
       "postedAt": "2026-10-06T13:49:38.229000+00:00"
-    },
-    {
-      "id": "Eures-NWQyNDM4ZTktNjM1OS1kYWEwLWUwNjMtNjg5M2IyMGEzNWUyIDQy",
-      "title": "Senior UX Researcher (German",
-      "company": "Unknown",
-      "location": "NL (NL362)",
-      "region": "Europe",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://europa.eu/eures/portal/jv-se/jv-details/NWQyNDM4ZTktNjM1OS1kYWEwLWUwNjMtNjg5M2IyMGEzNWUyIDQy?lang=en",
-      "source": "Eures",
-      "postedAt": "2026-10-06T01:13:39.108000"
     },
     {
       "id": "Adp-55192329-c32d-45ac-b4cb-49d65ab192d0:19000101_000001:9201584758272_1",
@@ -2672,6 +2859,23 @@
       "postedAt": "2026-10-01T13:00:52-04:00"
     },
     {
+      "id": "Greenhouse-4990966101",
+      "title": "User Researcher - DV Cleared",
+      "company": "Kerv",
+      "location": "Longbridge",
+      "region": "US",
+      "state": "US",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://job-boards.eu.greenhouse.io/kerv/jobs/4990966101",
+      "source": "Greenhouse",
+      "postedAt": "2026-09-30T08:58:02-04:00"
+    },
+    {
       "id": "Recruitee-2763930",
       "title": "Mixed-Methods Researcher",
       "company": "Ogc Global",
@@ -2701,7 +2905,7 @@
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://jobs.danaher.com/job/R1319331",
+      "url": "https://jobs.danaher.com/global/en/job/R1319331",
       "source": "Phenom",
       "postedAt": "2026-09-30T00:00:00+00:00"
     },
@@ -2855,7 +3059,7 @@
         "Qualitative"
       ],
       "salary": "",
-      "url": "https://jpmc.fa.oraclecloud.com/?keyword=&mode=jobs&lang=en&site_number=CX_1001#210793050",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210793050",
       "source": "Oracle",
       "postedAt": "2026-09-25T00:00:00"
     },
@@ -2979,6 +3183,23 @@
       "postedAt": "2026-09-21T16:01:37-04:00"
     },
     {
+      "id": "Taleo-2787",
+      "title": "UX Researcher",
+      "company": "Technatomy Corporation",
+      "location": "Remote",
+      "region": "US",
+      "state": "Remote",
+      "locationType": "remote",
+      "seniority": "mid",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://phe.tbe.taleo.net/phe02/ats/careers/v2/viewRequisition?org=TECHNATOMY&cws=44&rid=2787",
+      "source": "Taleo",
+      "postedAt": "2026-09-21T00:00:00"
+    },
+    {
       "id": "Welcometothejungle-67b61015-2a35-407a-9720-2fd3ff6335de",
       "title": "User Research Intern",
       "company": "Coinbase",
@@ -3030,6 +3251,23 @@
       "postedAt": "2026-09-18T20:17:04.141000+00:00"
     },
     {
+      "id": "Ashby-b179935a-b8ad-48ec-8885-5b7941a239be",
+      "title": "Staff Mixed Methods User Researcher",
+      "company": "Evenup",
+      "location": "San Francisco (hybrid)",
+      "region": "US",
+      "state": "US",
+      "locationType": "hybrid",
+      "seniority": "staff",
+      "tags": [
+        "Mixed Methods"
+      ],
+      "salary": "",
+      "url": "https://jobs.ashbyhq.com/evenup/b179935a-b8ad-48ec-8885-5b7941a239be",
+      "source": "Ashby",
+      "postedAt": ""
+    },
+    {
       "id": "Gupy-12661603",
       "title": "UX Researcher Pleno| Hybrid - São Paulo,SP",
       "company": "Compass Uol",
@@ -3044,6 +3282,74 @@
       "salary": "",
       "url": "https://compass.gupy.io/jobs/12661603",
       "source": "Gupy",
+      "postedAt": ""
+    },
+    {
+      "id": "Jobvite-oFa0Afw9",
+      "title": "Manager of UX Research",
+      "company": "Meltwater",
+      "location": "Remote , 5 Locations",
+      "region": "US",
+      "state": "Remote",
+      "locationType": "remote",
+      "seniority": "lead",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://jobs.jobvite.com/meltwater/job/oFa0Afw9",
+      "source": "Jobvite",
+      "postedAt": ""
+    },
+    {
+      "id": "Jobvite-oWH1AfwY",
+      "title": "Manager of UX Research",
+      "company": "Meltwater",
+      "location": "Remote , Toronto,\n ON",
+      "region": "Canada",
+      "state": "",
+      "locationType": "remote",
+      "seniority": "lead",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://jobs.jobvite.com/meltwater/job/oWH1AfwY",
+      "source": "Jobvite",
+      "postedAt": ""
+    },
+    {
+      "id": "Pageup-674/cw/en-us:541614",
+      "title": "Adjunct Lecturer Principles of Interaction and Usability",
+      "company": "University OF Florida",
+      "location": "Main Campus (Gainesville, FL)",
+      "region": "US",
+      "state": "FL",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://careers.pageuppeople.com/674/cw/en-us/job/541614/adjunct-lecturer-principles-of-interaction-and-usability",
+      "source": "Pageup",
+      "postedAt": ""
+    },
+    {
+      "id": "Paycom-0HZ22:398092",
+      "title": "Senior Human Factors Engineer (Ph.D. Level) (58126)",
+      "company": "Ats Family",
+      "location": "PENNS PARK, PA 18943",
+      "region": "US",
+      "state": "PA",
+      "locationType": "onsite",
+      "seniority": "senior",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://www.paycomonline.net/v4/ats/web.php/portal/1821c6983d9ba3adedfe39848c720b8f/jobs/398092",
+      "source": "Paycom",
       "postedAt": ""
     },
     {
@@ -3077,23 +3383,6 @@
       ],
       "salary": "",
       "url": "https://achtbytes.jobs.personio.com/job/2875593",
-      "source": "Personio",
-      "postedAt": ""
-    },
-    {
-      "id": "Personio-2876028",
-      "title": "Product UX Researcher (Mensch)",
-      "company": "Eventinc Gmbh",
-      "location": "Hamburg",
-      "region": "Europe",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://event-inc.jobs.personio.com/job/2876028",
       "source": "Personio",
       "postedAt": ""
     },
@@ -3248,6 +3537,57 @@
       "salary": "£50k to £60k",
       "url": "https://made-tech.pinpointhq.com/en/postings/14acdeb4-114d-4c4e-b5dc-2854942816c4",
       "source": "Pinpoint",
+      "postedAt": ""
+    },
+    {
+      "id": "Pinpoint-474492",
+      "title": "BUSINESS TRANSFORMATION ARCHITECT LEVEL 3 (UX Designer/Researcher)",
+      "company": "Orangutech",
+      "location": "Canada",
+      "region": "Canada",
+      "state": "",
+      "locationType": "remote",
+      "seniority": "mid",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://orangutech.pinpointhq.com/en/postings/1f829dbc-1886-4161-a89f-089ad242ac99",
+      "source": "Pinpoint",
+      "postedAt": ""
+    },
+    {
+      "id": "Recruiterbox-fk0p2hj",
+      "title": "Design Researcher - Contractor",
+      "company": "Conifer",
+      "location": "Chicago, Illinois, United States",
+      "region": "US",
+      "state": "IL",
+      "locationType": "remote",
+      "seniority": "mid",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://conifer.hire.trakstar.com/jobs/fk0p2hj/",
+      "source": "Recruiterbox",
+      "postedAt": ""
+    },
+    {
+      "id": "Recruiterbox-fk0tf5",
+      "title": "Design Researcher Openings",
+      "company": "Conifer",
+      "location": "Chicago, IL, USA",
+      "region": "US",
+      "state": "IL",
+      "locationType": "remote",
+      "seniority": "mid",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://conifer.hire.trakstar.com/jobs/fk0tf5/",
+      "source": "Recruiterbox",
       "postedAt": ""
     },
     {
@@ -3519,6 +3859,23 @@
       ],
       "salary": "",
       "url": "https://careers-americas.hyundai.com/hatci/job/Irvine-UX-Researcher-CA-92618/1438091100/",
+      "source": "Successfactors",
+      "postedAt": ""
+    },
+    {
+      "id": "Successfactors-1450807600",
+      "title": "Sr. UX Researcher",
+      "company": "Hyundai Motor Company",
+      "location": "Irvine, CA, US, 92618",
+      "region": "US",
+      "state": "CA",
+      "locationType": "onsite",
+      "seniority": "senior",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://careers-americas.hyundai.com/hatci/job/Irvine-Sr_-UX-Researcher-CA-92618/1450807600/",
       "source": "Successfactors",
       "postedAt": ""
     },
@@ -5546,24 +5903,6 @@
       "postedAt": ""
     },
     {
-      "id": "Google-123681960944902854",
-      "title": "Staff UX Quantitative Researcher, Agentic AI Ad Sales",
-      "company": "Google",
-      "location": "Mountain View, CA, USA",
-      "region": "US",
-      "state": "CA",
-      "locationType": "onsite",
-      "seniority": "staff",
-      "tags": [
-        "AI",
-        "Quantitative"
-      ],
-      "salary": "",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/123681960944902854-staff-ux-quantitative-researcher-agentic-ai-ad-sales",
-      "source": "Google",
-      "postedAt": ""
-    },
-    {
       "id": "Google-136675244185133766",
       "title": "Senior Quantitative UX Researcher, AI Enablement",
       "company": "Google",
@@ -5578,6 +5917,24 @@
       ],
       "salary": "",
       "url": "https://www.google.com/about/careers/applications/jobs/results/136675244185133766-senior-quantitative-ux-researcher-ai-enablement",
+      "source": "Google",
+      "postedAt": ""
+    },
+    {
+      "id": "Google-123681960944902854",
+      "title": "Staff UX Quantitative Researcher, Agentic AI Ad Sales",
+      "company": "Google",
+      "location": "Mountain View, CA, USA",
+      "region": "US",
+      "state": "CA",
+      "locationType": "onsite",
+      "seniority": "staff",
+      "tags": [
+        "AI",
+        "Quantitative"
+      ],
+      "salary": "",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/123681960944902854-staff-ux-quantitative-researcher-agentic-ai-ad-sales",
       "source": "Google",
       "postedAt": ""
     },
