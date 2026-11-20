@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-19T15:01:08Z",
-  "count": 468,
+  "updated": "2026-11-20T00:08:24Z",
+  "count": 467,
   "roles": [
     {
       "id": "Brightermonday-ug-1149266",
@@ -4490,23 +4490,6 @@
       "url": "https://job-boards.greenhouse.io/onetrust/jobs/8207594",
       "source": "Greenhouse",
       "postedAt": "2026-09-21T16:01:37-04:00"
-    },
-    {
-      "id": "Taleo-2787",
-      "title": "UX Researcher",
-      "company": "Technatomy Corporation",
-      "location": "Remote",
-      "region": "US",
-      "state": "Remote",
-      "locationType": "remote",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://phe.tbe.taleo.net/phe02/ats/careers/v2/viewRequisition?org=TECHNATOMY&cws=44&rid=2787",
-      "source": "Taleo",
-      "postedAt": "2026-09-21T00:00:00"
     },
     {
       "id": "Ashby-b179935a-b8ad-48ec-8885-5b7941a239be",
