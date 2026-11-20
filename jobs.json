@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T14:44:05Z",
+  "updated": "2026-11-20T23:34:16Z",
   "count": 486,
   "roles": [
     {
@@ -272,6 +272,23 @@
       "salary": "",
       "url": "https://umd.wd1.myworkdayjobs.com/umcp/job/University-of-Maryland-College-Park/Human-Factors-Engineer_JR105484",
       "source": "Workday",
+      "postedAt": "2026-11-19T00:00:00+00:00"
+    },
+    {
+      "id": "Jobberman-ng-1278111",
+      "title": "Senior Design Researcher - User Science",
+      "company": "Canonical",
+      "location": "Lagos, Nigeria",
+      "region": "Rest of World",
+      "state": "",
+      "locationType": "onsite",
+      "seniority": "senior",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://www.jobberman.com/listings/senior-design-researcher-user-science-x8xdm4",
+      "source": "Jobberman",
       "postedAt": "2026-11-19T00:00:00+00:00"
     },
     {
@@ -688,8 +705,8 @@
       "company": "Amatriot Group, Llc",
       "location": "US",
       "region": "US",
-      "state": "Remote",
-      "locationType": "remote",
+      "state": "US",
+      "locationType": "onsite",
       "seniority": "mid",
       "tags": [
         "Qualitative"
@@ -1530,23 +1547,6 @@
       "salary": "",
       "url": "https://scrumconnect.zohorecruit.eu/jobs/Careers/52781000021667231",
       "source": "Zoho Recruit",
-      "postedAt": "2026-11-11T00:00:00+00:00"
-    },
-    {
-      "id": "Jobberman-gh-1142464",
-      "title": "Senior Design Researcher - User Science",
-      "company": "Canonical",
-      "location": "Accra & Tema Region, Ghana",
-      "region": "Rest of World",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://www.jobberman.com.gh/listings/senior-design-researcher-user-science-ev092v",
-      "source": "Jobberman",
       "postedAt": "2026-11-11T00:00:00+00:00"
     },
     {
@@ -3318,6 +3318,23 @@
       "postedAt": "2026-10-26T11:38:34+01:00"
     },
     {
+      "id": "Jibe-spa.jibeapply.com:23764",
+      "title": "Technical Advisor (SETA) – Medical Simulation, Human Factors, and Performance Measurement",
+      "company": "Systems Planning And Analysis",
+      "location": "Arlington, Virginia, United States",
+      "region": "US",
+      "state": "VA",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://spa.jibeapply.com/jobs/23764?lang=en-us",
+      "source": "Jibe",
+      "postedAt": "2026-10-23T23:01:00+00:00"
+    },
+    {
       "id": "Teamtailor-8610572",
       "title": "Consultant Human Factors manufacturing (F/M/D)",
       "company": "Actual Talent",
@@ -3587,23 +3604,6 @@
       "salary": "",
       "url": "https://www.brightermonday.co.ug/listings/usability-engineer-user-science-20e642",
       "source": "Brightermonday",
-      "postedAt": "2026-10-20T00:00:00+00:00"
-    },
-    {
-      "id": "Mycareersfuture-9828e29e282f56d5c2ce23cf06afbec8",
-      "title": "UX Research & Service Designer",
-      "company": "Scientec Consulting Pte. Ltd.",
-      "location": "Harbourfront, Sentosa Island, Telok Blangah, Singapore",
-      "region": "APAC",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "5k to 10k",
-      "url": "https://www.mycareersfuture.gov.sg/job/design/ux-research-service-designer-scientec-consulting-9828e29e282f56d5c2ce23cf06afbec8",
-      "source": "Mycareersfuture",
       "postedAt": "2026-10-20T00:00:00+00:00"
     },
     {
@@ -4047,6 +4047,40 @@
       "url": "https://olivejardigital.applytojob.com/apply/jobs/details/YJmD8caeVi",
       "source": "Jazzhr",
       "postedAt": "2026-10-12T00:00:00"
+    },
+    {
+      "id": "Talentbrew-careers.7-eleven.com:100511048096",
+      "title": "Lead User Experience Researcher",
+      "company": "7 Eleven",
+      "location": "Irving, TX, USA",
+      "region": "US",
+      "state": "TX",
+      "locationType": "onsite",
+      "seniority": "lead",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://careers.7-eleven.com/job/irving/lead-user-experience-researcher/45445/100511048096",
+      "source": "Talentbrew",
+      "postedAt": "2026-10-10T00:00:00+00:00"
+    },
+    {
+      "id": "Hiringthing-1065725",
+      "title": "UX Researcher II",
+      "company": "Word ON Fire",
+      "location": "Irving, TX",
+      "region": "US",
+      "state": "TX",
+      "locationType": "onsite",
+      "seniority": "mid",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "$75k to $95k",
+      "url": "https://word-on-fire.rippling-ats.com/job/1065725/ux-researcher-ii",
+      "source": "Hiringthing",
+      "postedAt": "2026-10-09T19:14:13+00:00"
     },
     {
       "id": "Paylocity-f3120bf4-745e-43d4-a550-ff499bafe46e:4576249",
@@ -4661,40 +4695,6 @@
       "postedAt": "2026-09-22T19:06:17-04:00"
     },
     {
-      "id": "Greenhouse-8001319003",
-      "title": "Chercheur en innovation, méthodes mixtes - Mixed Methods Innovation Researcher",
-      "company": "Tobogganlabs",
-      "location": "Montréal, Quebec, Canada",
-      "region": "Canada",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Mixed Methods"
-      ],
-      "salary": "",
-      "url": "https://job-boards.greenhouse.io/tobogganlabs/jobs/8001319003",
-      "source": "Greenhouse",
-      "postedAt": "2026-09-21T16:34:09-04:00"
-    },
-    {
-      "id": "Greenhouse-8207594",
-      "title": "Senior Quantitative UX Researcher",
-      "company": "OneTrust",
-      "location": "Atlanta, Georgia",
-      "region": "US",
-      "state": "GA",
-      "locationType": "onsite",
-      "seniority": "senior",
-      "tags": [
-        "Quantitative"
-      ],
-      "salary": "",
-      "url": "https://job-boards.greenhouse.io/onetrust/jobs/8207594",
-      "source": "Greenhouse",
-      "postedAt": "2026-09-21T16:01:37-04:00"
-    },
-    {
       "id": "Avature-33240",
       "title": "Director, UX Research & Strategy",
       "company": "Harman",
@@ -4797,23 +4797,6 @@
       "postedAt": ""
     },
     {
-      "id": "Manatal-V678X698",
-      "title": "User Experience (UX) Researcher Enterprise UX",
-      "company": "Bright Professionals",
-      "location": "Utrecht, Utrecht, Netherlands",
-      "region": "Europe",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "mid",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://www.careers-page.com/bright-professionals-3/job/V678X698",
-      "source": "Manatal",
-      "postedAt": ""
-    },
-    {
       "id": "Manatal-L95VV38Y",
       "title": "UX Designer & Researcher",
       "company": "Cloud Counselage Pvt Ltd",
@@ -4912,6 +4895,23 @@
       ],
       "salary": "",
       "url": "https://www.careers-page.com/lifelancer/job/3W895WRW",
+      "source": "Manatal",
+      "postedAt": ""
+    },
+    {
+      "id": "Manatal-7X75388X",
+      "title": "Senior UX Researcher & Design (Remote)",
+      "company": "Lifelancer",
+      "location": "",
+      "region": "US",
+      "state": "US",
+      "locationType": "onsite",
+      "seniority": "senior",
+      "tags": [
+        "Qualitative"
+      ],
+      "salary": "",
+      "url": "https://www.careers-page.com/lifelancer/job/7X75388X",
       "source": "Manatal",
       "postedAt": ""
     },
