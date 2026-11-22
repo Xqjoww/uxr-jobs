@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-21T22:40:43Z",
-  "count": 481,
+  "updated": "2026-11-22T04:30:05Z",
+  "count": 480,
   "roles": [
     {
       "id": "Workable-B333E86164",
@@ -4608,23 +4608,6 @@
       "url": "https://jobs.ashbyhq.com/neko-health/1cd434d0-c7f8-457a-9260-8d4fedf826d0",
       "source": "Ashby",
       "postedAt": "2026-09-23T15:52:58.301000+00:00"
-    },
-    {
-      "id": "Greenhouse-4713575006",
-      "title": "Senior Manager, User Experience Research",
-      "company": "Everlaw",
-      "location": "Oakland, California, United States",
-      "region": "US",
-      "state": "CA",
-      "locationType": "onsite",
-      "seniority": "lead",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://job-boards.greenhouse.io/everlaw/jobs/4713575006",
-      "source": "Greenhouse",
-      "postedAt": "2026-09-22T19:06:17-04:00"
     },
     {
       "id": "Avature-33240",
