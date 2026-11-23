@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-22T23:04:31Z",
-  "count": 481,
+  "updated": "2026-11-23T05:06:01Z",
+  "count": 480,
   "roles": [
     {
       "id": "Workable-B333E86164",
@@ -4693,23 +4693,6 @@
       "url": "https://apply.workable.com/j/4E4023FFD6",
       "source": "Workable",
       "postedAt": "2026-09-24T16:58:38+00:00"
-    },
-    {
-      "id": "Greenhouse-8229326",
-      "title": "Staff UX Researcher",
-      "company": "Okta",
-      "location": "Toronto, ON, Canada",
-      "region": "Canada",
-      "state": "",
-      "locationType": "onsite",
-      "seniority": "staff",
-      "tags": [
-        "Qualitative"
-      ],
-      "salary": "",
-      "url": "https://www.okta.com/company/careers/opportunity/8229326?gh_jid=8229326",
-      "source": "Greenhouse",
-      "postedAt": "2026-09-23T23:57:24-04:00"
     },
     {
       "id": "Avature-33240",
